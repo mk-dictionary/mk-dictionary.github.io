@@ -1,19 +1,16 @@
 # dictionary
----
-blah blah blah
 
----
 # contributing entries
 each entry is a file in a part of speech folder within the entries folder
 #### what goes in misc?
 - sentences/phrases that mean something different from their parts (poishe lagta, nidh yeta etc.)
 - similarly, phrases that have components that act differently (karunka, maka zai)
-- interrogative words (kaale, kite)
+- interrogative words (kaale, kite~)
   - subject to change
-- non-pronoun pro-forms (angaa, tha/y, i.sin, ti.sin)
+- non-pronoun pro-forms (angaa, tho~i, ixin, tixin)
 ## spelling
-TODO:
-
+See SPELLING.md for the romanization: [SPELLING.md](SPELLING.md)
+This spelling format was made to balance ease of reading and typing as well as precision.  
 
 additionally, to try it yourself, try [aksharamukha](https://www.aksharamukha.com/converter) to convert to and from velthuis romanization
 
@@ -64,7 +61,7 @@ konkani_word, however, should be the **singular** form
 if a verb conjugates irregularly (i.e. ye -> aile), add all forms that conjugate irregularly
 additionally, always add the gerund and infinitive (doing and to do, karun and karunk, respectively) if the verb ends in a **vowel**
 #### adjectives
-add all adjective forms (i.e. boro, bari, bare, or sarlo, saro na)
+add all adjective forms (i.e. boro, bari, bare~)
 #### misc
 if a phrase changes depending on the verb/noun/subject/situation, include it
 ## examples
