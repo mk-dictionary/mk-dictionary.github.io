@@ -4,6 +4,7 @@
     import { entries } from '$lib/import';
     console.log(entries);
 	import Search from '$lib/cmpnts/Search.svelte';
+	import { categories } from '../../schema/categories';
 </script>
 
 <h1>Welcome to SvelteKit</h1>
@@ -16,6 +17,13 @@
         {JSON.stringify(e, null, 2)}
     {/each}
 -->
+    <br/>
+    <a href={resolve('/create')}>Create a new entry</a>
+    <br/>
+    Categories:
+    <ul>
+{#each categories as category}
+    <li><a href={resolve(`/categories/${category}`)}>{category}</a></li>
+{/each}
+</ul>
 
-
-<a href={resolve('/create')}>Create a new entry</a>
