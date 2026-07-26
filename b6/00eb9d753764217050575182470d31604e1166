@@ -1,0 +1,25 @@
+vite.config.ts
+  s_ab46d164f07c78::t_073c867cbd9099 20-24
+  h_7ffaac8f5937a6 19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "b600eb9d753764217050575182470d31604e1166",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_ab46d164f07c78": {
+      "agent_id": {
+        "tool": "github-copilot-tab",
+        "id": "ai_tab-1785031286548",
+        "model": "default"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
