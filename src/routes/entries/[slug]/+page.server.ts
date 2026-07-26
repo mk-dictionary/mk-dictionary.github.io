@@ -2,7 +2,7 @@ import type { EntryGenerator } from './$types';
 import { entries as dictEntries} from '$lib/import';
 export const entries: EntryGenerator = () => {
 	return dictEntries.map((entry) => {
-        const slug = entry.path.split('/').pop()?.replace('.json', '');
+        const slug = entry.path.split('/').pop()?.replace('.toon', '');
         return { slug: slug ?? '' };
     });
 };
