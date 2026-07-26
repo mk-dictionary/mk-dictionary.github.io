@@ -1,0 +1,16 @@
+src/lib/import.ts
+  h_7ffaac8f5937a6 13
+src/routes/entries/[slug]/+page.server.ts
+  h_7ffaac8f5937a6 5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "47296fdd00fbaad9a365a915055a30151c6e03d1",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
