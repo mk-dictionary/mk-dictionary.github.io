@@ -1,0 +1,24 @@
+src/routes/+page.svelte
+  s_b029873ce78fa6::t_4a1cd58deac465 26
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "e367b2773ce3aa2da6f434ba804babf0c14ce227",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_b029873ce78fa6": {
+      "agent_id": {
+        "tool": "github-copilot-tab",
+        "id": "ai_tab-1785031634328",
+        "model": "default"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
