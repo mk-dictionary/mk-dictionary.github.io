@@ -1,0 +1,14 @@
+src/routes/+page.svelte
+  h_7ffaac8f5937a6 10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "3972b2eb130da792f6143bb1a7b744f18cf6bfe0",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
