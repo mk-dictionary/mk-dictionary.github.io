@@ -1,0 +1,18 @@
+konkani_word: kar
+meaning[2]: do,make
+part_of_speech: verb
+keywords[3]: kar,do,make
+forms[2]{label,value}:
+  more recent past tense,keli/kele
+  earlier past tense,kela
+examples[3]:
+  - konkani_sentence: haave .siit keli
+    english_sentence: I cooked rice
+  - konkani_sentence: haave .siit kele
+    english_sentence: I cooked rice
+    literal: I made rice
+  - konkani_sentence: haave raandhoi kela
+    english_sentence: I cooked vegetable (earlier)
+categories[1]: beginner
+status: published
+note: ""

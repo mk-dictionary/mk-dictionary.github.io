@@ -1,0 +1,11 @@
+konkani_word: kar nakaa
+meaning[1]: don't do
+part_of_speech: misc
+keywords[2]: kar naka,don't do
+forms: []
+examples[3]{konkani_sentence,english_sentence}:
+  kar nakaa,don't do
+  "bosa nakaa, ut","don't sit, get up"
+  daawa nakaa,don't run
+categories[1]: beginner
+status: published

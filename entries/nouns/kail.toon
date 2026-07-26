@@ -1,0 +1,10 @@
+konkani_word: kail
+meaning[1]: pan
+part_of_speech: noun
+keywords[2]: kail,pan
+forms[1]{label,value}:
+  plural (pans),kailio
+examples[1]{konkani_sentence,english_sentence}:
+  I fried dosa in the pan,haave kailint polo baazlo
+categories[1]: cooking
+status: published

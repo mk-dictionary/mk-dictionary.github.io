@@ -1,0 +1,9 @@
+konkani_word: mousi
+meaning[1]: aunt
+part_of_speech: noun
+keywords[2]: mousi,aunt
+examples[1]{konkani_sentence,english_sentence}:
+  muji mousi garaa ailaa,my aunt came home
+categories[1]: family
+note: only for mother's sister
+status: published

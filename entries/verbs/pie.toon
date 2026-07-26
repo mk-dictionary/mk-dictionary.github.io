@@ -1,0 +1,10 @@
+konkani_word: pie
+meaning[1]: drink
+part_of_speech: verb
+keywords[2]: pie,drink
+forms: []
+examples[2]{konkani_sentence,english_sentence}:
+  ca pie,drink tea
+  "taan laglar, uudak pie","if you're thirsty, drink water"
+categories[2]: beginner,meals
+status: published

@@ -1,0 +1,13 @@
+konkani_word: nid yetaa
+meaning[1]: feeling sleepy
+part_of_speech: misc
+keywords[3]: nid yetaa,feeling sleepy,drowsy
+forms: []
+examples[2]:
+  - konkani_sentence: maaka nid yetaa
+    english_sentence: i'm feeling sleepy
+    literal: sleep is coming to me
+  - konkani_sentence: nid yetaa zalar nidunk vos
+    english_sentence: "if your'e feeling sleepy, go to sleep"
+categories[1]: beginner
+status: published

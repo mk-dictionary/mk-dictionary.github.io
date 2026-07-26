@@ -1,0 +1,10 @@
+konkani_word: "kumsar "
+meaning[1]: confession
+part_of_speech: noun
+keywords[2]: "kumsar ",confession
+examples[3]{konkani_sentence,english_sentence}:
+  haau igarjek vosun kumsar zata,I am going to church for confession
+  muje kaal kumsar zale,I finished confession yesterday
+  kumsarak vos,go for confession
+categories[1]: religion
+status: published
