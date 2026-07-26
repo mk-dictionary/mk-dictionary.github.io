@@ -1,7 +1,8 @@
 <script lang="ts">
 /* eslint-disable @typescript-eslint/no-unused-vars */
-
+    
 	// this file helps create new entries for our dictionary.
+    import { encode } from '@toon-format/toon'
     import {type Category, categories as allCategories} from '../../../schema/categories';
     import type { Entry } from '../../../schema/entry';
 	let konkani_word = $state('');
@@ -35,8 +36,8 @@
         };
     });
 
-    let jsonString = $derived.by(() => {
-        return JSON.stringify(entry, null, 2);
+    let toonString = $derived.by(() => {
+        return encode(entry, {delimiter:'|'});
     });
 </script>
 
@@ -126,7 +127,7 @@ examples
 			</tr>
 		{/each}
             <tr>
-        <td colspan="3"><button onclick={() => examples.push({ konkani_sentence: '', english_sentence: '' })}>Add Example</button></td>
+        <td colspan="3"><button onclick={() => examples.push({ konkani_sentence: '', english_sentence: '', literal: '' })}>Add Example</button></td>
     </tr>
 	</tbody>
 
@@ -158,4 +159,4 @@ examples
 <h1>Result</h1>
 <br />
 
-<code>{jsonString}</code>
+<code>{toonString}</code>
