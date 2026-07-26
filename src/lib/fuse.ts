@@ -1,8 +1,8 @@
-import Fuse from 'fuse.js'
+import type { IFuseOptions } from 'fuse.js'
 
 import {entries} from '$lib/import'
 
-const options: Fuse.IFuseOptions<typeof entries[0]> = { keys: ['keywords', 'konkani_word'] }
+const options: IFuseOptions<typeof entries[0]> = { keys: ['keywords', 'konkani_word'] }
 
 
 // take each keyword and make an object with one keyword a path and an entry word  
