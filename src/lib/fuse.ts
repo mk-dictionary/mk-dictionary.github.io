@@ -1,5 +1,5 @@
 import type { IFuseOptions } from 'fuse.js'
-
+import Fuse from 'fuse.js'
 import {entries} from '$lib/import'
 
 const options: IFuseOptions<typeof entries[0]> = { keys: ['keywords', 'konkani_word'] }
