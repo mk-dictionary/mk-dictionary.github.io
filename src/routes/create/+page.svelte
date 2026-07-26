@@ -1,9 +1,11 @@
 <script lang="ts">
+/* eslint-disable @typescript-eslint/no-unused-vars */
+
 	// this file helps create new entries for our dictionary.
     import {type Category, categories as allCategories} from '../../../schema/categories';
+    import type { Entry } from '../../../schema/entry';
 	let konkani_word = $state('');
 	let meaning: string[] = $state(['']);
-	// eslint-disable-next-line @typescript-eslint/no-unused-vars
 	const parts_of_speech = ['noun', 'verb', 'adjective', 'misc'] as const;
     let isNote = $state(false);
     let note = $state('');
@@ -19,7 +21,7 @@
 	]);
     let categories: Category[] = $state([]);
 
-    let entry = $derived.by(() => {
+    let entry: Entry = $derived.by(() => {
         return {
             konkani_word,
             meaning,
@@ -136,7 +138,7 @@ examples
             type="checkbox"
             value={category}
             onchange={(e) => {
-                if (e.target.checked) {
+                if (e.currentTarget.checked) {
                     categories.push(category);
                 } else {
                     categories = categories.filter((c) => c !== category);
