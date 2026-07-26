@@ -1,6 +1,6 @@
 export const entriesImport
     = import.meta.glob
-        ('/entries/**/*.json', { eager: true, import: 'default' })
+        ('/entries/**/*.toon', { eager: true, import: 'default' })
 const entriesArray = Object.values(entriesImport)
 const entriesPath = Object.keys(entriesImport)
 
