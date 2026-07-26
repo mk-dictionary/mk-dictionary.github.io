@@ -1,0 +1,26 @@
+src/lib/import.ts
+  s_7eea3c3e20134d::t_ec15ec7fdb5c3c 10
+src/lib/fuse.ts
+  h_7ffaac8f5937a6 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "18fad46d690be13c3e7e0c3924c0f39c7bd00d87",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_7eea3c3e20134d": {
+      "agent_id": {
+        "tool": "github-copilot-tab",
+        "id": "ai_tab-1785074059715",
+        "model": "default"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
