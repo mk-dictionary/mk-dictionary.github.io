@@ -1,0 +1,16 @@
+konkani_word: tu
+meaning[1]: you
+part_of_speech: pronoun
+keywords[4]: tu,thu,you,your
+forms[6]{label,value}:
+  possessive feminine (your),tuje
+  possessive masculine (your),tuzo
+  possessive neuter (your),tujya
+  possessive plural (your),tuji
+  dative (to you),tukaa
+  past tense (you did),tuv
+examples[1]{konkani_sentence,english_sentence}:
+  tuv konkani .sikte,I'm learning konkani
+categories[1]: beginner
+status: published
+note: ""

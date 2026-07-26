@@ -1,0 +1,14 @@
+konkani_word: khaa
+meaning[1]: eat
+part_of_speech: verb
+keywords[2]: khaa,eat
+forms: []
+examples[2]:
+  - konkani_sentence: buk lagta zalar khaa
+    english_sentence: "if you're hungry, eat"
+    literal: "feeling hunger, then eat"
+  - konkani_sentence: haau khaata
+    english_sentence: I will eat
+categories[2]: beginner,meals
+status: published
+note: "refers to eating breakfast and snacks, not lunch or dinner. Jo refers to lunch and dinner"

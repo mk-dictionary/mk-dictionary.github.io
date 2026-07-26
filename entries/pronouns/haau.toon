@@ -1,0 +1,16 @@
+konkani_word: haau
+meaning[2]: I,me
+part_of_speech: pronoun
+keywords[7]: haau,haanv,haav,I,me,my,mine
+forms[6]{label,value}:
+  possessive feminine (my),muje
+  possessive masculine (my),muzo
+  possessive neuter (my),mujya
+  possessive plural (my),muji
+  dative (to me),makaa
+  past tense (I did),haav
+examples[1]{konkani_sentence,english_sentence}:
+  haau konkani xikta,I'm learning konkani
+categories[1]: beginner
+status: published
+note: ""

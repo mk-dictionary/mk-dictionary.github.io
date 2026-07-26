@@ -1,0 +1,13 @@
+konkani_word: raand
+meaning[1]: cook
+part_of_speech: verb
+keywords[2]: raand,cook
+forms: []
+examples[4]{konkani_sentence,english_sentence}:
+  haau raandte asa,I am cooking
+  maka raandunk ye na,I dont know how to cook
+  maka raandunk yeta,I know how to cook
+  maka raandunk bore zata,I like to cook
+categories[1]: beginner
+status: published
+note: ""

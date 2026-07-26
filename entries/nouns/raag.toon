@@ -1,0 +1,13 @@
+konkani_word: raag
+meaning[2]: anger,rage
+part_of_speech: noun
+keywords[3]: raag,anger,rage
+forms: []
+examples[2]:
+  - konkani_sentence: maka raag yeta
+    english_sentence: I am angry
+    literal: anger comes to me
+  - konkani_sentence: raag kari naka
+    english_sentence: dont be angry
+categories: []
+status: published

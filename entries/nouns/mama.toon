@@ -1,0 +1,9 @@
+konkani_word: mama
+meaning[1]: uncle
+part_of_speech: noun
+keywords[2]: mama,uncle
+examples[1]{konkani_sentence,english_sentence}:
+  muzo mama garaa ailaa,my uncle came home
+categories[1]: family
+status: published
+note: only for mother's brother

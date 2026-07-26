@@ -1,0 +1,9 @@
+konkani_word: put
+meaning[1]: son
+part_of_speech: noun
+keywords[2]: put,son
+forms: []
+examples[1]{konkani_sentence,english_sentence}:
+  tazo put garaa gella,his/her son went home
+categories[1]: family
+status: published

@@ -1,0 +1,10 @@
+konkani_word: bos
+meaning[1]: sit
+part_of_speech: verb
+keywords[2]: bos,sit
+forms: []
+examples[2]{konkani_sentence,english_sentence}:
+  bosiaangi?,shall we sit?
+  "bosa naka, ut","don't sit, get up"
+categories[2]: beginner,meals
+status: published
