@@ -1,0 +1,14 @@
+vite.config.ts
+  h_7ffaac8f5937a6 5,37,42-43
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "1cdb9e24a33bd68ffa742f8513ea2c4783c323f9",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
