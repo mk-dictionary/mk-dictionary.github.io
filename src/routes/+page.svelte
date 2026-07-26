@@ -23,7 +23,7 @@
     Categories:
     <ul>
 {#each categories as category}
-    <li><a href={resolve(`/categories/${category}`)}>{category}</a></li>
+    <li><a href={resolve(`/categories/[slug]`, { slug: category })}>{category}</a></li>
 {/each}
 </ul>
 
