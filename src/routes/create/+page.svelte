@@ -60,7 +60,7 @@
         }
     }
 </script>
-
+<h1>Create a new entry</h1>
 <input type="radio" bind:group={part_of_speech} value="noun" /> Noun
 <input type="radio" bind:group={part_of_speech} value="verb" /> Verb
 <input type="radio" bind:group={part_of_speech} value="adjective" /> Adjective
