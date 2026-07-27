@@ -40,7 +40,7 @@
 
     // import option as well
     function importToon(toon: string) {
-        const importedEntry = decode<Entry>(toon, {delimiter:'|'});
+        const importedEntry = decode(toon, {delimiter:'|'}) as Entry;
         konkani_word = importedEntry.konkani_word;
         meaning = importedEntry.meaning;
         part_of_speech = importedEntry.part_of_speech;
@@ -92,6 +92,7 @@ keywords:
 		<li><input type="text" bind:value={addedKeywords[i]} /></li>
 	{/each}
     <button onclick={() => addedKeywords.push('')}>Add Keyword</button>
+    <button onclick={() => addedKeywords.pop()}>Remove Keyword</button>
 </ul>
 
 forms
