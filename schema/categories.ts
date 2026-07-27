@@ -4,6 +4,7 @@ export const categories = [
     "friends",
     "meals",
     "cooking",
+    "animals",
     "clothing",
     "household",
     "buildings",
@@ -12,7 +13,7 @@ export const categories = [
     "gathering", // 
     "gardening", // anything related to plants, trees, flowers, etc.
     "weather", // anything related to weather, seasons, climate, etc.
-    "nature", // all of gardening and weather, plus anything else related to the natural world, like animals, rivers, mountains, etc.
+    "nature", // all of gardening and weather, plus anything else related to the natural world, like rivers, mountains, etc.
     "temperature",
     "art", // includes colors, music
     "religion", // church
