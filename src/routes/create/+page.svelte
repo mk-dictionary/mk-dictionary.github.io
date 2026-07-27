@@ -158,13 +158,7 @@ examples
         <input
             type="checkbox"
             value={category}
-            onchange={(e) => {
-                if (e.currentTarget.checked) {
-                    categories.push(category);
-                } else {
-                    categories = categories.filter((c) => c !== category);
-                }
-            }}
+            bind:group={categories}
         />
         {category}
     </label>
