@@ -2,18 +2,19 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
     
 	// this file helps create new entries for our dictionary.
-    import { encode } from '@toon-format/toon'
+    import { encode, decode } from '@toon-format/toon'
     import {type Category, categories as allCategories} from '../../../schema/categories';
     import type { Entry } from '../../../schema/entry';
 	let konkani_word = $state('');
 	let meaning: string[] = $state(['']);
 	const parts_of_speech = ['noun', 'verb', 'adjective', 'misc'] as const;
+    let inputToonString = $state('');
     let isNote = $state(false);
     let note = $state('');
 	let part_of_speech: (typeof parts_of_speech)[number] = $state('noun'); // default value
     let forms = $state<{ label: string; value: string }[]>([]);
-	let addedKeywords: string[] = $state([]);
-	let keywords: string[] = $derived.by(() => {
+	let addedKeywords: string[] = $state<string[]>([]);
+	let keywords = $derived.by(() => {
 		const baseKeywords = [konkani_word, ...meaning];
 		return [...baseKeywords, ...addedKeywords].filter((k) => k.trim() !== '');
 	});
@@ -31,7 +32,7 @@
             forms,
             examples,
             categories,
-            note: isNote ? note : undefined,
+            note: isNote ? note : null,
             status: "draft"
         };
     });
@@ -39,6 +40,25 @@
     let toonString = $derived.by(() => {
         return encode(entry, {delimiter:'|'});
     });
+
+    // import option as well
+    function importToon(toon: string) {
+        const importedEntry = decode<Entry>(toon, {delimiter:'|'});
+        konkani_word = importedEntry.konkani_word;
+        meaning = importedEntry.meaning;
+        part_of_speech = importedEntry.part_of_speech;
+        keywords = importedEntry.keywords;
+        forms = importedEntry.forms;
+        examples = importedEntry.examples;
+        categories = importedEntry.categories;
+        if (importedEntry.note) {
+            isNote = true;
+            note = importedEntry.note;
+        } else {
+            isNote = false;
+            note = '';
+        }
+    }
 </script>
 
 <input type="radio" bind:group={part_of_speech} value="noun" /> Noun
@@ -155,8 +175,13 @@ examples
 {/if}
 
 
+
+<br />
+<h1>Import a toon string</h1>
+<textarea  bind:value={inputToonString} placeholder="Enter a toon string" />
+<button onclick={() => importToon(inputToonString)}>Import</button>
 <br />
 <h1>Result</h1>
 <br />
 
-<code>{toonString}</code>
+<pre>{toonString}</pre>
