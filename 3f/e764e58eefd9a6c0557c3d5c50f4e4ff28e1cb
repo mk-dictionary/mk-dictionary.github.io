@@ -1,0 +1,30 @@
+entries/nouns/bail.toon
+  h_7ffaac8f5937a6 1-11
+entries/nouns/bhurgo.toon
+  h_7ffaac8f5937a6 1-11
+entries/nouns/sezaari.toon
+  h_7ffaac8f5937a6 1-12
+entries/nouns/kaazaar.toon
+  h_7ffaac8f5937a6 1-16
+entries/nouns/go.toon
+  h_7ffaac8f5937a6 1-12
+SPELLING.md
+  h_7ffaac8f5937a6 8,11-12,20,48,50
+entries/nouns/bhurge.toon
+  h_7ffaac8f5937a6 1-11
+README.md
+  h_7ffaac8f5937a6 15,18,20,35-37
+entries/nouns/sakahd.toon
+  h_7ffaac8f5937a6 1-10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "3fe764e58eefd9a6c0557c3d5c50f4e4ff28e1cb",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
