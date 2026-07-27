@@ -1,0 +1,16 @@
+konkani_word: kaazaar
+meaning[1|]: wedding
+part_of_speech: noun
+keywords[2|]: kaazaar|wedding
+forms[2|]{label|value}:
+  to wedding (locative)|kaazaaraa
+  weddings (plural)|kaazaaraa~
+examples[2|]:
+  - konkani_sentence: kaazaaraa vetaau
+    english_sentence: we are going to the wedding
+  - konkani_sentence: tace kaazaar zala
+    english_sentence: he is married
+    literal: ""
+categories[5|]: beginner|family|friends|household|religion
+note: null
+status: draft

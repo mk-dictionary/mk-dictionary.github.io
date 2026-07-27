@@ -11,46 +11,14 @@ each entry is a file in a part of speech folder within the entries folder
 ## spelling
 See SPELLING.md for the romanization: [SPELLING.md](SPELLING.md)
 This spelling format was made to balance ease of reading and typing as well as precision.  
-
-additionally, to try it yourself, try [aksharamukha](https://www.aksharamukha.com/converter) to convert to and from velthuis romanization
-
-(aksharamukha doesn't allow using /, so replace it with ~m when testing)
 ## format
-entries are .json files that follow this format:
-```json
-{
-  "konkani_word": "",
-  "meaning": [""],
-  "part_of_speech": "",
-  "keywords": [""],
-  "forms": [
-    {  
-      "label": "",
-      "form_value": ""
-    }
-  ],
-  "examples": [
-    {
-      "konkani_sentence": "",
-      "english_sentence": ""
-    }
-  ],
-  "categories": [""], // find categories in schema/entry.ts
-  "status": "draft", // or published
-  "note":""
-}
-```
-`[]` is a list of items
-`{}` is a grouping of text fields
-`""` is text
-if a word starts with a period (i.e. .sik), replace the leading period with _ (_sik.json)
+each entry is a .toon file. these files follow a specific format. For right now, the preferred way of creating these files is to go to the "create" section, fill in fields and add fields as necessary, then copy the text and paste into a file with named (word name).toon
 ### keywords
 keywords are used for search. They include the word itself, alternate spellings, commonly used forms, english meanings and synonyms of the english meaning. 
-Additionally, if the word is close to another language's word, that word should also go there
+Additionally, if the word is similar to a word from a different language with a related meaning, that word should also go there
 use your best judgement
-## forms
+### forms
 the different forms the entry can take
-the label should have 
 #### examples
 add examples for every form that needs one
 use your best judgement
@@ -64,4 +32,6 @@ additionally, always add the gerund and infinitive (doing and to do, karun and k
 add all adjective forms (i.e. boro, bari, bare~)
 #### misc
 if a phrase changes depending on the verb/noun/subject/situation, include it
-## examples
+### notes
+Anything you should know about the word. While the meaning is what the word means when translated to english, notes can contain information about its **context**. 
+If a word is directly borrowed from another language, add that too.

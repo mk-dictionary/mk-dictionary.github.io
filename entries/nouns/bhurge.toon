@@ -1,0 +1,11 @@
+konkani_word: bhurge
+meaning[1|]: child
+part_of_speech: noun
+keywords[2|]: bhurge|child
+forms[1|]{label|value}:
+  children|bhurgi
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  te ek bhurge|she is a child|""
+categories[2|]: beginner|family
+note: female
+status: draft

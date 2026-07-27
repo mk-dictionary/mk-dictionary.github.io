@@ -1,0 +1,11 @@
+konkani_word: bhurgo
+meaning[1|]: child
+part_of_speech: noun
+keywords[2|]: bhurgo|child
+forms[1|]{label|value}:
+  children|bhurgi
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  to ek bhurgo|he is a child|""
+categories[2|]: beginner|family
+note: male
+status: draft

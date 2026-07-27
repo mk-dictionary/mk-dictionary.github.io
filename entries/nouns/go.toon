@@ -1,0 +1,12 @@
+
+konkani_word: go
+meaning[1|]: husband
+part_of_speech: noun
+keywords[2|]: go|husband
+forms[1|]{label|value}:
+  husbands (plural)|go
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  yo muzo go|this is my husband|""
+categories[5|]: beginner|family|friends|household|religion
+note: null
+status: draft

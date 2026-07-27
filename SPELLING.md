@@ -5,9 +5,11 @@
 | spelling | english word example | konkani word example |
 | -------- | -------------------- | -------------------- |
 | a        | th**e**              | g**a**l              |
-| aa       | f**a**ther           | m**a**zar            |
+| aa       | f**a**ther           | m**aa**zaar          |
 | e        | g**e**ntlem**e**n    | g**e**lee~           |
 | ee       | **ai**lment          | gel**ee**~           |
+| i        | **i**nternal         | **i**x**i**n         |
+| ii       | **ee**l              | gel**ii**~           |
 | o        | **o**re**o**         | t**o**               |
 | u        | r**oo**m             | t**u**               |
 
@@ -15,7 +17,7 @@ additionally, the tilde (~) is used to signal nasalized vowels
 
 | konkani example |
 | --------------- |
-| haau~           |
+| haa~u           |
 | kite~           |
 | bare~           |
 
@@ -43,9 +45,9 @@ This mimics standards of using a tilde (ã) to represent nasalization in other l
 | r        | N/A             | ba**r**e\~  |
 | s        | **s**ail        | **s**aat    |
 | t        | **th**e         | **t**u      |
-| ht       | **t**ap         |             |
+| ht       | **t**ap         | mi**ht**ayi |
 | v        | **v**eil        | **v**ustur  |
-| w        | **w**ater       | a**w**e     |
+| w        | **w**ater       | a**w**ai    |
 | x        | **sh**eet       | **x**ik     |
 | y        | **y**oung       | **y**eta    |
 | z        | **z**oom        | **z**ata    |
