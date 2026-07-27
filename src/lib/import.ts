@@ -6,7 +6,7 @@ const entriesPath = Object.keys(entriesImport)
 
 export const entries = Object.values(entriesArray).map((entry, index) => {
     //@ts-expect-error thats fine
-    entry.keywords = entry.keywords.map((keyword) => keyword.toLowerCase())
+    entry.keywords = [entry.konkani_word, ...entry.meaning, ...entry.keywords.map((keyword) => keyword.toLowerCase())]
     // the first replace removes the .toon extension, the second replace changes the spaces in the path, the third takes out / and replaces it with a dash, so that the path can be used as a slug in the url
     //@ts-expect-error again, fine
     entry.path = entriesPath[index]
