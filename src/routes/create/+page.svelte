@@ -14,10 +14,7 @@
 	let part_of_speech: (typeof parts_of_speech)[number] = $state('noun'); // default value
     let forms = $state<{ label: string; value: string }[]>([]);
 	let addedKeywords: string[] = $state<string[]>([]);
-	let keywords = $derived.by(() => {
-		const baseKeywords = [konkani_word, ...meaning];
-		return [...baseKeywords, ...addedKeywords].filter((k) => k.trim() !== '');
-	});
+	
 	let examples: { konkani_sentence: string; english_sentence: string }[] = $state([
 		{ konkani_sentence: '', english_sentence: '' }
 	]);
@@ -28,7 +25,7 @@
             konkani_word,
             meaning,
             part_of_speech,
-            keywords,
+            keywords: addedKeywords,
             forms,
             examples,
             categories,
@@ -66,7 +63,7 @@
 <input type="radio" bind:group={part_of_speech} value="adjective" /> Adjective
 <input type="radio" bind:group={part_of_speech} value="misc" /> Misc
 <br />
-<input type="text" placeholder="Enter a new word" bind:value={konkani_word} />
+<input type="text" placeholder="Enter a new word, in konkani" bind:value={konkani_word} />
 <table>
     <tbody>
         <tr>
@@ -75,7 +72,7 @@
         </tr>
         {#each meaning as m, index (index)}
             <tr>
-                <td><input type="text" placeholder="Enter the meaning" bind:value={meaning[index]} /></td>
+                <td><input type="text" placeholder="Enter the meaning, in english" bind:value={meaning[index]} /></td>
                 <td><button onclick={() => meaning.splice(index, 1)}>Remove</button></td>
             </tr>
         {/each}
@@ -90,10 +87,7 @@
 <br />
 keywords:
 <ul>
-	<li>{konkani_word}</li>
-	{#each meaning as m (m)}
-		<li>{m}</li>
-	{/each}
+	
 	{#each addedKeywords as keyword, i (i)}
 		<li><input type="text" bind:value={addedKeywords[i]} /></li>
 	{/each}
@@ -106,12 +100,12 @@ forms
         <li>
             <input
                 type="text"
-                placeholder="Enter the label"
+                placeholder="Enter the label: the english word in the form and the form itself"
                 bind:value={forms[index].label}
             />
             <input
                 type="text"
-                placeholder="Enter the value"
+                placeholder="Enter the value, konkani"
                 bind:value={forms[index].value}
             />
             <button onclick={() => forms.splice(index, 1)}>Remove</button>
@@ -132,14 +126,14 @@ examples
 				<td
 					><input
 						type="text"
-						placeholder="Enter the example"
+						placeholder="Enter the example, in konkani"
 						bind:value={examples[index].konkani_sentence}
 					/></td
 				>
 				<td
 					><input
 						type="text"
-						placeholder="Enter the translation"
+						placeholder="Enter the translation, in english"
 						bind:value={examples[index].english_sentence}
 					/></td
 				>
@@ -171,8 +165,8 @@ examples
 
 
 <br />
-<h1>Import a toon string</h1>
-<textarea  bind:value={inputToonString} placeholder="Enter a toon string" />
+<h1>Import a .toon string</h1>
+<textarea  bind:value={inputToonString} placeholder="Enter a .toon string" />
 <button onclick={() => importToon(inputToonString)}>Import</button>
 <br />
 <h1>Result</h1>

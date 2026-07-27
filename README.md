@@ -14,7 +14,7 @@ This spelling format was made to balance ease of reading and typing as well as p
 ## format
 each entry is a .toon file. these files follow a specific format. For right now, the preferred way of creating these files is to go to the "create" section, fill in fields and add fields as necessary, then copy the text and paste into a file with named (word name).toon
 ### keywords
-keywords are used for search. They include the word itself, alternate spellings, commonly used forms, english meanings and synonyms of the english meaning. 
+keywords are used for search.  alternate spellings, commonly used forms and synonyms of the english meaning. 
 Additionally, if the word is similar to a word from a different language with a related meaning, that word should also go there
 use your best judgement
 ### forms
