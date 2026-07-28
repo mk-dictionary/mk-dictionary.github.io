@@ -1,0 +1,34 @@
+entries/verbs/cint.toon
+  h_7ffaac8f5937a6 3
+entries/nouns/bokro.toon
+  h_7ffaac8f5937a6 9
+scripts/validation.ts
+  s_2d19914d58482b::t_ab3ee7627ffbcf 13
+  h_7ffaac8f5937a6 4,17,24,50,52,54,58
+  s_2d19914d58482b::t_63925629ab0d8c 12
+schema/entry.ts
+  h_7ffaac8f5937a6 40
+entries/adjectives/sadaai.toon
+  h_7ffaac8f5937a6 9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "f7c59c7eedfaf888e58f783254febe33eb66047e",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_2d19914d58482b": {
+      "agent_id": {
+        "tool": "github-copilot-tab",
+        "id": "ai_tab-1785197354651",
+        "model": "default"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
