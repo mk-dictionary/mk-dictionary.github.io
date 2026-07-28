@@ -1,0 +1,11 @@
+konkani_word: peto
+meaning[1|]: dog
+part_of_speech: noun
+keywords: []
+forms[1|]{label|value}:
+  plural (dogs)|pete
+examples[1|]{konkani_sentence|english_sentence}:
+  haa~u pete sangaataa kheltaa|I play with the dog
+categories[2|]: animals|household
+note: null
+status: draft

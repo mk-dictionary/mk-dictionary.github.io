@@ -10,6 +10,7 @@ export const categories = [
     "buildings",
     "school",
     "work",
+    "times", // days, months, seasons, etc.
     "gathering", // 
     "gardening", // anything related to plants, trees, flowers, etc.
     "weather", // anything related to weather, seasons, climate, etc.

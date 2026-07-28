@@ -1,0 +1,12 @@
+
+konkani_word: bok-hdi
+meaning[1|]: goat
+part_of_speech: noun
+keywords: []
+forms[1|]{label|value}:
+  plural (multiple sheep)|bok-hdio
+examples[1|]{konkani_sentence|english_sentence}:
+  makaa bok-hde maas bore zata|I like goat meat
+categories[2|]: cooking|animals
+note: null
+status: draft

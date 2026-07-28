@@ -1,0 +1,10 @@
+konkani_word: cint
+meaning[1|]: think
+part_of_speech: noun
+keywords: []
+forms: []
+examples[1|]{konkani_sentence|english_sentence}:
+  makaa cintunka|I have to think
+categories[2|]: poetic|abstract
+note: null
+status: draft

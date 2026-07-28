@@ -1,0 +1,11 @@
+konkani_word: bokro
+meaning[1|]: sheep
+part_of_speech: noun
+keywords: []
+forms[1|]{label|value}:
+  plural (multiple sheep)|bokre
+examples[1|]{konkani_sentence|english_sentence}:
+  sezaaraa mustu bokre asaat|the neighbor has many sheep
+categories[2|]: animals
+note: null
+status: draft
