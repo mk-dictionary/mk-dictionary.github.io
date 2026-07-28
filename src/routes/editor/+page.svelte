@@ -20,21 +20,49 @@
 
 	const entries: EntryItem[] = allPaths.map((p) => {
 		const d = allEntries[p] as EntryData;
-		const file = p.replace('.toon', '').replace(/\\/g, '/').replace(/^\/?entries\//, '');
+		const file = p
+			.replace('.toon', '')
+			.replace(/\\/g, '/')
+			.replace(/^\/?entries\//, '');
 		return { ...d, _path: file, _file: p };
 	});
 
 	const categories_list = [
-		'beginner', 'family', 'friends', 'meals', 'cooking', 'animals',
-		'clothing', 'household', 'buildings', 'school', 'work', 'times',
-		'gathering', 'gardening', 'weather', 'nature', 'temperature', 'art',
-		'religion', 'travel', 'transportation', 'poetic', 'body parts',
-		'health', 'abstract', 'pro-form', 'query'
+		'beginner',
+		'family',
+		'friends',
+		'meals',
+		'cooking',
+		'animals',
+		'clothing',
+		'household',
+		'buildings',
+		'school',
+		'work',
+		'times',
+		'gathering',
+		'gardening',
+		'weather',
+		'nature',
+		'temperature',
+		'art',
+		'religion',
+		'travel',
+		'transportation',
+		'poetic',
+		'body parts',
+		'health',
+		'abstract',
+		'pro-form',
+		'query'
 	];
 
 	const FOLDER_BY_POS: Record<string, string> = {
-		noun: 'nouns', verb: 'verbs', adjective: 'adjectives',
-		pronoun: 'pronouns', misc: 'misc'
+		noun: 'nouns',
+		verb: 'verbs',
+		adjective: 'adjectives',
+		pronoun: 'pronouns',
+		misc: 'misc'
 	};
 
 	let search = $state('');
@@ -45,7 +73,9 @@
 	let pos = $state('noun');
 	let keywords = $state<string[]>([]);
 	let forms = $state<{ label: string; value: string }[]>([]);
-	let examples = $state<{ konkani_sentence: string; english_sentence: string; literal?: string }[]>([]);
+	let examples = $state<{ konkani_sentence: string; english_sentence: string; literal?: string }[]>(
+		[]
+	);
 	let cats = $state<string[]>([]);
 	let status = $state<'draft' | 'published'>('draft');
 	let note = $state('');
@@ -56,11 +86,12 @@
 
 	let searchResults = $derived(
 		search
-			? entries.filter(e =>
-					e.konkani_word.toLowerCase().includes(search.toLowerCase()) ||
-					e.meaning.some(m => m.toLowerCase().includes(search.toLowerCase())) ||
-					e._path.toLowerCase().includes(search.toLowerCase()) ||
-					e.keywords.some(k => k.toLowerCase().includes(search.toLowerCase()))
+			? entries.filter(
+					(e) =>
+						e.konkani_word.toLowerCase().includes(search.toLowerCase()) ||
+						e.meaning.some((m) => m.toLowerCase().includes(search.toLowerCase())) ||
+						e._path.toLowerCase().includes(search.toLowerCase()) ||
+						e.keywords.some((k) => k.toLowerCase().includes(search.toLowerCase()))
 				)
 			: entries
 	);
@@ -71,11 +102,17 @@
 		meanings = [...e.meaning];
 		pos = e.part_of_speech;
 		keywords = [...e.keywords];
-		forms = e.forms ? e.forms.map(f => ({ ...f })) : [];
-		examples = e.examples ? e.examples.map(x => ({ ...x })) : [];
+		forms = e.forms ? e.forms.map((f) => ({ ...f })) : [];
+		examples = e.examples ? e.examples.map((x) => ({ ...x })) : [];
 		cats = [...e.categories];
 		status = e.status as 'draft' | 'published';
-		if (e.note) { hasNote = true; note = e.note; } else { hasNote = false; note = ''; }
+		if (e.note) {
+			hasNote = true;
+			note = e.note;
+		} else {
+			hasNote = false;
+			note = '';
+		}
 		newFilename = '';
 		saveMsg = '';
 	}
@@ -98,11 +135,11 @@
 
 	let entryData = $derived<EntryData>({
 		konkani_word: word,
-		meaning: meanings.filter(m => m.trim()),
+		meaning: meanings.filter((m) => m.trim()),
 		part_of_speech: pos,
-		keywords: keywords.filter(k => k.trim()),
-		forms: forms.filter(f => f.label || f.value),
-		examples: examples.filter(x => x.konkani_sentence || x.english_sentence),
+		keywords: keywords.filter((k) => k.trim()),
+		forms: forms.filter((f) => f.label || f.value),
+		examples: examples.filter((x) => x.konkani_sentence || x.english_sentence),
 		categories: cats,
 		status,
 		note: hasNote && note ? note : null
@@ -168,7 +205,10 @@
 	<table>
 		<tbody>
 			{#each searchResults as e (e._path)}
-				<tr onclick={() => loadEntry(e)} style="cursor:pointer;background:{selected?._path === e._path ? '#eee' : ''}">
+				<tr
+					onclick={() => loadEntry(e)}
+					style="cursor:pointer;background:{selected?._path === e._path ? '#eee' : ''}"
+				>
 					<td>{e.konkani_word}</td>
 					<td>{e.part_of_speech}</td>
 					<td>{e.status}</td>
@@ -185,7 +225,9 @@
 
 {#if !selected}
 	<div>
-		<label>Filename (optional, defaults to word): <input type="text" bind:value={newFilename} /></label>
+		<label
+			>Filename (optional, defaults to word): <input type="text" bind:value={newFilename} /></label
+		>
 	</div>
 {/if}
 
@@ -194,7 +236,8 @@
 </div>
 
 <div>
-	<label>Part of Speech:
+	<label
+		>Part of Speech:
 		<select bind:value={pos}>
 			<option value="noun">noun</option>
 			<option value="verb">verb</option>
@@ -206,7 +249,8 @@
 </div>
 
 <div>
-	<label>Status:
+	<label
+		>Status:
 		<select bind:value={status}>
 			<option value="draft">draft</option>
 			<option value="published">published</option>
@@ -250,12 +294,15 @@
 		<button onclick={() => examples.splice(i, 1)}>x</button>
 	</div>
 {/each}
-<button onclick={() => examples.push({ konkani_sentence: '', english_sentence: '' })}>+ Add Example</button>
+<button onclick={() => examples.push({ konkani_sentence: '', english_sentence: '' })}
+	>+ Add Example</button
+>
 
 <h3>Categories</h3>
 {#each categories_list as c (c)}
 	<label>
-		<input type="checkbox" value={c} bind:group={cats} /> {c}
+		<input type="checkbox" value={c} bind:group={cats} />
+		{c}
 	</label>
 {/each}
 

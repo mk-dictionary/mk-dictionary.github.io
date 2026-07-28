@@ -29,14 +29,14 @@ This mimics standards of using a tilde (ã) to represent nasalization in other l
 | spelling | english         | konkani     | kannada | hindi |
 | :------- | :-------------- | :---------- | :------ | :---- |
 | b        | **b**ar         | u**b**      | ಬ       | ब     |
-| bh       | N/A             | **b**haau\~ | ಭ       | भ     |
+| bh       | N/A             | **bh**aau~  | ಭ       | भ     |
 | c        | **ch**air       | **c**aa     | ಚ       | च     |
 | d        | N/A             | di          | ದ       | द     |
 | hd       | **d**ance       | ka**hd**    | ಡ       | ड     |
 | f        | **f**lower      | **f**ul     | ಫ       | फ़    |
-| g        | **g**one        | **g**elee\~ | ಗ       | ग     |
+| g        | **g**one        | **g**elee~  | ಗ       | ग     |
 | gh       | N/A             | **gh**ee    |         |       |
-| h        | **h**ouse       | **h**aau\~  | ಹ       | ह     |
+| h        | **h**ouse       | **h**aau~   | ಹ       | ह     |
 | j        | **j**ail        | **j**evaan  | ಜ       | ज     |
 | k        | **c**auliflower | **k**ar     | ಕ       | क     |
 | kh       | N/A             | **kh**eel   |         |       |
@@ -45,7 +45,7 @@ This mimics standards of using a tilde (ã) to represent nasalization in other l
 | m        | **m**ake        | **m**aazar  | ಮ       | म     |
 | n        | **n**ot         | **n**aas    | ನ       | न     |
 | p        | **p**arrot      | **p**aau    | ಪ       | प     |
-| r        | N/A             | ba**r**e\~  | ರ       | र     |
+| r        | N/A             | ba**r**e~   | ರ       | र     |
 | s        | **s**ail        | **s**aat    | ಸ       | स     |
 | t        | **th**e         | **t**u      | ತ       | त     |
 | ht       | **t**ap         | mi**ht**ayi | ಟ       | ट     |
