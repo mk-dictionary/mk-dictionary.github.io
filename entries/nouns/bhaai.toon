@@ -1,9 +1,9 @@
 konkani_word: bhaai
-meaning[1]: sister
+meaning[1|]: sister
 part_of_speech: noun
-keywords[3]: bhaai,sister,elder sister
-examples[1]{konkani_sentence,english_sentence}:
-  muji bhaai garaa ailaa,my elder sister came home
-categories[1]: family
+keywords[1|]: elder sister
+examples[1|]{konkani_sentence|english_sentence}:
+  muji bhaai garaa ailaa|my elder sister came home
+categories[1|]: family
 note: for older girls
 status: published

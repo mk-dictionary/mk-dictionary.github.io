@@ -1,11 +1,11 @@
 konkani_word: handi
-meaning[1]: pot
+meaning[1|]: pot
 part_of_speech: noun
-keywords[2]: handi,pot
-forms[1]{label,value}:
-  plural (pots),handio
-examples[1]{konkani_sentence,english_sentence}:
-  I made fish in the pot,haave masli handiant kela
-categories[1]: cooking
+keywords: []
+forms[1|]{label|value}:
+  plural (pots)|handio
+examples[1|]{konkani_sentence|english_sentence}:
+  I made fish in the pot|haave masli handiant kela
+categories[1|]: cooking
 status: published
 note: hindi

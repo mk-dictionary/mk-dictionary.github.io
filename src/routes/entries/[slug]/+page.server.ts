@@ -1,16 +1,15 @@
 import type { EntryGenerator } from './$types';
-import { entries as dictEntries} from '$lib/import';
+import { entries as dictEntries } from '$lib/import';
 export const entries: EntryGenerator = () => {
 	return dictEntries.map((entry) => {
-        const slug = entry.path.split('/').pop()?.replace('.toon', '');
-        return { slug: slug ?? '' };
-    });
+		const slug = entry.path.split('/').pop()?.replace('.toon', '');
+		return { slug: slug ?? '' };
+	});
 };
 
 export const prerender = true;
 
-
-import { error, json } from '@sveltejs/kit';
+import { error } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async ({ params }) => {
@@ -20,7 +19,6 @@ export const load: PageServerLoad = async ({ params }) => {
 		return post;
 	}
 
+	// TODO: leaking all entry paths in error message, clean up later
 	error(404, 'Not hree' + 'words:' + JSON.stringify(dictEntries.map((entry) => entry.path)));
-
 };
-

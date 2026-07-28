@@ -1,12 +1,12 @@
 konkani_word: mez
-meaning[1]: table
+meaning[1|]: table
 part_of_speech: noun
-keywords[2]: mez,table
-forms[1]{label,value}:
-  plural (tables),mezaa
-examples[3]{konkani_sentence,english_sentence}:
-  ca mezar asa,there's tea on the table
-  meza lagi kadelar bos,sit on the chair near the table
-  mez futon gele,the table broke
-categories[3]: beginner,meals,household
+keywords: []
+forms[1|]{label|value}:
+  plural (tables)|mezaa
+examples[3|]{konkani_sentence|english_sentence}:
+  ca mezar asa|there's tea on the table
+  meza lagi kadelar bos|sit on the chair near the table
+  mez futon gele|the table broke
+categories[3|]: beginner|meals|household
 status: published

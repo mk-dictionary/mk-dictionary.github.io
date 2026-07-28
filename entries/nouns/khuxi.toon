@@ -1,13 +1,13 @@
 konkani_word: khuxi
-meaning[2]: happiness,joy
+meaning[2|]: happiness|joy
 part_of_speech: noun
-keywords[4]: khuxi,kushi,happiness,joy
+keywords[1|]: kushi
 forms: []
-examples[2]:
+examples[2|]:
   - konkani_sentence: maka khuxi zata
     english_sentence: I am happy
     literal: happiness is happening to me
-  - konkani_sentence: "dhuk kari naka, khuxi za"
+  - konkani_sentence: dhuk kari naka, khuxi za
     english_sentence: dont worry be happy
 categories: []
 status: published

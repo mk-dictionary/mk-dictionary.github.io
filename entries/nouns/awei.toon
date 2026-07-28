@@ -1,8 +1,8 @@
 konkani_word: awei
-meaning[1]: mother
+meaning[1|]: mother
 part_of_speech: noun
-keywords[2]: awei,mother
-examples[1]{konkani_sentence,english_sentence}:
-  muje awei garaa ailaa,my mother came home
-categories[1]: family
+keywords: []
+examples[1|]{konkani_sentence|english_sentence}:
+  muje awei garaa ailaa|my mother came home
+categories[1|]: family
 status: published

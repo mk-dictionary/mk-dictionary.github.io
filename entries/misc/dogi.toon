@@ -1,9 +1,9 @@
 konkani_word: dogi
-meaning[2]: both,two
+meaning[2|]: both|two
 part_of_speech: misc
-keywords[3]: dogi,both,two
+keywords: []
 forms: []
-examples[1]{konkani_sentence,english_sentence}:
-  ami dogi,us both
-categories[1]: beginner
+examples[1|]{konkani_sentence|english_sentence}:
+  ami dogi|us both
+categories[1|]: beginner
 status: published

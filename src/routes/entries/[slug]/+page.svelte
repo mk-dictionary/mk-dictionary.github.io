@@ -11,7 +11,7 @@
 <h1><div class="word">{data.konkani_word}</div></h1>
 <h3 class="part-of-speech">{data.part_of_speech}</h3>
 <br />
-<p> meaning: </p>
+<p>meaning:</p>
 <ul>
 	{#each data.meaning as meaning}
 		<li>{meaning}</li>
@@ -24,17 +24,17 @@
 		<li>{form.label}: {form.value}</li>
 	{/each}
 </ul>
-<p>examples: </p>
+<p>examples:</p>
 <ul>
-    {#each data.examples as example}
-        <li>
-            {example.konkani_sentence} - {example.english_sentence}
-        </li>
-    {/each}
+	{#each data.examples as example}
+		<li>
+			{example.konkani_sentence} - {example.english_sentence}
+		</li>
+	{/each}
 </ul>
-<p> categories: </p>
+<p>categories:</p>
 <ul>
-    {#each data.categories as category}
-        <a href={resolve(`/categories/${category}`)}> <li>{category}</li> </a>
-    {/each}
+	{#each data.categories as category}
+		<a href={resolve(`/categories/${category}`)}> <li>{category}</li> </a>
+	{/each}
 </ul>

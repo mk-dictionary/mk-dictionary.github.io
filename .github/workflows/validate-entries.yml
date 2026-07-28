@@ -3,7 +3,7 @@ name: Validate Entries
 on:
   pull_request:
     paths:
-      - "entries/**/*.json"
+      - 'entries/**/*.toon'
 
 jobs:
   validate:
@@ -25,11 +25,11 @@ jobs:
         run: |
           FILES=$(git diff --name-only \
             origin/${{ github.event.pull_request.base.ref }}...HEAD \
-            -- 'words/**/*.json')
+            -- 'entries/**/*.toon')
           echo "$FILES"
           # Turn newlines into a space-separated list for the next step
           echo "files=$(echo "$FILES" | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
 
       - name: Validate changed entries
         if: steps.changed.outputs.files != ''
-        run: npx tsx scripts/validate-entries.ts ${{ steps.changed.outputs.files }}
+        run: npx tsx scripts/validation.ts ${{ steps.changed.outputs.files }}

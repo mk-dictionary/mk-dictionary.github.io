@@ -1,4 +1,3 @@
-
 konkani_word: sadaai
 meaning[1|]: daily
 part_of_speech: adjective
@@ -6,6 +5,6 @@ keywords: []
 forms: []
 examples[1|]{konkani_sentence|english_sentence|literal}:
   haa~u sadaai 'tv' poleyta|I watch tv daily|""
-categories[1|]:times
+categories[1|]: times
 note: null
 status: draft

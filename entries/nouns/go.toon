@@ -1,8 +1,7 @@
-
 konkani_word: go
 meaning[1|]: husband
 part_of_speech: noun
-keywords[2|]: go|husband
+keywords: []
 forms[1|]{label|value}:
   husbands (plural)|go
 examples[1|]{konkani_sentence|english_sentence|literal}:

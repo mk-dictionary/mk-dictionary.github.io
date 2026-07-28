@@ -1,12 +1,12 @@
 konkani_word: ghe
-meaning[1]: take
+meaning[1|]: take
 part_of_speech: verb
-keywords[3]: ge,ghe,take
-forms[1]{label,value}:
-  past tense,getle
-examples[2]{konkani_sentence,english_sentence}:
-  (te) haau thaau ghe,take (it) from me
-  haave (te) getle,I took (it)
-categories[1]: beginner
+keywords[1|]: ge
+forms[1|]{label|value}:
+  past tense|getle
+examples[2|]{konkani_sentence|english_sentence}:
+  (te) haau thaau ghe|take (it) from me
+  haave (te) getle|I took (it)
+categories[1|]: beginner
 status: published
 note: ""

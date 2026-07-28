@@ -1,10 +1,10 @@
 konkani_word: hun
-meaning[1]: hot
+meaning[1|]: hot
 part_of_speech: adjective
-keywords[3]: hun,hot,warm
+keywords[1|]: warm
 forms: []
-examples[1]{konkani_sentence,english_sentence}:
-  jevan hun kar,heat up the food
-categories[2]: beginner,temperature
+examples[1|]{konkani_sentence|english_sentence}:
+  jevan hun kar|heat up the food
+categories[2|]: beginner|temperature
 status: published
 note: not for weather

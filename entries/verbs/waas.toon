@@ -1,8 +1,8 @@
 konkani_word: waas
-meaning[2]: read,study
+meaning[2|]: read|study
 part_of_speech: verb
-keywords[2]: waas,read
-examples[1]{konkani_sentence,english_sentence}:
-  makaa parikxek waasunk asaa,I have to study for my exams
-categories[1]: school
+keywords: []
+examples[1|]{konkani_sentence|english_sentence}:
+  makaa parikxek waasunk asaa|I have to study for my exams
+categories[1|]: school
 status: published

@@ -1,5 +1,5 @@
 <script lang="ts">
-/* eslint-disable svelte/no-navigation-without-resolve */
+	/* eslint-disable svelte/no-navigation-without-resolve */
 
 	/* eslint-disable svelte/require-each-key */
 
@@ -12,6 +12,6 @@
 
 {#each words as entry}
 	<a href={`${entry.path}`}> {entry.konkani_word} - {entry.meaning[0]} </a> ({entry.part_of_speech})
-	
-	<br/>
+
+	<br />
 {/each}

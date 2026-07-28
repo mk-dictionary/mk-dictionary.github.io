@@ -1,10 +1,10 @@
 konkani_word: igarz
-meaning[1]: church
-forms[1]{label,value}:
-  dative,igarjek
+meaning[1|]: church
+forms[1|]{label|value}:
+  dative|igarjek
 part_of_speech: noun
-keywords[2]: igarz,church
-examples[1]{konkani_sentence,english_sentence}:
-  haau igarjek vosun kumsar zata,I am going to church for confession
-categories[2]: buildings,religion
+keywords: []
+examples[1|]{konkani_sentence|english_sentence}:
+  haau igarjek vosun kumsar zata|I am going to church for confession
+categories[2|]: buildings|religion
 status: published

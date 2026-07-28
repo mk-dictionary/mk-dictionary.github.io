@@ -1,10 +1,10 @@
 konkani_word: pod mun
-meaning[1]: sing
+meaning[1|]: sing
 part_of_speech: misc
-keywords[2]: pod mun,sing
+keywords: []
 forms: []
-examples[2]{konkani_sentence,english_sentence}:
-  haau pod munthaa,I am singing
-  pod munaa nakaa,don't sing
-categories[1]: gathering
+examples[2|]{konkani_sentence|english_sentence}:
+  haau pod munthaa|I am singing
+  pod munaa nakaa|don't sing
+categories[1|]: gathering
 status: published
