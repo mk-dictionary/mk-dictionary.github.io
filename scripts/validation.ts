@@ -1,7 +1,7 @@
 import { readFileSync, readdirSync } from "fs";
 import { join, relative, sep } from "path";
 import { EntrySchema, FOLDER_TO_POS } from "../schema/entry";
-
+import {decode }from '@toon-format/toon'
 const baseDir = "entries";
 
 /**
@@ -9,17 +9,19 @@ const baseDir = "entries";
  * diff), validate only those. Otherwise walk every file under entries/ —
  * useful for running this locally with no args to check everything.
  */
+
+// needs to be updated to use .toon files instead of .json files, since the entries are now in .toon format
 function getFilesToCheck(): string[] {
   const args = process.argv.slice(2);
   if (args.length > 0) {
-    return args.filter((f) => f.endsWith(".json"));
+    return args.filter((f) => f.endsWith(".toon"));
   }
 
   const all: string[] = [];
   for (const folder of readdirSync(baseDir)) {
     const dir = join(baseDir, folder);
     for (const file of readdirSync(dir)) {
-      if (file.endsWith(".json")) all.push(join(dir, file));
+      if (file.endsWith(".toon")) all.push(join(dir, file));
     }
   }
   return all;
@@ -45,15 +47,15 @@ function checkFile(path: string): string[] {
     return errors;
   }
 
-  let json: unknown;
+  let toon: unknown;
   try {
-    json = JSON.parse(raw);
+    toon = decode(raw);
   } catch (e) {
-    errors.push(`invalid JSON — ${(e as Error).message}`);
+    errors.push(`invalid TOON — ${(e as Error).message}`);
     return errors;
   }
 
-  const result = EntrySchema.safeParse(json);
+  const result = EntrySchema.safeParse(toon);
   if (!result.success) {
     for (const issue of result.error.issues) {
       errors.push(`${issue.path.join(".") || "(root)"}: ${issue.message}`);

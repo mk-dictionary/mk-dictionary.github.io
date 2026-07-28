@@ -6,6 +6,6 @@ forms[1|]{label|value}:
   plural (multiple sheep)|bokre
 examples[1|]{konkani_sentence|english_sentence}:
   sezaaraa mustu bokre asaat|the neighbor has many sheep
-categories[2|]: animals
+categories[1|]: animals
 note: null
 status: draft

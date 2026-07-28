@@ -6,6 +6,6 @@ keywords: []
 forms: []
 examples[1|]{konkani_sentence|english_sentence|literal}:
   haa~u sadaai 'tv' poleyta|I watch tv daily|""
-categories: [times]
+categories[1|]:times
 note: null
 status: draft

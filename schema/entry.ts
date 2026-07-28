@@ -37,7 +37,7 @@ export const EntrySchema = z.object({
     examples: z.array(ExampleSchema).optional(),
     categories: z.array(z.enum(categories)).optional(),
     status: z.enum(["draft", "published"]),
-    note: z.string().optional(),
+    note: z.string().nullable().optional(),
 });
 
 export type Entry = z.infer<typeof EntrySchema>;
