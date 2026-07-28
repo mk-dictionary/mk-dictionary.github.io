@@ -12,7 +12,7 @@
 | ii       | **ee**l              | gel**ii**~           | ಈ       | ई     |
 | o        | **o**re**o**         | t**o**               | ಒ       | ओ     |
 | u        | r**oo**m             | t**u**               | ಉ       | उ     |
-| oa       | **au**thor           | p**oa**hd             | ಔ       | औ     |
+| oa       | **au**thor           | p**oa**hd            | ಔ       | औ     |
 
 additionally, the tilde (~) is used to signal nasalized vowels
 
@@ -35,9 +35,11 @@ This mimics standards of using a tilde (ã) to represent nasalization in other l
 | hd       | **d**ance       | ka**hd**    | ಡ       | ड     |
 | f        | **f**lower      | **f**ul     | ಫ       | फ़    |
 | g        | **g**one        | **g**elee\~ | ಗ       | ग     |
+| gh       | N/A             | **gh**ee    |         |       |
 | h        | **h**ouse       | **h**aau\~  | ಹ       | ह     |
 | j        | **j**ail        | **j**evaan  | ಜ       | ज     |
 | k        | **c**auliflower | **k**ar     | ಕ       | क     |
+| kh       | N/A             | **kh**eel   |         |       |
 | l        | **l**emon       | me**l**taa  | ಲ       | ल     |
 | ll       | N/A             | me**ll**e   | ಳ       | ळ     |
 | m        | **m**ake        | **m**aazar  | ಮ       | म     |
