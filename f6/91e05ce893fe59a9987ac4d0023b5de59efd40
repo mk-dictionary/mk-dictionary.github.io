@@ -1,0 +1,16 @@
+entries/verbs/boroi.toon
+  h_7ffaac8f5937a6 7
+entries/verbs/bos.toon
+  h_7ffaac8f5937a6 7-8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "f691e05ce893fe59a9987ac4d0023b5de59efd40",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
