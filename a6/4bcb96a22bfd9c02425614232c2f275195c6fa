@@ -1,0 +1,14 @@
+SPELLING.md
+  h_7ffaac8f5937a6 38,42
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "a64bcb96a22bfd9c02425614232c2f275195c6fa",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
