@@ -1,0 +1,52 @@
+entries/nouns/dukor.toon
+  h_7ffaac8f5937a6 1-12
+entries/nouns/sopan.toon
+  h_7ffaac8f5937a6 1-11
+entries/nouns/kaaliz.toon
+  h_7ffaac8f5937a6 1-11
+schema/categories.ts
+  s_87765f7b6011f1::t_bfcf81e7b07673 13
+entries/verbs/dis.toon
+  h_7ffaac8f5937a6 1-12
+entries/nouns/gai.toon
+  h_7ffaac8f5937a6 1-11
+entries/adjectives/sadaai.toon
+  h_7ffaac8f5937a6 1-11
+entries/nouns/bokro.toon
+  h_7ffaac8f5937a6 1-11
+entries/nouns/mogaa.toon
+  h_7ffaac8f5937a6 1-10
+entries/verbs/raat.toon
+  h_7ffaac8f5937a6 1-11
+entries/nouns/bok-hdi.toon
+  h_7ffaac8f5937a6 1-12
+entries/nouns/kunkad.toon
+  h_7ffaac8f5937a6 1-12
+entries/nouns/peto.toon
+  h_7ffaac8f5937a6 1-11
+entries/verbs/cint.toon
+  h_7ffaac8f5937a6 1-10
+entries/verbs/axe.toon
+  h_7ffaac8f5937a6 1-10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "c2c8396d8e1d5f183a207a3467e6447f8b947c5c",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_87765f7b6011f1": {
+      "agent_id": {
+        "tool": "github-copilot-tab",
+        "id": "ai_tab-1785196187203",
+        "model": "default"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
