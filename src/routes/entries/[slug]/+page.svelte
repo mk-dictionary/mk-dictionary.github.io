@@ -21,7 +21,7 @@
 
 <ul>
 	{#each data.forms as form}
-		<li>{form.label}: {form.value}</li>
+		<li>{form.label} ({form.english}): {form.value}</li>
 	{/each}
 </ul>
 <p>examples:</p>
