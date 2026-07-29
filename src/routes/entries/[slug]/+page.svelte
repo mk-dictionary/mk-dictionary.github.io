@@ -8,33 +8,47 @@
 	console.log(data);
 </script>
 
-<h1><div class="word">{data.konkani_word}</div></h1>
+<div class="entry-container">
+	<h1 class="word">{data.konkani_word}</h1>
+</div>
 <h3 class="part-of-speech">{data.part_of_speech}</h3>
-<br />
-<p>meaning:</p>
-<ul>
-	{#each data.meaning as meaning}
-		<li>{meaning}</li>
-	{/each}
-</ul>
-<br />
+<div class="meaning-container">
+	<h2 class="meaning">Meaning:</h2>
+	<ul>
+		{#if data.meaning.length === 0}
+			<li>ERROR: no meaning found</li>
+		{/if}
+		{#each data.meaning as meaning}
+			<li>{meaning}</li>
+		{/each}
+	</ul>
+</div>
 
-<ul>
-	{#each data.forms as form}
-		<li>{form.label} ({form.english}): {form.value}</li>
-	{/each}
-</ul>
-<p>examples:</p>
-<ul>
-	{#each data.examples as example}
-		<li>
-			{example.konkani_sentence} - {example.english_sentence}
-		</li>
-	{/each}
-</ul>
-<p>categories:</p>
-<ul>
-	{#each data.categories as category}
-		<a href={resolve(`/categories/${category}`)}> <li>{category}</li> </a>
-	{/each}
-</ul>
+
+
+<div class="meaning-container">
+	<h2 class="meaning">Forms:</h2>
+	<ul>
+		{#each data.forms as form}
+			<li>{form.label} ({form.english}): {form.value}</li>
+		{/each}
+	</ul>
+</div>
+<div class="example-container">
+	<h2 class="example">Examples:</h2>
+	<ul>
+		{#each data.examples as example}
+			<li>
+				{example.konkani_sentence} - {example.english_sentence}
+			</li>
+		{/each}
+	</ul>
+</div>
+<div class="category-container">
+	<h2 class="category">Categories:</h2>
+	<ul>
+		{#each data.categories as category}
+			<li><a href={resolve(`/categories/${category}`)}>{category}</a></li>
+		{/each}
+	</ul>
+</div>
