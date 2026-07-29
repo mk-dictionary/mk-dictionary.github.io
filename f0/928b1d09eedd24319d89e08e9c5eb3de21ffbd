@@ -1,0 +1,14 @@
+phrases_todo.md
+  h_7ffaac8f5937a6 1-206
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "f0928b1d09eedd24319d89e08e9c5eb3de21ffbd",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
