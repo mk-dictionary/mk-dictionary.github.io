@@ -279,6 +279,11 @@
 <button onclick={() => keywords.push('')}>+ Add Keyword</button>
 
 <h3>Forms</h3>
+{#if pos === 'noun'}
+	<p style="font-size:0.85em;color:#666">Recommendation: nouns should have a plural form, or use <strong>uncountable</strong> POS instead.</p>
+{:else if pos === 'verb'}
+	<p style="font-size:0.85em;color:#666">Recommendation: verbs should have at least a present-tense and past-tense form.</p>
+{/if}
 {#each forms as f, i (i)}
 	<div>
 		<input type="text" placeholder="label" bind:value={forms[i].label} />
