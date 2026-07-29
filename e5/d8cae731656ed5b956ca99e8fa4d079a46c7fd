@@ -1,0 +1,14 @@
+src/lib/cmpnts/Search.svelte
+  h_7ffaac8f5937a6 9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "e5d8cae731656ed5b956ca99e8fa4d079a46c7fd",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
