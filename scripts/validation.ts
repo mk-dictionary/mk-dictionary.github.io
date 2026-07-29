@@ -26,8 +26,9 @@ function getFilesToCheck(): string[] {
 	return all;
 }
 
-function checkFile(path: string): { errors: string[]; isDraft: boolean } {
+function checkFile(path: string): { errors: string[]; warnings: string[]; isDraft: boolean } {
 	const errors: string[] = [];
+	const warnings: string[] = [];
 
 	const parts = relative(baseDir, path).split(sep);
 	const folder = parts[0];
@@ -35,7 +36,7 @@ function checkFile(path: string): { errors: string[]; isDraft: boolean } {
 
 	if (!expectedPos) {
 		errors.push(`unrecognized folder "${folder}" — not a known part of speech`);
-		return { errors, isDraft: false };
+		return { errors, warnings, isDraft: false };
 	}
 
 	let raw: string;
@@ -43,7 +44,7 @@ function checkFile(path: string): { errors: string[]; isDraft: boolean } {
 		raw = readFileSync(path, 'utf-8');
 	} catch (e) {
 		errors.push(`could not read file — ${(e as Error).message}`);
-		return { errors, isDraft: false };
+		return { errors, warnings, isDraft: false };
 	}
 
 	let toon: unknown;
@@ -51,7 +52,7 @@ function checkFile(path: string): { errors: string[]; isDraft: boolean } {
 		toon = decode(raw);
 	} catch (e) {
 		errors.push(`invalid TOON — ${(e as Error).message}`);
-		return { errors, isDraft: false };
+		return { errors, warnings, isDraft: false };
 	}
 
 	const result = EntrySchema.safeParse(toon);
@@ -59,14 +60,30 @@ function checkFile(path: string): { errors: string[]; isDraft: boolean } {
 		for (const issue of result.error.issues) {
 			errors.push(`${issue.path.join('.') || '(root)'}: ${issue.message}`);
 		}
-		return { errors, isDraft: false };
+		return { errors, warnings, isDraft: false };
 	}
 
 	if (result.data.part_of_speech !== expectedPos) {
 		errors.push(`part_of_speech is "${result.data.part_of_speech}" but file lives in "${folder}/"`);
 	}
 
-	return { errors, isDraft: result.data.status === 'draft' };
+	if (result.data.part_of_speech === 'noun') {
+		const forms = result.data.forms;
+		if (!forms || forms.length === 0) {
+			warnings.push(`nouns should have at least one form (e.g. plural) — add forms or move to uncountable/`);
+		}
+	}
+
+	if (result.data.part_of_speech === 'verb') {
+		const forms = result.data.forms;
+		if (!forms || forms.length === 0) {
+			warnings.push(`verbs should have at least one inflected form`);
+		} else if (!forms.some((f) => f.label.toLowerCase().includes('past'))) {
+			warnings.push(`verbs should include a past-tense form (label containing "past")`);
+		}
+	}
+
+	return { errors, warnings, isDraft: result.data.status === 'draft' };
 }
 
 const files = getFilesToCheck();
@@ -77,15 +94,21 @@ if (files.length === 0) {
 }
 
 let hasError = false;
+let hasWarning = false;
 let draftCount = 0;
 
 for (const path of files) {
-	const { errors, isDraft } = checkFile(path);
+	const { errors, warnings, isDraft } = checkFile(path);
 	if (isDraft) draftCount++;
 	if (errors.length > 0) {
 		hasError = true;
 		console.error(`✗ ${path}`);
 		for (const e of errors) console.error(`    ${e}`);
+	}
+	if (warnings.length > 0) {
+		hasWarning = true;
+		console.warn(`⚠ ${path}`);
+		for (const w of warnings) console.warn(`    ${w}`);
 	}
 }
 
