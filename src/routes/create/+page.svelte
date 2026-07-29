@@ -172,7 +172,7 @@ examples
 
 <br />
 <h1>Import a .toon string</h1>
-<textarea bind:value={inputToonString} placeholder="Enter a .toon string" />
+<textarea bind:value={inputToonString} placeholder="Enter a .toon string" ></textarea>
 <button onclick={() => importToon(inputToonString)}>Import</button>
 <br />
 <h1>Result</h1>
