@@ -2,6 +2,8 @@
 	import favicon from '$lib/assets/favicon.svg';
 
 	let { children } = $props();
+
+	import './global.scss';
 </script>
 
 <svelte:head>
