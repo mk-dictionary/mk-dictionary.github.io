@@ -9,7 +9,7 @@
 		meaning: string[];
 		part_of_speech: string;
 		keywords: string[];
-		forms: { label: string; value: string }[];
+		forms: { label: string; english: string; value: string }[];
 		examples: { konkani_sentence: string; english_sentence: string; literal?: string }[];
 		categories: string[];
 		status: string;
@@ -72,7 +72,7 @@
 	let meanings = $state<string[]>(['']);
 	let pos = $state('noun');
 	let keywords = $state<string[]>([]);
-	let forms = $state<{ label: string; value: string }[]>([]);
+	let forms = $state<{ label: string; english: string; value: string }[]>([]);
 	let examples = $state<{ konkani_sentence: string; english_sentence: string; literal?: string }[]>(
 		[]
 	);
@@ -138,7 +138,7 @@
 		meaning: meanings.filter((m) => m.trim()),
 		part_of_speech: pos,
 		keywords: keywords.filter((k) => k.trim()),
-		forms: forms.filter((f) => f.label || f.value),
+		forms: forms.filter((f) => f.label || f.english || f.value),
 		examples: examples.filter((x) => x.konkani_sentence || x.english_sentence),
 		categories: cats,
 		status,
@@ -280,11 +280,12 @@
 {#each forms as f, i (i)}
 	<div>
 		<input type="text" placeholder="label" bind:value={forms[i].label} />
+		<input type="text" placeholder="english" bind:value={forms[i].english} />
 		<input type="text" placeholder="value" bind:value={forms[i].value} />
 		<button onclick={() => forms.splice(i, 1)}>x</button>
 	</div>
 {/each}
-<button onclick={() => forms.push({ label: '', value: '' })}>+ Add Form</button>
+<button onclick={() => forms.push({ label: '', english: '', value: '' })}>+ Add Form</button>
 
 <h3>Examples</h3>
 {#each examples as x, i (i)}

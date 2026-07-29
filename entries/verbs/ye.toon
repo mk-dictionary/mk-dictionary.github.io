@@ -2,13 +2,13 @@ konkani_word: ye
 meaning[2|]: come|arrive
 part_of_speech: verb
 keywords[1|]: ie
-forms[6|]{label|value}:
-  first person past tense (I arrived)|(haau) ailo
-  second person past tense (you arrived)|(tu) aile
-  third person feminine past tense (she arrived)|(te) aile
-  third person masculine past tense (he arrived)|(to) ailo
-  third person plural past tense (they arrived)|(ti) aili
-  first person plural past tense (we arrived)|(ami) ailyau
+forms[6|]{label|english|value}:
+  first person past tense|I arrived|(haau) ailo
+  second person past tense|you arrived|(tu) aile
+  third person feminine past tense|she arrived|(te) aile
+  third person masculine past tense|he arrived|(to) ailo
+  third person plural past tense|they arrived|(ti) aili
+  first person plural past tense|we arrived|(ami) ailyau
 examples[1|]{konkani_sentence|english_sentence}:
   angaa ye|in the template
 categories[1|]: beginner

@@ -26,7 +26,7 @@ type Entry = {
 	meaning: string[];
 	part_of_speech: string;
 	keywords: string[];
-	forms: { label: string; value: string }[];
+	forms: { label: string; english: string; value: string }[];
 	examples: { konkani_sentence: string; english_sentence: string }[];
 	categories: string[];
 	status: string;

@@ -2,8 +2,8 @@ konkani_word: dis
 meaning[1|]: day
 part_of_speech: noun
 keywords: []
-forms[1|]{label|value}:
-  plural (days)|dis
+forms[1|]{label|english|value}:
+  plural|days|dis
 examples[1|]{konkani_sentence|english_sentence}:
   disaace mustu dag asaa|it is very hot in the daytime
 categories[1|]: beginner

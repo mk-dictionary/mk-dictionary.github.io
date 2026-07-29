@@ -2,9 +2,9 @@ konkani_word: dukor
 meaning[1|]: pig
 part_of_speech: noun
 keywords[1|]: swine
-forms[2|]{label|value}:
-  plural (pigs)|dukor
-  meat (pork)|dukraa
+forms[2|]{label|english|value}:
+  plural|pigs|dukor
+  meat|pork|dukraa
 examples[1|]{konkani_sentence|english_sentence}:
   kaal dukraa maas randle|yesterday I made pork
 categories[2|]: cooking|animals

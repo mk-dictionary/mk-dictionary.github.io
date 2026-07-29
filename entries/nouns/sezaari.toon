@@ -2,9 +2,9 @@ konkani_word: sezaari
 meaning[1|]: neighbor
 part_of_speech: noun
 keywords: []
-forms[2|]{label|value}:
-  neighbors (plural)|sezaaraa
-  to neighbor|sezaaryaak
+forms[2|]{label|english|value}:
+  plural|neighbors|sezaaraa
+  dative|to neighbor|sezaaryaak
 examples[1|]{konkani_sentence|english_sentence}:
   ami dogi sezaaraa|us two are neighbors
 categories[3|]: beginner|friends|household

@@ -2,8 +2,8 @@ konkani_word: sopan
 meaning[1|]: dream
 part_of_speech: noun
 keywords: []
-forms[1|]{label|value}:
-  plural (dreams)|sopna
+forms[1|]{label|english|value}:
+  plural|dreams|sopna
 examples[1|]{konkani_sentence|english_sentence}:
   tuka haave sopnant poleyle|I saw you in my dreams
 categories[2|]: poetic|abstract

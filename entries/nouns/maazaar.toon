@@ -2,8 +2,8 @@ konkani_word: maazaar
 meaning[1|]: cat
 part_of_speech: noun
 keywords[1|]: kitten
-forms[1|]{label|value}:
-  plural (cats)|maazraa
+forms[1|]{label|english|value}:
+  plural|cats|maazraa
 examples[1|]{konkani_sentence|english_sentence}:
   haa~u maazraa sangaataa kheltaa|I play with the cat
 categories[2|]: animals|household

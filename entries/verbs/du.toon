@@ -2,9 +2,9 @@ konkani_word: du
 meaning[1|]: wash
 part_of_speech: verb
 keywords: []
-forms[2|]{label|value}:
-  past tense (washed)|duli
-  past tense (washed)|dule
+forms[2|]{label|english|value}:
+  past tense|washed|duli
+  past tense|washed|dule
 examples[2|]{konkani_sentence|english_sentence}:
   haave kail duli|I washed the pot
   muje haath dule|I washed my hands

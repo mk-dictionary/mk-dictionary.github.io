@@ -2,8 +2,8 @@ konkani_word: bail
 meaning[1|]: wife
 part_of_speech: noun
 keywords: []
-forms[1|]{label|value}:
-  wives (plural)|bailo
+forms[1|]{label|english|value}:
+  plural|wives|bailo
 examples[1|]{konkani_sentence|english_sentence|literal}:
   ye muje bail|this is my wife|""
 categories[5|]: beginner|family|friends|household|religion

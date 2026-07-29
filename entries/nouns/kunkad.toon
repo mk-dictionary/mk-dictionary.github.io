@@ -2,9 +2,9 @@ konkani_word: kunkad
 meaning[1|]: chicken
 part_of_speech: noun
 keywords[1|]: swine
-forms[2|]{label|value}:
-  plural (pigs)|kunkadaa
-  meat (chicken meat)|kunkadaa mas
+forms[2|]{label|english|value}:
+  plural|pigs|kunkadaa
+  meat|chicken meat|kunkadaa mas
 examples[1|]{konkani_sentence|english_sentence}:
   kaal kunkadaa maas randle|yesterday I made chicken
 categories[2|]: cooking|animals

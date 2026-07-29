@@ -2,9 +2,9 @@ konkani_word: kar
 meaning[2|]: do|make
 part_of_speech: verb
 keywords: []
-forms[2|]{label|value}:
-  more recent past tense|keli/kele
-  earlier past tense|kela
+forms[2|]{label|english|value}:
+  more recent past tense|did/made|keli/kele
+  earlier past tense|did/made|kela
 examples[3|]:
   - konkani_sentence: haave .siit keli
     english_sentence: I cooked rice

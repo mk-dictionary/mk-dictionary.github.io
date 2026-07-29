@@ -12,7 +12,7 @@
 	let isNote = $state(false);
 	let note = $state('');
 	let part_of_speech: (typeof parts_of_speech)[number] = $state('noun'); // default value
-	let forms = $state<{ label: string; value: string }[]>([]);
+	let forms = $state<{ label: string; english: string; value: string }[]>([]);
 	let addedKeywords: string[] = $state<string[]>([]);
 
 	let examples: { konkani_sentence: string; english_sentence: string }[] = $state([
@@ -107,14 +107,19 @@ forms
 		<li>
 			<input
 				type="text"
-				placeholder="Enter the label: the english word in the form and the form itself"
+				placeholder="Enter the label: the form description e.g. plural"
 				bind:value={forms[index].label}
+			/>
+			<input
+				type="text"
+				placeholder="Enter the english translation"
+				bind:value={forms[index].english}
 			/>
 			<input type="text" placeholder="Enter the value, konkani" bind:value={forms[index].value} />
 			<button onclick={() => forms.splice(index, 1)}>Remove</button>
 		</li>
 	{/each}
-	<button onclick={() => forms.push({ label: '', value: '' })}>Add Form</button>
+	<button onclick={() => forms.push({ label: '', english: '', value: '' })}>Add Form</button>
 </ul>
 
 examples

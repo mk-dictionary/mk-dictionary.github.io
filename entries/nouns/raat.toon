@@ -2,8 +2,8 @@ konkani_word: raat
 meaning[1|]: night
 part_of_speech: noun
 keywords: []
-forms[1|]{label|value}:
-  plural (nights)|raati
+forms[1|]{label|english|value}:
+  plural|nights|raati
 examples[1|]{konkani_sentence|english_sentence}:
   raatice mustu tund asaa|it is very cold in the night
 categories[1|]: beginner

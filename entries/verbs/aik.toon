@@ -2,8 +2,8 @@ konkani_word: aik
 meaning[2|]: listen|hear
 part_of_speech: verb
 keywords: []
-forms[1|]{label|value}:
-  past tense(listened)|aikale
+forms[1|]{label|english|value}:
+  past tense|listened|aikale
 examples[2|]{konkani_sentence|english_sentence}:
   tuv aikale gi?|have you heard?
   taka aik|listen to him/her

@@ -2,8 +2,8 @@ konkani_word: murki
 meaning[1|]: pot
 part_of_speech: noun
 keywords: []
-forms[1|]{label|value}:
-  plural (pots)|murkio
+forms[1|]{label|english|value}:
+  plural|pots|murkio
 examples[1|]{konkani_sentence|english_sentence}:
   I made rice in the pot|haave xiit murkiant kela
 categories[1|]: cooking

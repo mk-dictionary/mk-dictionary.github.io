@@ -2,8 +2,8 @@ konkani_word: gai
 meaning[1|]: cow
 part_of_speech: noun
 keywords[1|]: cattle
-forms[1|]{label|value}:
-  plural (cows)|gaiyo
+forms[1|]{label|english|value}:
+  plural|cows|gaiyo
 examples[1|]{konkani_sentence|english_sentence}:
   tha~i mustu gaiyo asat|there are many cows over there
 categories[1|]: animals

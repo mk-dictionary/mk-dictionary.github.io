@@ -2,9 +2,9 @@ konkani_word: jo
 meaning[1|]: eat
 part_of_speech: verb
 keywords: []
-forms[2|]{label|value}:
-  gerund (eating)|jeun
-  infinitive (to eat)|jeunk
+forms[2|]{label|english|value}:
+  gerund|eating|jeun
+  infinitive|to eat|jeunk
 examples[2|]{konkani_sentence|english_sentence}:
   buk lagta zalar jo|if you're hungry, eat
   haau jota|I will eat
