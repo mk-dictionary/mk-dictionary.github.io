@@ -3,17 +3,17 @@
 | Word           | Not Adding | Finished | Reviewed |
 | -------------- | :--------: | :------: | :------: |
 | a              |    [x]     |   [ ]    |   [ ]    |
-| able           |    [ ]     |   [ ]    |   [ ]    |
-| about          |    [ ]     |   [ ]    |   [ ]    |
+| able           |    [x]     |   [ ]    |   [ ]    |
+| about          |    [ ]     |   [x]    |   [ ]    |
 | account        |    [ ]     |   [ ]    |   [ ]    |
 | acid           |    [ ]     |   [ ]    |   [ ]    |
 | across         |    [ ]     |   [ ]    |   [ ]    |
 | act            |    [ ]     |   [ ]    |   [ ]    |
 | addition       |    [ ]     |   [ ]    |   [ ]    |
-| adjustment     |    [ ]     |   [ ]    |   [ ]    |
-| advertisement  |    [ ]     |   [ ]    |   [ ]    |
-| after          |    [ ]     |   [ ]    |   [ ]    |
-| again          |    [ ]     |   [ ]    |   [ ]    |
+| adjustment     |    [ ]     |   [x]    |   [ ]    |
+| advertisement  |    [x]     |   [ ]    |   [ ]    |
+| after          |    [ ]     |   [x]    |   [ ]    |
+| again          |    [ ]     |   [x]    |   [ ]    |
 | against        |    [ ]     |   [ ]    |   [ ]    |
 | agreement      |    [ ]     |   [ ]    |   [ ]    |
 | air            |    [ ]     |   [ ]    |   [ ]    |
@@ -29,7 +29,7 @@
 | answer         |    [ ]     |   [ ]    |   [ ]    |
 | ant            |    [ ]     |   [ ]    |   [ ]    |
 | any            |    [ ]     |   [ ]    |   [ ]    |
-| apparatus      |    [ ]     |   [ ]    |   [ ]    |
+| apparatus      |    [x]     |   [ ]    |   [ ]    |
 | apple          |    [ ]     |   [ ]    |   [ ]    |
 | approval       |    [ ]     |   [ ]    |   [ ]    |
 | arch           |    [ ]     |   [ ]    |   [ ]    |
@@ -449,7 +449,7 @@
 | minute         |    [ ]     |   [ ]    |   [ ]    |
 | mist           |    [ ]     |   [ ]    |   [ ]    |
 | mixed          |    [ ]     |   [ ]    |   [ ]    |
-| money          |    [ ]     |   [ ]    |   [ ]    |
+| money          |    [ ]     |   [x]    |   [ ]    |
 | monkey         |    [ ]     |   [ ]    |   [ ]    |
 | month          |    [ ]     |   [ ]    |   [ ]    |
 | moon           |    [ ]     |   [ ]    |   [ ]    |

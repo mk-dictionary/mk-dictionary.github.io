@@ -2,14 +2,14 @@
 
 | Phrase              | Not Adding | Finished | Reviewed |
 | ------------------- | :--------: | :------: | :------: |
-| each other          |    [ ]     |   [ ]    |   [ ]    |
+| each other          |    [ ]     |   [x]    |   [ ]    |
 | by the way          |    [ ]     |   [ ]    |   [ ]    |
 | of course           |    [ ]     |   [ ]    |   [ ]    |
 | all right           |    [ ]     |   [ ]    |   [ ]    |
 | by heart            |    [ ]     |   [ ]    |   [ ]    |
 | no matter           |    [ ]     |   [ ]    |   [ ]    |
 | as well             |    [ ]     |   [ ]    |   [ ]    |
-| on purpose          |    [ ]     |   [ ]    |   [ ]    |
+| on purpose          |    [ ]     |   [x]    |   [ ]    |
 | in fact             |    [ ]     |   [ ]    |   [ ]    |
 | at first            |    [ ]     |   [ ]    |   [ ]    |
 | I might             |    [ ]     |   [ ]    |   [ ]    |
@@ -20,7 +20,7 @@
 | had better          |    [ ]     |   [ ]    |   [ ]    |
 | would rather        |    [ ]     |   [ ]    |   [ ]    |
 | be supposed to      |    [ ]     |   [ ]    |   [ ]    |
-| keep -ing           |    [ ]     |   [ ]    |   [ ]    |
+| keep doing          |    [ ]     |   [x]    |   [ ]    |
 | end up              |    [ ]     |   [ ]    |   [ ]    |
 | turn out            |    [ ]     |   [ ]    |   [ ]    |
 | make sure           |    [ ]     |   [ ]    |   [ ]    |
@@ -202,5 +202,5 @@
 | calm down           |    [ ]     |   [ ]    |   [ ]    |
 | grow up             |    [ ]     |   [ ]    |   [ ]    |
 | settle down         |    [ ]     |   [ ]    |   [ ]    |
-| show off            |    [ ]     |   [ ]    |   [ ]    |
+| show off            |    [ ]     |   [x]    |   [ ]    |
 | mess up             |    [ ]     |   [ ]    |   [ ]    |
