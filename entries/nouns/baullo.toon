@@ -1,0 +1,11 @@
+konkani_word: baullo
+meaning[1|]: arm
+part_of_speech: noun
+keywords: []
+forms[1|]{label|english|value}:
+  "plural "|arms|baaulle
+examples[1|]{konkani_sentence|english_sentence}:
+  muje baaulle duktat|my arms hurt
+categories[2|]: body parts|health
+status: published
+note: null

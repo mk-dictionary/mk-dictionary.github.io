@@ -1,0 +1,12 @@
+konkani_word: petto
+meaning[1|]: dog
+part_of_speech: noun
+keywords: []
+forms[1|]{label|english|value}:
+  plural|dogs|pette
+examples[2|]{konkani_sentence|english_sentence}:
+  haau pette sangaataa kheltaa|I play with the dog
+  pette lagi vosaa nakaa|stay far from the dog
+categories[1|]: animals
+status: published
+note: null
