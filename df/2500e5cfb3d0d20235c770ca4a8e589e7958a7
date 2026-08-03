@@ -1,0 +1,33 @@
+entries/adjectives/god.toon
+  h_7ffaac8f5937a6 1-10
+entries/adjectives/tiik.toon
+  s_a0388d9f5ce2d0::t_b3ddc2df37acbc 8
+  s_a0388d9f5ce2d0::t_44267ec651439f 5-7
+  s_a0388d9f5ce2d0::t_3c83da497f056e 9
+  h_7ffaac8f5937a6 1-4
+entries/adjectives/ambos.toon
+  h_7ffaac8f5937a6 1-11
+entries/adjectives/kodu.toon
+  h_7ffaac8f5937a6 1-10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "df2500e5cfb3d0d20235c770ca4a8e589e7958a7",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_a0388d9f5ce2d0": {
+      "agent_id": {
+        "tool": "github-copilot-tab",
+        "id": "ai_tab-1785797198951",
+        "model": "default"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
