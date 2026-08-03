@@ -1,0 +1,14 @@
+entries/entries/pronouns/tumii.toon
+  h_7ffaac8f5937a6 13-14
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "0af5b236894d7e5565343093d6ab4e2f45a2595c",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
