@@ -1,0 +1,83 @@
+entries/nouns/igarz.toon
+  s_330b6e8d64b4cb::t_99eb339901c6a0 8
+entries/nouns/maazaar.toon
+  s_330b6e8d64b4cb::t_adfab2bce5dd8d 8
+entries/nouns/kail.toon
+  s_330b6e8d64b4cb::t_58ea27f7053ec6 8
+entries/verbs/naas.toon
+  s_330b6e8d64b4cb::t_d096e4f656cc13 9
+entries/pronouns/tu.toon
+  h_7ffaac8f5937a6 13
+entries/nouns/paixe.toon
+  s_330b6e8d64b4cb::t_a7f15703bb9d86 8
+  s_330b6e8d64b4cb::t_79f9cb00a1a05d 7
+entries/adjectives/tand.toon
+  s_330b6e8d64b4cb::t_bdc1bf8972c5f8 8
+  s_330b6e8d64b4cb::t_1a9bf13e560f97 9
+  s_330b6e8d64b4cb::t_ede9d44cc8b63f 4
+entries/verbs/vos.toon
+  s_330b6e8d64b4cb::t_5de9d002a4bf52 13
+entries/misc/naa.toon
+  s_330b6e8d64b4cb::t_ae460914c62859 13
+  s_330b6e8d64b4cb::t_b13756472b45cc 14
+  s_330b6e8d64b4cb::t_20f41e43366d23 12
+entries/nouns/raat.toon
+  s_330b6e8d64b4cb::t_e3ae93090a59a4 8
+entries/misc/taxe_zalean.toon
+  s_330b6e8d64b4cb::t_eb274a93d351ac 7
+entries/pronouns/tumii.toon
+  s_330b6e8d64b4cb::t_667b907d6c3070 14
+entries/misc/parteyan.toon
+  s_330b6e8d64b4cb::t_942615bcd505c2 7
+entries/adjectives/ambos.toon
+  s_330b6e8d64b4cb::t_5444bbf6106f08 9
+entries/adjectives/sadaai.toon
+  s_330b6e8d64b4cb::t_9673603466c773 7
+entries/misc/maager.toon
+  s_330b6e8d64b4cb::t_d7efdd636623f3 7
+entries/pronouns/haau.toon
+  s_330b6e8d64b4cb::t_d382b25e46efae 6,9
+  s_330b6e8d64b4cb::t_57fea8e4597f04 11
+entries/verbs/kar.toon
+  s_330b6e8d64b4cb::t_765b031736743c 11
+  s_330b6e8d64b4cb::t_36382770dcd9d8 9
+entries/verbs/ye.toon
+  s_330b6e8d64b4cb::t_1456f9cb1f31bc 13
+entries/nouns/handi.toon
+  s_330b6e8d64b4cb::t_d0b66103b58665 8
+entries/nouns/bokddi.toon
+  s_330b6e8d64b4cb::t_5e26f4a3b6addc 6
+entries/misc/taje_vixant.toon
+  s_330b6e8d64b4cb::t_de4ee76b73c8d2 7
+entries/misc/oprant.toon
+  s_330b6e8d64b4cb::t_9be8ec3aa11593 7
+entries/nouns/kunkad.toon
+  s_330b6e8d64b4cb::t_d138fa99277163 4,6
+entries/verbs/axe.toon
+  s_330b6e8d64b4cb::t_28d31f49b544ae 7
+"entries/misc/paixe lagtat.toon"
+  h_7ffaac8f5937a6 1,7
+entries/misc/ragta.toon
+  h_7ffaac8f5937a6 1,7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "714017cfa88f02ff8d1f2f0b1c181e8296258cb4",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_330b6e8d64b4cb": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_03620508effes8pNXFvmIMQdJ2",
+        "model": "unknown"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
