@@ -149,9 +149,11 @@
 	let toonOutput = $derived(encode(entryData, { delimiter: '|' }));
 
 	let targetFile = $derived(
+		
 		selected
 			? selected._file
-			: `entries/${FOLDER_BY_POS[pos]}/${(newFilename || word).replace(/\s+/g, '_')}.toon`
+			// why is this saving to entries/entries/... instead of entries/...? because the FOLDER_BY_POS is returning a folder name, not a full path. So we need to prepend "entries/" to it.
+			: `/${FOLDER_BY_POS[pos]}/${(newFilename || word).replace(/\s+/g, '_')}.toon`
 	);
 
 	async function save() {
@@ -299,6 +301,7 @@
 	<div>
 		<input type="text" placeholder="Konkani" bind:value={examples[i].konkani_sentence} />
 		<input type="text" placeholder="English" bind:value={examples[i].english_sentence} />
+		<input type="text" placeholder="Literal (optional)" bind:value={examples[i].literal} />
 		<button onclick={() => examples.splice(i, 1)}>x</button>
 	</div>
 {/each}
