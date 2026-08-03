@@ -1,0 +1,27 @@
+entries/nouns/petto.toon
+  h_7ffaac8f5937a6 1-12
+entries/nouns/haat.toon
+  h_7ffaac8f5937a6 1-2,5,7-10
+  h_7ffaac8f5937a6 3-4,6
+entries/misc/raagta.toon
+  h_7ffaac8f5937a6 1-14
+entries/nouns/baullo.toon
+  h_7ffaac8f5937a6 1-2,6,8-11
+entries/nouns/manzaat.toon
+  h_7ffaac8f5937a6 1-11
+entries/nouns/paay.toon
+  h_7ffaac8f5937a6 1-11
+entries_todo.md
+  h_7ffaac8f5937a6 28,33,37,325,400
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "4e1896f736e65a3a30622fd185b6c4306b9b1369",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
