@@ -1,12 +1,12 @@
 konkani_word: tand
 meaning[1|]: cold
 part_of_speech: adjective
-keywords[4|]: tundh|frigid|chilly|freezing
+keywords[4|]: tand|frigid|chilly|freezing
 forms: []
 examples[3|]{konkani_sentence|english_sentence}:
   bair tand asa|its cold outside
-  maaka tund kata|I feel cold
-  maaka tund lagta|I feel cold
+  maaka tand kata|I feel cold
+  maaka tand lagta|I feel cold
 categories[1|]: beginner
 status: published
 note: ""

@@ -6,9 +6,9 @@ forms[2|]{label|english|value}:
   more recent past tense|did/made|keli/kele
   earlier past tense|did/made|kela
 examples[3|]:
-  - konkani_sentence: haave .siit keli
+  - konkani_sentence: haave xiit keli
     english_sentence: I cooked rice
-  - konkani_sentence: haave .siit kele
+  - konkani_sentence: haave xiit kele
     english_sentence: I cooked rice
     literal: I made rice
   - konkani_sentence: haave raandhoi kela

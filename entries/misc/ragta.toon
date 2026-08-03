@@ -1,10 +1,10 @@
-konkani_word: raagta
+konkani_word: ragta
 meaning[1|]: wait for
 part_of_speech: misc
 keywords: []
 forms[3|]{label|english|value}:
   command|(you) wait|raakun raau
-  present tense|I'm waiting|raagta
+  present tense|I'm waiting|ragta
   present tense|I'm waiting|raakun asa
 examples[2|]{konkani_sentence|english_sentence}:
   haau tukaa ragta|I am waiting for you

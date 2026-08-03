@@ -3,12 +3,12 @@ meaning[2|]: I|me
 part_of_speech: pronoun
 keywords[4|]: haanv|haav|my|mine
 forms[6|]{label|english|value}:
-  possessive feminine|my|muje
+  possessive singular|my|muji
   possessive masculine|my|muzo
   possessive neuter|my|mujya
-  possessive plural|my|muji
+  possessive plural/formal|my|muje
   dative|to me|makaa
-  past tense|I did|haav
+  past tense|I did|haave
 examples[1|]{konkani_sentence|english_sentence}:
   haau konkani xikta|I'm learning konkani
 categories[1|]: beginner

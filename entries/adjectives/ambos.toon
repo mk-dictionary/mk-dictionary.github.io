@@ -6,6 +6,6 @@ forms: []
 examples[2|]{konkani_sentence|english_sentence}:
   ambo ambos asa|the mango is sour
   fallaa ambos asat|the fruits are sour
-categories[3|]: meals|cooking|meals
+categories[2|]: meals|cooking
 status: published
 note: null

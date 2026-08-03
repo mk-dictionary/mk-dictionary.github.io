@@ -1,10 +1,10 @@
-konkani_word: poishe lagtat
+konkani_word: paixe lagtat
 meaning[1|]: cost money
 part_of_speech: misc
 keywords: []
 forms: []
 examples[1|]{konkani_sentence|english_sentence}:
-  kitle poishe lagle|how much money did it cost?
+  kitle paixe lagle|how much money did it cost?
 categories[1|]: work
 status: draft
 note: null

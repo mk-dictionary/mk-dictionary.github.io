@@ -5,6 +5,6 @@ keywords: []
 forms[1|]{label|english|value}:
   plural|pans|kailio
 examples[1|]{konkani_sentence|english_sentence}:
-  I fried dosa in the pan|haave kailint polo baazlo
+  haave kailint polo baazlo|I fried dosa in the pan
 categories[1|]: cooking
 status: published
