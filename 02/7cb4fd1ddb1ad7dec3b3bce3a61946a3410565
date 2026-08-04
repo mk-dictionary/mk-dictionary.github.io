@@ -1,0 +1,32 @@
+entries/pronouns/te.toon
+  h_7ffaac8f5937a6 1-15
+phrases_todo.md
+  h_7ffaac8f5937a6 131
+entries/pronouns/to.toon
+  h_7ffaac8f5937a6 1-15
+entries/misc/naka.toon
+  h_7ffaac8f5937a6 1-10
+entries/misc/raawon_na.toon
+  h_7ffaac8f5937a6 1-10
+entries/misc/suru_kar.toon
+  h_7ffaac8f5937a6 1-10
+entries/misc/zai.toon
+  h_7ffaac8f5937a6 1-16
+entries/misc/zait.toon
+  h_7ffaac8f5937a6 1-10
+entries/verbs/bore_lag.toon
+  h_7ffaac8f5937a6 1-14
+entries_todo.md
+  h_7ffaac8f5937a6 702
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "027cb4fd1ddb1ad7dec3b3bce3a61946a3410565",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
