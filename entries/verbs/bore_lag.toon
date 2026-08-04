@@ -1,0 +1,14 @@
+konkani_word: bore lag
+meaning[2|]: to please|to be liked
+part_of_speech: verb
+keywords: []
+forms[3|]{label|english|value}:
+  past tense|(it) pleased|(te) bore lagle
+  negative|didn't please|bore lagun na
+  another person's action|like it when (he) does|(tane) kartaanaa
+examples[2|]{konkani_sentence|english_sentence|literal}:
+  maakaa salunk bore lagtaa|I like to walk|to walk pleases me
+  maakaa taane fulaa getaanaa bore lagtaa|I like when he buys flowers|when he buys flowers pleases me
+categories[1|]: beginner
+status: published
+note: null

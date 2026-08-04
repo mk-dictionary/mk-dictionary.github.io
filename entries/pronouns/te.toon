@@ -1,0 +1,15 @@
+konkani_word: te
+meaning[2|]: she|that
+part_of_speech: pronoun
+keywords[1|]: her
+forms[6|]{label|english|value}:
+  accusative|to her|takaa
+  genitive|"her "|taso
+  genitive|her|tace
+  genitive|her|tajaa
+  genitive|her|taji
+  past tense|she (did)|te
+examples: []
+categories[1|]: beginner
+status: published
+note: null

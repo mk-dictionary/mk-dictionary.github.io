@@ -1,0 +1,15 @@
+konkani_word: to
+meaning[1|]: he
+part_of_speech: pronoun
+keywords[2|]: him|his
+forms[6|]{label|english|value}:
+  accusative|to him|takaa
+  genitive|his|taso
+  genitive|his|tace
+  genitive|his|tajaa
+  genitive|his|taji
+  past tense|he (did)|to
+examples: []
+categories[1|]: beginner
+status: published
+note: null

@@ -699,7 +699,7 @@
 | stage          |    [ ]     |   [ ]    |   [ ]    |
 | stamp          |    [ ]     |   [ ]    |   [ ]    |
 | star           |    [ ]     |   [ ]    |   [ ]    |
-| start          |    [ ]     |   [ ]    |   [ ]    |
+| start          |    [ ]     |   [x]    |   [ ]    |
 | statement      |    [ ]     |   [ ]    |   [ ]    |
 | station        |    [ ]     |   [ ]    |   [ ]    |
 | steam          |    [ ]     |   [ ]    |   [ ]    |

@@ -128,7 +128,7 @@
 | feel hot            |    [ ]     |   [ ]    |   [ ]    |
 | have a headache     |    [ ]     |   [ ]    |   [ ]    |
 | have a fever        |    [ ]     |   [ ]    |   [ ]    |
-| I like              |    [ ]     |   [ ]    |   [ ]    |
+| I like              |    [ ]     |   [x]    |   [ ]    |
 | I need              |    [ ]     |   [ ]    |   [ ]    |
 | I remember          |    [ ]     |   [ ]    |   [ ]    |
 | I forget            |    [ ]     |   [ ]    |   [ ]    |

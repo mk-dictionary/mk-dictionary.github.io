@@ -1,0 +1,16 @@
+konkani_word: zai
+meaning[3|]: want|need|should
+part_of_speech: misc
+keywords: []
+forms[2|]{label|english|value}:
+  passive|(I) want|(maakaa) zai
+  active 1st/2nd/3rd person|"(I) want (that) "|(te) (maakaa) zai
+examples[2|]:
+  - konkani_sentence: maakaa awei-bapoi zai
+    english_sentence: I want my parents
+    literal: ""
+  - konkani_sentence: maakaa nidonk zai
+    english_sentence: I should sleep
+categories[1|]: beginner
+status: published
+note: null
