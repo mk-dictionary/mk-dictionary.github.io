@@ -1,0 +1,13 @@
+konkani_word: dor
+meaning[1|]: keep
+part_of_speech: verb
+keywords: []
+forms[3|]{label|english|value}:
+  present tense|keeps|dorta
+  past tense|kept|dorle
+  alternate form|keep|dor
+examples[1|]{konkani_sentence|english_sentence}:
+  boxio dori|keep the plates
+categories[1|]: beginner
+status: published
+note: null

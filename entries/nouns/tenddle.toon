@@ -1,0 +1,11 @@
+konkani_word: tenddle
+meaning[1|]: ivygourd
+part_of_speech: noun
+keywords: []
+forms[1|]{label|english|value}:
+  plural|ivygourds|tenddli
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  tenddli suke kela|I prepared dry ivygourd|I made ivygourd 'suke'
+categories[3|]: meals|cooking|gardening
+status: draft
+note: null

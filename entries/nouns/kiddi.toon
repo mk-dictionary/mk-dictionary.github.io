@@ -1,0 +1,15 @@
+konkani_word: kiddi
+meaning[2|]: worm|caterpillar
+part_of_speech: noun
+keywords: []
+forms[1|]{label|english|value}:
+  plural|worms|kiddio
+examples[2|]:
+  - konkani_sentence: kiddio baaz
+    english_sentence: fry the 'kiddio'
+    literal: fry the caterpillars
+  - konkani_sentence: kiddi zad khata
+    english_sentence: caterpillar eats the plant
+categories[3|]: meals|cooking|gardening
+status: published
+note: Can also refer to a caterpillar-shaped sweet

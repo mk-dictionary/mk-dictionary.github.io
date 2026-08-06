@@ -1,0 +1,15 @@
+konkani_word: bendde
+meaning[1|]: ladyfinger
+part_of_speech: noun
+keywords: []
+forms[1|]{label|english|value}:
+  plural|ladyfingers|benddi
+examples[2|]:
+  - konkani_sentence: benddi jo
+    english_sentence: eat the ladyfingers
+  - konkani_sentence: bendde zad benddi zalant
+    english_sentence: there are ladyfingers on the ladyfinger plant
+    literal: ladyfinger plant ladyfingers happened
+categories[3|]: meals|cooking|gardening
+status: draft
+note: null

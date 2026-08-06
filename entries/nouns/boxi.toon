@@ -1,0 +1,11 @@
+konkani_word: boxi
+meaning[1|]: plate
+part_of_speech: noun
+keywords: []
+forms[1|]{label|english|value}:
+  plural|plates|boxio
+examples[1|]{konkani_sentence|english_sentence}:
+  boxi dori|keep the plate
+categories[2|]: meals|cooking
+status: published
+note: null
