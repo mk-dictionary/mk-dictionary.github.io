@@ -151,7 +151,7 @@
 	let targetFile = $derived(
 		
 		selected
-			? selected._file
+			? selected._file.replace("/entries", "")
 			// why is this saving to entries/entries/... instead of entries/...? because the FOLDER_BY_POS is returning a folder name, not a full path. So we need to prepend "entries/" to it.
 			: `/${FOLDER_BY_POS[pos]}/${(newFilename || word).replace(/\s+/g, '_')}.toon`
 	);
