@@ -7,5 +7,5 @@ forms[1|]{label|english|value}:
 examples[1|]{konkani_sentence|english_sentence}:
   raatice mustu tand asaa|it is very cold in the night
 categories[1|]: beginner
+status: published
 note: null
-status: draft

@@ -6,5 +6,5 @@ forms: []
 examples[1|]{konkani_sentence|english_sentence|literal}:
   haau sadaai 'tv' poleyta|I watch tv daily|""
 categories[1|]: times
+status: published
 note: null
-status: draft
