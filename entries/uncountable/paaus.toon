@@ -1,0 +1,11 @@
+konkani_word: paaus
+meaning[1|]: rain
+part_of_speech: uncountable
+keywords: []
+forms: []
+examples[3|]{konkani_sentence|english_sentence|literal}:
+  paaus asa|it's raining|there is rain
+  ata paaus yete asa|now its raining|rain is coming now
+  paus gello|it stopped raining|rain went
+categories[2|]: weather|nature
+note: null

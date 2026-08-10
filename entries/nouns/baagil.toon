@@ -1,0 +1,10 @@
+konkani_word: baagil
+meaning[1|]: door
+part_of_speech: noun
+keywords: []
+forms[1|]{label|english|value}:
+  plural|doors|baaglaa
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  zalari baaglaa thaun bitr aile|the mosquito entered through the door|the mosquito came in through the door
+categories[2|]: household|buildings
+note: null

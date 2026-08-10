@@ -1,0 +1,14 @@
+konkani_word: zanel
+meaning[1|]: window
+part_of_speech: noun
+keywords: []
+forms[1|]{label|english|value}:
+  plural|windows|zanelaa
+examples[2|]:
+  - konkani_sentence: garaak mustu zanelaa asat
+    english_sentence: there are many windows in the house
+  - konkani_sentence: mus zanelaa taaun bitr ailo
+    english_sentence: the fly came in through the window
+    literal: from the window the fly came in
+categories[2|]: household|buildings
+note: null

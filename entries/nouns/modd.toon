@@ -1,0 +1,10 @@
+konkani_word: modd
+meaning[1|]: cloud
+part_of_speech: noun
+keywords: []
+forms[1|]{label|english|value}:
+  plural|clouds|moddaa
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  bair mustu moddaa asat|its very cloudy|there are many clouds outside
+categories[2|]: weather|nature
+note: null
