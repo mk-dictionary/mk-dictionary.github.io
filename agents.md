@@ -37,10 +37,14 @@ schema/entry.ts        — Zod: EntrySchema, FormSchema, ExampleSchema
 schema/categories.ts   — 27 category names
 scripts/validation.ts  — CI: parse + validate .toon files
 scripts/toon.ts        — legacy JSON → TOON converter
+scripts/fill_swadesh_todo.ts — fill entries_todo_swadesh.md from entries/
 src/lib/import.ts      — glob import all .toon, compute slug
 src/lib/fuse.ts        — Fuse.js index build
 src/lib/cmpnts/Search.svelte — debounced search UI
 entries/               — data: organized by POS folder
+entries_todo_basic.md  — Basic English (Ogden 850) entry tracker
+entries_todo_swadesh.md — Swadesh list entry tracker
+phrases_todo.md        — phrase entry tracker
 ```
 
 ## Routes

@@ -1,4 +1,4 @@
-﻿# Entries TODO List
+﻿# Basic English Entries TODO List
 
 | Word           | Not Adding | Finished | Reviewed |
 | -------------- | :--------: | :------: | :------: |
