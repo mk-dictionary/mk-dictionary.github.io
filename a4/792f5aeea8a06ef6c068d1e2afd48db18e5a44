@@ -1,0 +1,58 @@
+entries/nouns/batato.toon
+  s_b24816ae866416::t_19b404b34af170 1-10
+  s_b24816ae866416::t_3f590a0593012e 11
+entries/nouns/boble.toon
+  s_b24816ae866416::t_19b404b34af170 1-9
+  s_b24816ae866416::t_34f3bcbdf496dd 10
+entries/nouns/taanti.toon
+  s_b24816ae866416::t_19b404b34af170 1-10
+  s_b24816ae866416::t_2b93972e7936ec 11
+entries/nouns/waaynge.toon
+  s_b24816ae866416::t_19b404b34af170 1-9
+  s_b24816ae866416::t_a41edf0bb00d22 10
+entries/misc/bifaa_maas.toon
+  s_b24816ae866416::t_19b404b34af170 1-9
+  s_b24816ae866416::t_6e296bc2d3bfee 10
+entries/nouns/suke.toon
+  s_b24816ae866416::t_19b404b34af170 1-10
+  s_b24816ae866416::t_04dd6823d3e716 11
+entries/nouns/mirsaang.toon
+  s_b24816ae866416::t_19b404b34af170 1-11
+  s_b24816ae866416::t_649b60a2077be3 12
+entries/nouns/kaddi.toon
+  s_b24816ae866416::t_19b404b34af170 1-14
+  s_b24816ae866416::t_10113db56d5d09 15
+entries/nouns/bokro.toon
+  s_b24816ae866416::t_19b404b34af170 5,7,10-11
+  s_b24816ae866416::t_59f058d6ea7093 12
+entries/nouns/raandoi.toon
+  s_b24816ae866416::t_19b404b34af170 1-9
+  s_b24816ae866416::t_d8cb490e75440e 10
+entries/nouns/niste.toon
+  s_b24816ae866416::t_19b404b34af170 1-9
+  s_b24816ae866416::t_8e1c84f1e4a618 10
+entries/nouns/gosale.toon
+  s_b24816ae866416::t_19b404b34af170 1-9
+  s_b24816ae866416::t_054529fbcb21b6 10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "a4792f5aeea8a06ef6c068d1e2afd48db18e5a44",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_b24816ae866416": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_012b15ad5ffeCojXxJIgTxLbg6",
+        "model": "unknown"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
