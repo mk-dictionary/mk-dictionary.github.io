@@ -48,10 +48,6 @@ _Avoid_: Word class, POS (accepted abbreviation in code but write in full in doc
 Part of Speech for particles, phrases, and items that don't fit traditional grammatical classes.
 _Avoid_: Other, miscellaneous (too vague)
 
-**Status**:
-A visibility toggle. `published` entries appear in the site; `draft` entries exist in the repo but are hidden.
-_Avoid_: State, stage, workflow status (implies lifecycle beyond publish/hide)
-
 **TOON**:
 The custom text format (`.toon` files) used to store Entries. Pipe-delimited key-value with array and object syntax.
 _Avoid_: JSON, YAML, config file

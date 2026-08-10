@@ -6,5 +6,4 @@ forms: []
 examples[1|]{konkani_sentence|english_sentence}:
   gosale dunpara suke kelle|we prepared ridgegourd for lunch
 categories[2|]: meals|cooking
-status: published
 note: null

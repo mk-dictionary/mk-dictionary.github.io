@@ -17,8 +17,7 @@ export const entries = Object.values(entriesArray)
 			.replace(/^\/?entries\/([^/]+)\/([^/]+)$/, '/entries/$1-$2');
 
 		return entry;
-	}) //@ts-expect-error again, fine
-	.filter((entry) => entry.status === 'published') as Entry[];
+	}) as Entry[];
 
 // the type of our entries
 type Entry = {
@@ -29,7 +28,6 @@ type Entry = {
 	forms: { label: string; english: string; value: string }[];
 	examples: { konkani_sentence: string; english_sentence: string }[];
 	categories: string[];
-	status: string;
 	note: string;
 	path: string;
 };

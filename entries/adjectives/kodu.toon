@@ -6,5 +6,4 @@ forms: []
 examples[1|]{konkani_sentence|english_sentence}:
   kaaraante kodu|bitter-gourd is bitter
 categories[3|]: beginner|meals|cooking
-status: published
 note: null

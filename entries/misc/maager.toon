@@ -6,5 +6,4 @@ forms: []
 examples[1|]{konkani_sentence|english_sentence}:
   haau maager jyota|I will eat later
 categories[1|]: beginner
-status: draft
 note: null

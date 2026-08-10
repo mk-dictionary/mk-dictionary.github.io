@@ -12,7 +12,6 @@
 		forms: { label: string; english: string; value: string }[];
 		examples: { konkani_sentence: string; english_sentence: string; literal?: string }[];
 		categories: string[];
-		status: string;
 		note: string | null;
 	};
 
@@ -78,7 +77,6 @@
 		[]
 	);
 	let cats = $state<string[]>([]);
-	let status = $state<'draft' | 'published'>('draft');
 	let note = $state('');
 	let hasNote = $state(false);
 	let newFilename = $state('');
@@ -106,7 +104,6 @@
 		forms = e.forms ? e.forms.map((f) => ({ ...f })) : [];
 		examples = e.examples ? e.examples.map((x) => ({ ...x })) : [];
 		cats = [...e.categories];
-		status = e.status as 'draft' | 'published';
 		if (e.note) {
 			hasNote = true;
 			note = e.note;
@@ -127,7 +124,6 @@
 		forms = [];
 		examples = [];
 		cats = [];
-		status = 'draft';
 		hasNote = false;
 		note = '';
 		newFilename = '';
@@ -142,7 +138,6 @@
 		forms: forms.filter((f) => f.label || f.english || f.value),
 		examples: examples.filter((x) => x.konkani_sentence || x.english_sentence),
 		categories: cats,
-		status,
 		note: hasNote && note ? note : null
 	});
 
@@ -214,7 +209,6 @@
 				>
 					<td>{e.konkani_word}</td>
 					<td>{e.part_of_speech}</td>
-					<td>{e.status}</td>
 					<td>{e._path}</td>
 				</tr>
 			{/each}
@@ -248,16 +242,6 @@
 			<option value="pronoun">pronoun</option>
 			<option value="uncountable">uncountable</option>
 			<option value="misc">misc</option>
-		</select>
-	</label>
-</div>
-
-<div>
-	<label
-		>Status:
-		<select bind:value={status}>
-			<option value="draft">draft</option>
-			<option value="published">published</option>
 		</select>
 	</label>
 </div>

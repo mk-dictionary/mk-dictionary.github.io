@@ -26,7 +26,7 @@ function getFilesToCheck(): string[] {
 	return all;
 }
 
-function checkFile(path: string): { errors: string[]; warnings: string[]; isDraft: boolean } {
+function checkFile(path: string): { errors: string[]; warnings: string[] } {
 	const errors: string[] = [];
 	const warnings: string[] = [];
 
@@ -36,7 +36,7 @@ function checkFile(path: string): { errors: string[]; warnings: string[]; isDraf
 
 	if (!expectedPos) {
 		errors.push(`unrecognized folder "${folder}" — not a known part of speech`);
-		return { errors, warnings, isDraft: false };
+		return { errors, warnings };
 	}
 
 	let raw: string;
@@ -44,7 +44,7 @@ function checkFile(path: string): { errors: string[]; warnings: string[]; isDraf
 		raw = readFileSync(path, 'utf-8');
 	} catch (e) {
 		errors.push(`could not read file — ${(e as Error).message}`);
-		return { errors, warnings, isDraft: false };
+		return { errors, warnings };
 	}
 
 	let toon: unknown;
@@ -52,7 +52,7 @@ function checkFile(path: string): { errors: string[]; warnings: string[]; isDraf
 		toon = decode(raw);
 	} catch (e) {
 		errors.push(`invalid TOON — ${(e as Error).message}`);
-		return { errors, warnings, isDraft: false };
+		return { errors, warnings };
 	}
 
 	const result = EntrySchema.safeParse(toon);
@@ -60,7 +60,7 @@ function checkFile(path: string): { errors: string[]; warnings: string[]; isDraf
 		for (const issue of result.error.issues) {
 			errors.push(`${issue.path.join('.') || '(root)'}: ${issue.message}`);
 		}
-		return { errors, warnings, isDraft: false };
+		return { errors, warnings };
 	}
 
 	if (result.data.part_of_speech !== expectedPos) {
@@ -83,7 +83,7 @@ function checkFile(path: string): { errors: string[]; warnings: string[]; isDraf
 		}
 	}
 
-	return { errors, warnings, isDraft: result.data.status === 'draft' };
+	return { errors, warnings };
 }
 
 const files = getFilesToCheck();
@@ -95,11 +95,9 @@ if (files.length === 0) {
 
 let hasError = false;
 let hasWarning = false;
-let draftCount = 0;
 
 for (const path of files) {
-	const { errors, warnings, isDraft } = checkFile(path);
-	if (isDraft) draftCount++;
+	const { errors, warnings } = checkFile(path);
 	if (errors.length > 0) {
 		hasError = true;
 		console.error(`✗ ${path}`);
@@ -110,10 +108,6 @@ for (const path of files) {
 		console.warn(`⚠ ${path}`);
 		for (const w of warnings) console.warn(`    ${w}`);
 	}
-}
-
-if (draftCount > 0) {
-	console.log(`\n${draftCount} draft entr${draftCount === 1 ? 'y' : 'ies'} (hidden from site).`);
 }
 
 if (hasError) {

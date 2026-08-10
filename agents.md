@@ -16,7 +16,6 @@ See CONTEXT.md. Key terms:
 - **Keyword** — search metadata only
 - **Category** — thematic group (27 predefined)
 - **Usage Note** — context/origin info (`note` field)
-- **Status** — `published` (visible) | `draft` (hidden)
 - **Slug** — URL: `entries/{folder}-{filename}`
 
 ## Stack
@@ -38,7 +37,7 @@ schema/entry.ts        — Zod: EntrySchema, FormSchema, ExampleSchema
 schema/categories.ts   — 27 category names
 scripts/validation.ts  — CI: parse + validate .toon files
 scripts/toon.ts        — legacy JSON → TOON converter
-src/lib/import.ts      — glob import all .toon, compute slug, filter published
+src/lib/import.ts      — glob import all .toon, compute slug
 src/lib/fuse.ts        — Fuse.js index build
 src/lib/cmpnts/Search.svelte — debounced search UI
 entries/               — data: organized by POS folder
@@ -67,7 +66,6 @@ npm run format   # prettier write
 ## Conventions
 
 - `part_of_speech` must match parent folder name
-- Only `published` entries included in app
 - Slug = `entries/{folder}-{filename-without-.toon}`, spaces→underscore
 - Keywords lowercased on import
 - Delimiter in .toon files: `|`

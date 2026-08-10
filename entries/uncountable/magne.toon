@@ -6,4 +6,3 @@ forms: []
 examples[1|]{konkani_sentence|english_sentence}:
   ami magne karia|lets say prayers
 categories[1|]: religion
-status: published

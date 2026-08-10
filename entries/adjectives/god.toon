@@ -6,5 +6,4 @@ forms: []
 examples[1|]{konkani_sentence|english_sentence}:
   fallaa god asat|the fruits are sweet
 categories[1|]: beginner
-status: published
 note: null

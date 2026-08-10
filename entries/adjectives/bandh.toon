@@ -6,5 +6,4 @@ forms: []
 examples[1|]{konkani_sentence|english_sentence|literal}:
   bagil bandh kar|close the door|make the door closed
 categories[1|]: beginner
-status: published
 note: null

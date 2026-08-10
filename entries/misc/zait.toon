@@ -6,5 +6,4 @@ forms: []
 examples[1|]{konkani_sentence|english_sentence}:
   te zait|this is good
 categories[1|]: beginner
-status: draft
 note: null

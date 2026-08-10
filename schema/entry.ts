@@ -35,7 +35,6 @@ export const EntrySchema = z.object({
 	forms: z.array(FormSchema).optional(),
 	examples: z.array(ExampleSchema).optional(),
 	categories: z.array(z.enum(categories)).optional(),
-	status: z.enum(['draft', 'published']),
 	note: z.string().nullable().optional()
 });
 

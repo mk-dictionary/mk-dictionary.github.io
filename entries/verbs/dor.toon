@@ -9,5 +9,4 @@ forms[3|]{label|english|value}:
 examples[1|]{konkani_sentence|english_sentence}:
   boxio dori|keep the plates
 categories[1|]: beginner
-status: published
 note: null

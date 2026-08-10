@@ -6,5 +6,4 @@ forms: []
 examples[1|]{konkani_sentence|english_sentence}:
   salunk suru kar|start to walk
 categories[1|]: beginner
-status: published
 note: null

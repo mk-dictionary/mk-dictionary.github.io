@@ -6,5 +6,4 @@ forms: []
 examples[1|]{konkani_sentence|english_sentence}:
   gaauant bifaa maas mella na|"we cant find beef in \"gaau\""
 categories[2|]: meals|cooking
-status: draft
 note: null

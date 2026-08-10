@@ -29,8 +29,7 @@
 			forms,
 			examples,
 			categories,
-			note: isNote ? note : null,
-			status: 'draft'
+			note: isNote ? note : null
 		};
 	});
 
