@@ -1,0 +1,30 @@
+entries/nouns/baagil.toon
+  h_7ffaac8f5937a6 1-10
+entries/nouns/darna.toon
+  h_7ffaac8f5937a6 1-10
+entries/nouns/modd.toon
+  h_7ffaac8f5937a6 1-10
+entries/nouns/neketr.toon
+  h_7ffaac8f5937a6 1-10
+entries/nouns/suriyo.toon
+  h_7ffaac8f5937a6 1-9
+entries/nouns/voat.toon
+  h_7ffaac8f5937a6 1-11
+entries/nouns/wunut.toon
+  h_7ffaac8f5937a6 1-11
+entries/nouns/zanel.toon
+  h_7ffaac8f5937a6 1-14
+entries/uncountable/paaus.toon
+  h_7ffaac8f5937a6 1-11
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "c2aad91b22eea50298f3587cf13075502bdff707",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
