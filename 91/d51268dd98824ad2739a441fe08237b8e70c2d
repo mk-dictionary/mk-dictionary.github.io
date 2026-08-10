@@ -1,0 +1,55 @@
+entries_todo.md
+  s_3cd3ea2af9997b::t_e8e50d8207bc90 76
+  s_3cd3ea2af9997b::t_e9ea50422349c8 550
+  s_3cd3ea2af9997b::t_bb373ef453cc66 634
+  s_3cd3ea2af9997b::t_846d0af3e463ed 379
+  s_3cd3ea2af9997b::t_0403552bd8e701 439
+  s_3cd3ea2af9997b::t_5eb99f5fb28be3 805
+  s_3cd3ea2af9997b::t_1ead07ecd8209b 717
+  s_3cd3ea2af9997b::t_eed6e86e09b497 666
+  s_3cd3ea2af9997b::t_504cbd035894f7 845
+  s_3cd3ea2af9997b::t_4d37a26bf69460 732
+  s_3cd3ea2af9997b::t_7c8b449048bd78 141
+  s_3cd3ea2af9997b::t_8c675b6f330eb9 749
+  s_3cd3ea2af9997b::t_32268b595860f0 735
+  s_3cd3ea2af9997b::t_ad26328d56c0de 534
+  s_3cd3ea2af9997b::t_6092e4a8c106a6 339
+  s_3cd3ea2af9997b::t_4da7eb4b2ef997 803
+  s_3cd3ea2af9997b::t_9da785f1ff5a94 291
+  s_3cd3ea2af9997b::t_b8f0abe2265fea 334
+  s_3cd3ea2af9997b::t_784fe28d9fd85f 535
+  s_3cd3ea2af9997b::t_d84a426640120b 537
+  s_3cd3ea2af9997b::t_07ff9b31a7251f 833
+  s_3cd3ea2af9997b::t_a2ff5817c2c1d3 696
+  s_3cd3ea2af9997b::t_7c8f0d94eb550a 215
+  s_3cd3ea2af9997b::t_b0cf9a5f9a6bb4 473
+  s_3cd3ea2af9997b::t_42de755701cc91 629
+  s_3cd3ea2af9997b::t_88b8dcc80fba98 280
+  s_3cd3ea2af9997b::t_39e006083bc7a8 655
+  s_3cd3ea2af9997b::t_0eda6c54b112d7 233
+  s_3cd3ea2af9997b::t_b7b846c05e0df8 499
+  s_3cd3ea2af9997b::t_bb22935cd84219 578
+  s_3cd3ea2af9997b::t_59c219c2c90cca 701
+  s_3cd3ea2af9997b::t_200d5e84ce6eb1 140
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "91d51268dd98824ad2739a441fe08237b8e70c2d",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_3cd3ea2af9997b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_01291b571ffeZz1n994WuS4dei",
+        "model": "unknown"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
