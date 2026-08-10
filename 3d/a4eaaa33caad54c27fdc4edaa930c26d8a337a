@@ -1,0 +1,34 @@
+agents.md
+  s_3cd3ea2af9997b::t_c02f2d38746bf3 40
+  s_3cd3ea2af9997b::t_86c97c0915dd18 45-47
+README.md
+  s_3cd3ea2af9997b::t_948da5bf5ecb33 3-8
+entries_todo_swadesh.md
+  s_3cd3ea2af9997b::t_d69e775bd0ed5d 1-3
+  h_7ffaac8f5937a6 4
+  s_3cd3ea2af9997b::t_def6a4acfa3b85 5-26,28-54,56-62,64-66,68-110,112-230
+  s_3cd3ea2af9997b::t_d06b56498852dd 27,55,63,67,111
+entries_todo_basic.md
+  h_7ffaac8f5937a6 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "3da4eaaa33caad54c27fdc4edaa930c26d8a337a",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_3cd3ea2af9997b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_01291b571ffeZz1n994WuS4dei",
+        "model": "unknown"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
