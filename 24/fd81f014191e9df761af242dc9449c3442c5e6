@@ -1,0 +1,24 @@
+entries_todo_basic.md
+  s_3cd3ea2af9997b::t_862b88f5ac4014 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "24fd81f014191e9df761af242dc9449c3442c5e6",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_3cd3ea2af9997b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_01291b571ffeZz1n994WuS4dei",
+        "model": "unknown"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
