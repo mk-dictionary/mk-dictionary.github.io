@@ -1,0 +1,10 @@
+konkani_word: niste
+meaning[1|]: dry dish
+part_of_speech: noun
+keywords: []
+forms: []
+examples[1|]{konkani_sentence|english_sentence}:
+  ami niste danparaa khale|"we ate \"niste\" in the afternoon"
+categories[2|]: meals|cooking
+status: draft
+note: null

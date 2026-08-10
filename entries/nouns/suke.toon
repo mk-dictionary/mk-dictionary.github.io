@@ -1,0 +1,11 @@
+konkani_word: suke
+meaning[1|]: dry food
+part_of_speech: noun
+keywords[1|]: sukha
+forms[1|]{label|english|value}:
+  plural|dry foods|suke
+examples[1|]{konkani_sentence|english_sentence}:
+  ami suke danparaa khale|"we ate \"suke\" in the afternoon"
+categories[2|]: meals|cooking
+status: draft
+note: null

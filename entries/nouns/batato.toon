@@ -1,0 +1,11 @@
+konkani_word: batato
+meaning[1|]: potato
+part_of_speech: noun
+keywords: []
+forms[1|]{label|english|value}:
+  plural|potatoes|batate
+examples[1|]{konkani_sentence|english_sentence}:
+  batate ani boble kaddi bore zata|potato and bottlegourd curry is good
+categories[2|]: meals|cooking
+status: published
+note: null
