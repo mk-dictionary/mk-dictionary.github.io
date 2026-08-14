@@ -1,0 +1,22 @@
+konkani_word: dau~
+meaning[1|]: run
+part_of_speech: verb
+keywords[1|]: jog
+forms[9|]{label|english|value}:
+  present tense|runs|dau~ta
+  past tense 1st person|I ran|haau dau~lo
+  past tense 3rd person masculine|He ran|to dau~lo
+  past tense 3rd person feminine|She ran|te dau~le
+  past tense 2rd person masculine|You ran|tu dau~loi
+  past tense 2rd person feminine|You ran|tu dau~le
+  past tense 1st person plural|We ran|ami dau~lyau
+  past tense 3rd person plural|They ran|ti dau~li
+  past tense 2nd person plural|Y'all ran|tumi daulyat
+examples[2|]:
+  - konkani_sentence: ami dau~tau~
+    english_sentence: we run
+  - konkani_sentence: dawaa nakaa
+    english_sentence: don't run
+    literal: running is not good
+categories[2|]: transportation|health
+note: null

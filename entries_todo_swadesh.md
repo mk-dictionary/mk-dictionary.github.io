@@ -122,7 +122,7 @@
 | to dig                                          |  [ ]  |                 |
 | to swim                                         |  [ ]  |                 |
 | to fly                                          |  [ ]  |                 |
-| to walk                                         |  [ ]  |                 |
+| to walk                                         |  [x]  | sal             |
 | to come                                         |  [x]  | ye              |
 | to lie (as in a bed)                            |  [ ]  |                 |
 | to sit                                          |  [x]  | bos             |
@@ -222,7 +222,7 @@
 | to take                                         |  [x]  | ghe, kad        |
 | thigh                                           |  [ ]  |                 |
 | wood                                            |  [ ]  |                 |
-| to run                                          |  [ ]  |                 |
+| to run                                          |  [x]  | dau             |
 | to cry/weep                                     |  [ ]  |                 |
 | sweet                                           |  [x]  | god             |
 | shade/shadow                                    |  [ ]  |                 |

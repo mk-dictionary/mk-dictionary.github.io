@@ -2,14 +2,16 @@ konkani_word: vos
 meaning[2|]: go|leave
 part_of_speech: verb
 keywords[1|]: depart
-forms[6|]{label|english|value}:
+forms[8|]{label|english|value}:
   first person past tense|I went|(haau) gello
   second person past tense|you went|(tu) gelle
   third person feminine past tense|she went|(te) gelle
   third person masculine past tense|he went|(to) gello
   third person plural past tense|they went|(ti) gelli
   first person plural past tense|we went|(ami) gellyau
+  first person plural imperative|let's go|(ami) vosya
+  2nd person plural imperative|y'all go|(tumi) vosa
 examples[1|]{konkani_sentence|english_sentence}:
   haau vetaa|I am going
-categories[1|]: beginner
-note: ""
+categories[2|]: beginner|transportation
+note: null
