@@ -1,0 +1,14 @@
+entries/nouns/bataato.toon
+  h_7ffaac8f5937a6 1,6,8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "3e628c8eedde2be61d3797b89e75338ef8c47698",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
