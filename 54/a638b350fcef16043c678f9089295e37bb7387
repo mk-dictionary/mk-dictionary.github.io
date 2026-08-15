@@ -1,0 +1,36 @@
+entries_todo_swadesh.md
+  h_7ffaac8f5937a6 32-42
+entries/adjectives/axer.toon
+  h_7ffaac8f5937a6 1-9
+entries/adjectives/datt.toon
+  h_7ffaac8f5937a6 1-10
+entries/adjectives/laamb.toon
+  h_7ffaac8f5937a6 1-11
+entries/adjectives/laan.toon
+  h_7ffaac8f5937a6 1-13
+entries/adjectives/motwo.toon
+  h_7ffaac8f5937a6 1-9
+entries/adjectives/rund.toon
+  h_7ffaac8f5937a6 1-9
+entries/adjectives/zadd.toon
+  h_7ffaac8f5937a6 1-10
+entries/misc/bhaail_munis.toon
+  h_7ffaac8f5937a6 1-10
+entries/misc/dadlo_munis.toon
+  h_7ffaac8f5937a6 1-10
+entries/nouns/barik.toon
+  h_7ffaac8f5937a6 1-10
+entries/nouns/munis.toon
+  h_7ffaac8f5937a6 1-10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "54a638b350fcef16043c678f9089295e37bb7387",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
