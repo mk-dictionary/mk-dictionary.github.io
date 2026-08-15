@@ -29,17 +29,17 @@
 | four                                            |  [ ]  |                 |
 | five                                            |  [ ]  |                 |
 | big                                             |  [ ]  |                 |
-| long                                            |  [ ]  |                 |
-| wide                                            |  [ ]  |                 |
-| thick                                           |  [ ]  |                 |
-| heavy                                           |  [ ]  |                 |
-| small                                           |  [ ]  |                 |
-| short                                           |  [ ]  |                 |
-| narrow                                          |  [ ]  |                 |
-| thin                                            |  [ ]  |                 |
-| woman                                           |  [ ]  |                 |
-| man (adult male)                                |  [ ]  |                 |
-| man (human being)                               |  [ ]  |                 |
+| long                                            |  [x]  | laamb           |
+| wide                                            |  [x]  | rund            |
+| thick                                           |  [x]  | datt            |
+| heavy                                           |  [x]  | zadd            |
+| small                                           |  [x]  | laan            |
+| short                                           |  [x]  | motwo           |
+| narrow                                          |  [x]  | axer            |
+| thin                                            |  [x]  | barik           |
+| woman                                           |  [x]  | bhaail munis    |
+| man (adult male)                                |  [x]  | dadlo munis     |
+| man (human being)                               |  [x]  | munis           |
 | child                                           |  [x]  | bhurgo, bhurge  |
 | wife                                            |  [x]  | bail            |
 | husband                                         |  [x]  | go              |

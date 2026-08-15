@@ -1,0 +1,10 @@
+konkani_word: bhaail munis
+meaning[1|]: woman
+part_of_speech: misc
+keywords[1|]: lady
+forms[1|]{label|english|value}:
+  plural|women|bhaail munxaa
+examples[1|]{konkani_sentence|english_sentence}:
+  bhaail munxa sangaataa salun vetaat|the ladies are walking together
+categories: []
+note: null

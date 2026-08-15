@@ -1,0 +1,13 @@
+konkani_word: laan
+meaning[1|]: small
+part_of_speech: adjective
+keywords[2|]: tiny|mini
+forms: []
+examples[2|]:
+  - konkani_sentence: maaka laan bhaau asa
+    english_sentence: I have a little brother
+    literal: I have a small brother
+  - konkani_sentence: maazaar laan asa
+    english_sentence: the cat is small
+categories[1|]: beginner
+note: null

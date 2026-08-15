@@ -1,0 +1,10 @@
+konkani_word: munis
+meaning[1|]: human
+part_of_speech: noun
+keywords[1|]: people
+forms[1|]{label|english|value}:
+  plural|people|munxaa
+examples[1|]{konkani_sentence|english_sentence}:
+  igarzjent mustu munxaa|there are many people in the church
+categories: []
+note: null
