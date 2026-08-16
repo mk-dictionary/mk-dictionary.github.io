@@ -1,0 +1,10 @@
+konkani_word: diwodd
+meaning[1|]: snake
+part_of_speech: noun
+keywords: []
+forms[1|]{label|english|value}:
+  plural|snake|diwodd
+examples[1|]{konkani_sentence|english_sentence}:
+  mustu diwodd asaat|there are many snakes
+categories[1|]: animals
+note: null

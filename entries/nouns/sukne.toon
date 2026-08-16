@@ -1,0 +1,10 @@
+konkani_word: sukne
+meaning[1|]: bird
+part_of_speech: noun
+keywords: []
+forms[1|]{label|english|value}:
+  plural|birds|sukni
+examples[1|]{konkani_sentence|english_sentence}:
+  haave mustu sukni polele|I saw many birds
+categories[1|]: animals
+note: null

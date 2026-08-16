@@ -46,18 +46,18 @@
 | mother                                          |  [x]  | awei            |
 | father                                          |  [x]  | bapoi           |
 | animal                                          |  [x]  | manzaat         |
-| fish                                            |  [ ]  |                 |
-| bird                                            |  [ ]  |                 |
+| fish                                            |  [x]  | masli                |
+| bird                                            |  [x]  | sukne                |
 | dog                                             |  [x]  | petto           |
-| louse                                           |  [ ]  |                 |
-| snake                                           |  [ ]  |                 |
+| louse                                           |  [x]  | wu                |
+| snake                                           |  [x]  | diwodd                |
 | worm                                            |  [x]  | kiddi           |
-| tree                                            |  [ ]  |                 |
-| forest                                          |  [ ]  |                 |
-| stick                                           |  [ ]  |                 |
-| fruit                                           |  [ ]  |                 |
+| tree                                            |  [x]  | ruuk                |
+| forest                                          |  [x]  | raan                |
+| stick                                           |  [x]  | boddi                |
+| fruit                                           |  [x]  | fol                |
 | seed                                            |  [x]  | bi              |
-| leaf                                            |  [ ]  |                 |
+| leaf                                            |  [x]  | paan                |
 | root                                            |  [ ]  |                 |
 | bark (of a tree)                                |  [ ]  |                 |
 | flower                                          |  [ ]  |                 |

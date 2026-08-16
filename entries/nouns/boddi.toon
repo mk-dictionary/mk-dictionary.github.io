@@ -1,0 +1,10 @@
+konkani_word: boddi
+meaning[1|]: stick
+part_of_speech: noun
+keywords: []
+forms[1|]{label|english|value}:
+  plural|sticks|boddio
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  to boddi geun salta|he walks with a stick|taking a stick he walked
+categories[1|]: nature
+note: null

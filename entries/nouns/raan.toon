@@ -1,0 +1,11 @@
+konkani_word: raan
+meaning[1|]: forest
+part_of_speech: noun
+keywords: []
+forms[1|]{label|english|value}:
+  plural|forests|raanaa
+examples[2|]{konkani_sentence|english_sentence}:
+  garaa lagi raan asa|near the house is a forest
+  haau raana bitar gello|I went into the forest
+categories[1|]: nature
+note: null

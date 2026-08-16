@@ -1,0 +1,11 @@
+konkani_word: paan
+meaning[1|]: leaf
+part_of_speech: noun
+keywords: []
+forms[1|]{label|english|value}:
+  plural|leaves|paanaa
+examples[2|]{konkani_sentence|english_sentence}:
+  rukaak mustu paanaa asat|the tree has many leaves
+  paanaa suktat|the leaves are drying
+categories[2|]: weather|nature
+note: null

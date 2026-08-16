@@ -1,0 +1,10 @@
+konkani_word: fol
+meaning[1|]: fruit
+part_of_speech: noun
+keywords: []
+forms[1|]{label|english|value}:
+  plural|fruits|folaa
+examples[1|]{konkani_sentence|english_sentence}:
+  taka folaa kaaunk bore lagtaa|he/she likes eating fruits
+categories[4|]: beginner|meals|cooking|nature
+note: null

@@ -1,0 +1,10 @@
+konkani_word: ruuk
+meaning[1|]: tree
+part_of_speech: noun
+keywords: []
+forms[1|]{label|english|value}:
+  plural|trees|ruuk
+examples[1|]{konkani_sentence|english_sentence}:
+  "garaa lagi mustu ruuk asaat "|near the house there are many trees
+categories[2|]: beginner|nature
+note: null

@@ -1,0 +1,11 @@
+konkani_word: wu
+meaning[1|]: louse
+part_of_speech: noun
+keywords[1|]: lice
+forms[1|]{label|english|value}:
+  plural|lice|wuwo
+examples[2|]{konkani_sentence|english_sentence|literal}:
+  ek wu makaa melle|I found one louse|One louse met me
+  taja matyar wuwo asaat|he has lice|on his head there are lice
+categories[2|]: animals|health
+note: null
