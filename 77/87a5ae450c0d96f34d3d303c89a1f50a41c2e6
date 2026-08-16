@@ -1,0 +1,32 @@
+entries_todo_swadesh.md
+  h_7ffaac8f5937a6 49-50,52-53,55-58,60
+entries/nouns/boddi.toon
+  h_7ffaac8f5937a6 1-10
+entries/nouns/diwodd.toon
+  h_7ffaac8f5937a6 1-10
+entries/nouns/fol.toon
+  h_7ffaac8f5937a6 1-10
+entries/nouns/masli.toon
+  h_7ffaac8f5937a6 1-10
+entries/nouns/paan.toon
+  h_7ffaac8f5937a6 1-11
+entries/nouns/raan.toon
+  h_7ffaac8f5937a6 1-11
+entries/nouns/ruuk.toon
+  h_7ffaac8f5937a6 1-10
+entries/nouns/sukne.toon
+  h_7ffaac8f5937a6 1-10
+entries/nouns/wu.toon
+  h_7ffaac8f5937a6 1-11
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "7787a5ae450c0d96f34d3d303c89a1f50a41c2e6",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
