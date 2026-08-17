@@ -1,0 +1,10 @@
+konkani_word: tondd
+meaning[1|]: mouth
+part_of_speech: noun
+keywords: []
+forms[1|]{label|english|value}:
+  plural|mouths|tondaa
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  tond samaa du|clean your mouth|clean your mouth properly
+categories[2|]: body parts|health
+note: null

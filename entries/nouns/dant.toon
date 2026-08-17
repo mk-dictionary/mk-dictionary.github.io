@@ -1,0 +1,11 @@
+konkani_word: dant
+meaning[1|]: tooth
+part_of_speech: noun
+keywords: []
+forms[1|]{label|english|value}:
+  plural|teeth|dant
+examples[2|]{konkani_sentence|english_sentence}:
+  muzo dant dukta|my tooth hurts
+  muje dant duktat|my teeth hurt
+categories[2|]: body parts|health
+note: null

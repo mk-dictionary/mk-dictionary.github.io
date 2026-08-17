@@ -46,25 +46,25 @@
 | mother                                          |  [x]  | awei            |
 | father                                          |  [x]  | bapoi           |
 | animal                                          |  [x]  | manzaat         |
-| fish                                            |  [x]  | masli                |
-| bird                                            |  [x]  | sukne                |
+| fish                                            |  [x]  | masli           |
+| bird                                            |  [x]  | sukne           |
 | dog                                             |  [x]  | petto           |
-| louse                                           |  [x]  | wu                |
-| snake                                           |  [x]  | diwodd                |
+| louse                                           |  [x]  | wu              |
+| snake                                           |  [x]  | diwodd          |
 | worm                                            |  [x]  | kiddi           |
-| tree                                            |  [x]  | ruuk                |
-| forest                                          |  [x]  | raan                |
-| stick                                           |  [x]  | boddi                |
-| fruit                                           |  [x]  | fol                |
+| tree                                            |  [x]  | ruuk            |
+| forest                                          |  [x]  | raan            |
+| stick                                           |  [x]  | boddi           |
+| fruit                                           |  [x]  | fol             |
 | seed                                            |  [x]  | bi              |
-| leaf                                            |  [x]  | paan                |
+| leaf                                            |  [x]  | paan            |
 | root                                            |  [ ]  |                 |
 | bark (of a tree)                                |  [ ]  |                 |
-| flower                                          |  [ ]  |                 |
+| flower                                          |  [x]  | ful             |
 | grass                                           |  [ ]  |                 |
 | rope                                            |  [ ]  |                 |
 | skin                                            |  [ ]  |                 |
-| meat                                            |  [ ]  |                 |
+| meat                                            |  [x]  | maas            |
 | blood                                           |  [ ]  |                 |
 | bone                                            |  [ ]  |                 |
 | fat (noun)                                      |  [ ]  |                 |
@@ -74,11 +74,11 @@
 | feather                                         |  [ ]  |                 |
 | hair                                            |  [ ]  |                 |
 | head                                            |  [ ]  |                 |
-| ear                                             |  [ ]  |                 |
-| eye                                             |  [ ]  |                 |
+| ear                                             |  [x]  | kaan            |
+| eye                                             |  [x]  | dolo            |
 | nose                                            |  [ ]  |                 |
-| mouth                                           |  [ ]  |                 |
-| tooth                                           |  [ ]  |                 |
+| mouth                                           |  [x]  | tond            |
+| tooth                                           |  [x]  | dant            |
 | tongue (organ)                                  |  [ ]  |                 |
 | fingernail                                      |  [ ]  |                 |
 | foot                                            |  [ ]  |                 |

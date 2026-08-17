@@ -1,0 +1,17 @@
+konkani_word: ful
+meaning[1|]: flower
+part_of_speech: noun
+keywords: []
+forms[1|]{label|english|value}:
+  plural|flowers|fulaa
+examples[3|]:
+  - konkani_sentence: gulob ful
+    english_sentence: rose
+    literal: rose flower
+  - konkani_sentence: dasme ful
+    english_sentence: hibiscus
+    literal: hibscus flower
+  - konkani_sentence: aami munti festak fulaa udeitat
+    english_sentence: we throw flowers at 'munti fest'
+categories[3|]: beginner|nature|poetic
+note: null

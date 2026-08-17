@@ -1,0 +1,11 @@
+konkani_word: maas
+meaning[1|]: meat
+part_of_speech: noun
+keywords: []
+forms[1|]{label|english|value}:
+  plural|meats|maasaa
+examples[2|]{konkani_sentence|english_sentence}:
+  nimar sukrarak maas kaaunk addwarlaa|obligated not to eat meat on good friday
+  maasaci kadi|meat curry
+categories[3|]: beginner|meals|cooking
+note: null
