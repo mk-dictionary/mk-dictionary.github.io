@@ -1,0 +1,27 @@
+entries_todo_swadesh.md
+  h_7ffaac8f5937a6 63,67,77-78,80-81
+  h_7ffaac8f5937a6 49-50,52-53,55-58,60
+entries/nouns/dant.toon
+  h_7ffaac8f5937a6 1-11
+entries/nouns/dolo.toon
+  h_7ffaac8f5937a6 1-16
+entries/nouns/ful.toon
+  h_7ffaac8f5937a6 1-17
+entries/nouns/kaan.toon
+  h_7ffaac8f5937a6 1-11
+entries/nouns/maas.toon
+  h_7ffaac8f5937a6 1-11
+entries/nouns/tondd.toon
+  h_7ffaac8f5937a6 1-10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "7f4fa0f98f2ac0ffd1a6c8f87a044d75ee9db0f0",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
