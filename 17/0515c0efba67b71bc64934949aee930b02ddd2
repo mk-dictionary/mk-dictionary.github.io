@@ -1,0 +1,24 @@
+CONTRIBUTING.md
+  s_7e7b4e7eb85d2a::t_14353c6c73a263 1-299
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "170515c0efba67b71bc64934949aee930b02ddd2",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_7e7b4e7eb85d2a": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fede2a7ddffe93UAdZfo1D1a5F",
+        "model": "unknown"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
