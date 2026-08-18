@@ -5,18 +5,18 @@
 | I                                               |  [x]  | haau            |
 | you (singular)                                  |  [x]  | tu              |
 | he                                              |  [x]  | to              |
-| we                                              |  [x]  | ami                |
+| we                                              |  [x]  | ami             |
 | you (plural)                                    |  [x]  | tumii           |
-| they                                            |  [x]  | ti                |
-| this                                            |  [x]  | ye                |
+| they                                            |  [x]  | ti              |
+| this                                            |  [x]  | ye              |
 | that                                            |  [x]  | te              |
-| here                                            |  [x]  |  angaa               |
-| there                                           |  [x]  |  tai~               |
-| who                                             |  [x]  |  kon               |
-| what                                            |  [x]  |  kaale               |
-| where                                           |  [x]  |  kite               |
-| when                                            |  [x]  |  kedaalaa               |
-| how                                             |  [x]  |  kaxe/kaso/kaxi               |
+| here                                            |  [x]  | angaa           |
+| there                                           |  [x]  | tai~            |
+| who                                             |  [x]  | kon             |
+| what                                            |  [x]  | kaale           |
+| where                                           |  [x]  | kite            |
+| when                                            |  [x]  | kedaalaa        |
+| how                                             |  [x]  | kaxe/kaso/kaxi  |
 | not                                             |  [x]  | naa             |
 | all                                             |  [x]  | sakadd          |
 | many                                            |  [ ]  |                 |
@@ -76,7 +76,7 @@
 | head                                            |  [ ]  |                 |
 | ear                                             |  [x]  | kaan            |
 | eye                                             |  [x]  | dolo            |
-| nose                                            |  [ ]  |                 |
+| nose                                            |  [x]  | naak            |
 | mouth                                           |  [x]  | tond            |
 | tooth                                           |  [x]  | dant            |
 | tongue (organ)                                  |  [ ]  |                 |

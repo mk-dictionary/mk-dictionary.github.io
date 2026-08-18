@@ -1,8 +1,6 @@
 <script lang="ts">
 	import { encode } from '@toon-format/toon';
-
-	const allEntries = import.meta.glob('/entries/**/*.toon', { eager: true, import: 'default' });
-	const allPaths = Object.keys(allEntries);
+	import { onMount } from 'svelte';
 
 	type EntryData = {
 		konkani_word: string;
@@ -17,14 +15,7 @@
 
 	type EntryItem = EntryData & { _path: string; _file: string };
 
-	const entries: EntryItem[] = allPaths.map((p) => {
-		const d = allEntries[p] as EntryData;
-		const file = p
-			.replace('.toon', '')
-			.replace(/\\/g, '/')
-			.replace(/^\/?entries\//, '');
-		return { ...d, _path: file, _file: p };
-	});
+	let entries = $state<EntryItem[]>([]);
 
 	const categories_list = [
 		'beginner',
@@ -63,6 +54,30 @@
 		uncountable: 'uncountable',
 		misc: 'misc'
 	};
+
+	let loading = $state(false);
+
+	async function loadEntries() {
+		loading = true;
+		try {
+			const res = await fetch('/api/entries');
+			const raw = (await res.json()) as EntryItem[];
+			entries = raw.map((e) => ({
+				...e,
+				forms: e.forms ?? [],
+				examples: (e.examples ?? []).map((x) => ({
+					...x,
+					literal: x.literal ?? null
+				})),
+				categories: e.categories ?? [],
+				note: e.note ?? null
+			}));
+		} finally {
+			loading = false;
+		}
+	}
+
+	onMount(loadEntries);
 
 	let search = $state('');
 	let selected = $state<EntryItem | null>(null);
@@ -194,6 +209,7 @@
 <h1>Editor</h1>
 <a href="/">← Back to site</a>
 <button onclick={newEntry}>+ New Entry</button>
+<button onclick={loadEntries} disabled={loading}>{loading ? 'Loading...' : 'Reload'}</button>
 
 <h2>Browse / Search</h2>
 <input type="text" bind:value={search} placeholder="Search entries..." />
