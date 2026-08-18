@@ -21,6 +21,7 @@ export const FOLDER_TO_POS = {
 	verbs: 'verb',
 	adjectives: 'adjective',
 	'pro-forms': 'pro-form',
+	'queries': 'query',
 	uncountable: 'uncountable',
 	misc: 'misc'
 } as const;

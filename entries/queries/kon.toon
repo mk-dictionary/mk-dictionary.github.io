@@ -1,0 +1,13 @@
+konkani_word: kon
+meaning[1|]: who
+part_of_speech: query
+keywords: []
+forms[5|]{label|english|value}:
+  dative|to whom|konaak
+  genitive|whose|konace
+  genitive|whose|konaca
+  genitive|whose|konaso
+  genitive|whose|konaci
+examples: []
+categories: []
+note: null

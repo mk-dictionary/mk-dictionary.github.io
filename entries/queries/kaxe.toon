@@ -1,0 +1,11 @@
+konkani_word: kaxe
+meaning[1|]: how
+part_of_speech: query
+keywords[5|]: kaso|kashe|kashi|kaxe|kaxi
+forms[3|]{label|english|value}:
+  masculine|how|kaso
+  feminine|how|kaxe
+  plural|how|kaxi
+examples: []
+categories: []
+note: null

@@ -34,7 +34,7 @@ See CONTEXT.md. Key terms:
 
 ```
 schema/entry.ts        — Zod: EntrySchema, FormSchema, ExampleSchema
-schema/categories.ts   — 27 category names
+schema/categories.ts   — 25 category names
 scripts/validation.ts  — CI: parse + validate .toon files
 scripts/toon.ts        — legacy JSON → TOON converter
 scripts/fill_swadesh_todo.ts — fill entries_todo_swadesh.md from entries/

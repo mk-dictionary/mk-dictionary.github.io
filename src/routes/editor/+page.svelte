@@ -51,9 +51,7 @@
 		'poetic',
 		'body parts',
 		'health',
-		'abstract',
-		'pro-form',
-		'query'
+		'abstract'
 	];
 
 	const FOLDER_BY_POS: Record<string, string> = {
@@ -61,6 +59,7 @@
 		verb: 'verbs',
 		adjective: 'adjectives',
 		'pro-form': 'pro-forms',
+		query: 'queries',
 		uncountable: 'uncountable',
 		misc: 'misc'
 	};
@@ -240,6 +239,7 @@
 			<option value="verb">verb</option>
 			<option value="adjective">adjective</option>
 			<option value="pro-form">pro-form</option>
+			<option value="query">query</option>
 			<option value="uncountable">uncountable</option>
 			<option value="misc">misc</option>
 		</select>

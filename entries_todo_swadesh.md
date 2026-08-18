@@ -8,15 +8,15 @@
 | we                                              |  [x]  | ami                |
 | you (plural)                                    |  [x]  | tumii           |
 | they                                            |  [x]  | ti                |
-| this                                            |  [ ]  |                 |
+| this                                            |  [x]  | ye                |
 | that                                            |  [x]  | te              |
-| here                                            |  [ ]  |                 |
-| there                                           |  [ ]  |                 |
-| who                                             |  [ ]  |                 |
-| what                                            |  [ ]  |                 |
-| where                                           |  [ ]  |                 |
-| when                                            |  [ ]  |                 |
-| how                                             |  [ ]  |                 |
+| here                                            |  [x]  |  angaa               |
+| there                                           |  [x]  |  tai~               |
+| who                                             |  [x]  |  kon               |
+| what                                            |  [x]  |  kaale               |
+| where                                           |  [x]  |  kite               |
+| when                                            |  [x]  |  kedaalaa               |
+| how                                             |  [x]  |  kaxe/kaso/kaxi               |
 | not                                             |  [x]  | naa             |
 | all                                             |  [x]  | sakadd          |
 | many                                            |  [ ]  |                 |
