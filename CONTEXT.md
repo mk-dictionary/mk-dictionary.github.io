@@ -41,7 +41,7 @@ A thematic grouping for browsing (e.g., "cooking", "religion", "body parts"). Pr
 _Avoid_: Tag, theme (Category is the code term)
 
 **Part of Speech**:
-The grammatical class: noun, verb, adjective, pronoun, or misc.
+The grammatical class: noun, verb, adjective, pro-form, or misc.
 _Avoid_: Word class, POS (accepted abbreviation in code but write in full in docs)
 
 **Misc**:

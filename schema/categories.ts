@@ -24,7 +24,6 @@ export const categories = [
 	'body parts',
 	'health', // dont inlcude body parts
 	'abstract', // words that represent an abstraction (i.e. hole, space, time, power) that don't fit into other categories neatly
-	'pro-form', // non pronoun pro forms
 	'query' // who, what where ...
 	// keep adding more as needed
 ] as const;

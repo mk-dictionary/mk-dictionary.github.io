@@ -60,7 +60,7 @@
 		noun: 'nouns',
 		verb: 'verbs',
 		adjective: 'adjectives',
-		pronoun: 'pronouns',
+		'pro-form': 'pro-forms',
 		uncountable: 'uncountable',
 		misc: 'misc'
 	};
@@ -239,7 +239,7 @@
 			<option value="noun">noun</option>
 			<option value="verb">verb</option>
 			<option value="adjective">adjective</option>
-			<option value="pronoun">pronoun</option>
+			<option value="pro-form">pro-form</option>
 			<option value="uncountable">uncountable</option>
 			<option value="misc">misc</option>
 		</select>

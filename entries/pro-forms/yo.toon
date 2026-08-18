@@ -1,0 +1,16 @@
+konkani_word: yo
+meaning[1|]: this one
+part_of_speech: pro-form
+keywords: []
+forms[7|]{label|english|value}:
+  inside|in this|yentu
+  dative|to this|yeka
+  genitive|of this|haca
+  genitive|of this|hace
+  genitive|of this|haso
+  genitive|of this|haci
+  past tense|this|hane
+examples[1|]{konkani_sentence|english_sentence}:
+  yo taso put|this is his son
+categories: []
+note: null

@@ -5,9 +5,9 @@
 | I                                               |  [x]  | haau            |
 | you (singular)                                  |  [x]  | tu              |
 | he                                              |  [x]  | to              |
-| we                                              |  [ ]  |                 |
+| we                                              |  [x]  | ami                |
 | you (plural)                                    |  [x]  | tumii           |
-| they                                            |  [ ]  |                 |
+| they                                            |  [x]  | ti                |
 | this                                            |  [ ]  |                 |
 | that                                            |  [x]  | te              |
 | here                                            |  [ ]  |                 |

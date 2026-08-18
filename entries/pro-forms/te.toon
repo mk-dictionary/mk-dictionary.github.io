@@ -1,14 +1,15 @@
 konkani_word: te
 meaning[2|]: she|that
-part_of_speech: pronoun
+part_of_speech: pro-form
 keywords[1|]: her
-forms[6|]{label|english|value}:
+forms[7|]{label|english|value}:
   accusative|to her|takaa
   genitive|"her "|taso
   genitive|her|tace
   genitive|her|tajaa
   genitive|her|taji
   past tense|she (did)|te
+  inside|in that|tentu
 examples: []
 categories[1|]: beginner
 note: null

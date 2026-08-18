@@ -1,0 +1,14 @@
+konkani_word: ti
+meaning[1|]: they
+part_of_speech: pro-form
+keywords[1|]: thi
+forms[6|]{label|english|value}:
+  present tense|they are doing|kartaat
+  present copula|they are|asaat
+  dative|to them|tenkaa
+  genitive|their|tenca
+  genitive|their|tence
+  genitive|their|tenci
+examples: []
+categories[1|]: beginner
+note: null

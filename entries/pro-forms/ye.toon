@@ -1,0 +1,17 @@
+konkani_word: ye
+meaning[1|]: this one
+part_of_speech: pro-form
+keywords: []
+forms[7|]{label|english|value}:
+  inside|in this|yentu
+  dative|to this|yeka
+  genitive|of this|haca
+  genitive|of this|hace
+  genitive|of this|haso
+  genitive|of this|haci
+  past tense|this|hane
+examples[2|]{konkani_sentence|english_sentence}:
+  haci mai|the mother of this (one)
+  hane khale|this one ate
+categories: []
+note: used in a proximal sense

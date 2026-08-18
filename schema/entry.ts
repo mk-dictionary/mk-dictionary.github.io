@@ -20,7 +20,7 @@ export const FOLDER_TO_POS = {
 	nouns: 'noun',
 	verbs: 'verb',
 	adjectives: 'adjective',
-	pronouns: 'pronoun',
+	'pro-forms': 'pro-form',
 	uncountable: 'uncountable',
 	misc: 'misc'
 } as const;

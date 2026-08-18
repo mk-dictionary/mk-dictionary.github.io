@@ -7,7 +7,7 @@
 	import type { Entry } from '../../../schema/entry';
 	let konkani_word = $state('');
 	let meaning: string[] = $state(['']);
-	const parts_of_speech = ['noun', 'verb', 'adjective', 'pronoun', 'uncountable', 'misc'] as const;
+	const parts_of_speech = ['noun', 'verb', 'adjective', 'pro-form', 'uncountable', 'misc'] as const;
 	let inputToonString = $state('');
 	let isNote = $state(false);
 	let note = $state('');
