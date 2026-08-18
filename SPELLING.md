@@ -4,7 +4,7 @@
 
 | spelling | english word example | konkani word example | kannada | hindi |
 | -------- | -------------------- | -------------------- | ------- | ----- |
-| a        | th**e**              | g**a**l              | ಅ       | अ     |
+| a        | l**u**ck              | g**a**l              | ಅ       | अ     |
 | aa       | f**a**ther           | m**aa**zaar          | ಆ       | आ     |
 | e        | g**e**ntlem**e**n    | g**e**lee~           | ಎ       | ए     |
 | ee       | **ai**lment          | gel**ee**~           | ಏ       | ई     |
@@ -12,7 +12,7 @@
 | ii       | **ee**l              | gel**ii**~           | ಈ       | ई     |
 | o        | **o**re**o**         | t**o**               | ಒ       | ओ     |
 | u        | r**oo**m             | t**u**               | ಉ       | उ     |
-| oa       | **au**thor           | p**oa**hd            | ಔ       | औ     |
+| oa       | **au**thor           | p**oa**dd            | ಔ       | औ     |
 
 additionally, the tilde (~) is used to signal nasalized vowels
 
