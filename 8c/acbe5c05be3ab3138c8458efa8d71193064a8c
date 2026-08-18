@@ -1,0 +1,312 @@
+entries/nouns/masli.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-8
+entries/nouns/kail.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-9
+entries/adjectives/tand.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-9
+"entries/misc/naaun zale.toon"
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-8
+entries/nouns/raan.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-9
+entries/nouns/taanti.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-8
+entries/misc/taxe_zalean.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-7
+src/routes/editor/+page.svelte
+  s_7e7b4e7eb85d2a::t_7392c39e47e0c5 292
+  s_7e7b4e7eb85d2a::t_3fb0ac9806d8ba 104
+  s_7e7b4e7eb85d2a::t_b89124a0aae8d6 13
+  s_7e7b4e7eb85d2a::t_7f4acf928e1b8d 75
+entries/nouns/aakai.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 5-6,8
+entries/nouns/dost.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-10
+entries/misc/suru_kar.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-7
+entries/nouns/bokddi.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-8,10
+entries/adjectives/kodu.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-7
+entries/nouns/gar.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 8-11
+entries/nouns/put.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-8
+"entries/misc/zaado mar.toon"
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 5-8
+entries/adjectives/ambos.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-8
+entries/misc/zait.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-7
+entries/nouns/bokro.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 8-9
+entries/misc/jake_uleyta.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-7
+entries/nouns/zadd.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-10
+entries/verbs/dor.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 9-10
+"entries/misc/pod mun.toon"
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-9
+entries/nouns/dukor.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 8-9,11
+entries/adjectives/datt.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-8
+entries/nouns/bi.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-8
+entries/nouns/bhoin.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 5-6,8
+entries/nouns/boble.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-7
+"entries/misc/paixe lagtat.toon"
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-7
+entries/nouns/bhaai.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 5-6,8
+entries/nouns/igarz.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-9
+entries/adjectives/hun.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-7
+entries/nouns/gai.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-8,10
+entries/verbs/xiik.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-7
+entries/misc/dadlo_munis.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-8
+entries/verbs/naas.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-14
+entries/nouns/neketr.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-8
+entries/nouns/kaan.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-9
+entries/verbs/cint.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-7,9
+entries/nouns/ruuk.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-8
+schema/entry.ts
+  s_7e7b4e7eb85d2a::t_d2f04919084de9 15
+entries/misc/ragta.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 9-11
+entries/verbs/raand.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-10
+entries/misc/oprant.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-8
+entries/misc/maager.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-7
+entries/nouns/boxi.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-8
+entries/nouns/murki.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-8,10
+entries/nouns/bhaau.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 5-6
+entries/nouns/haat.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-7
+entries/nouns/raat.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-8
+entries/adjectives/axer.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-7
+entries/adjectives/laamb.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-9
+entries/nouns/bataato.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-8
+entries/nouns/paan.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-9
+entries/adjectives/zadd.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-8
+entries/nouns/sezaari.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 8-9,11
+entries/nouns/suke.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-8
+entries/nouns/sukne.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-8
+entries/adjectives/god.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-7
+entries/nouns/mogaa.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-7,9
+entries/nouns/kumsaar.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 5-9
+entries/nouns/maazaar.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-8,10
+entries/adjectives/garam.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-7
+entries/verbs/aik.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-9
+entries/misc/dogi.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-8
+entries/misc/yeka_meka.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-7
+entries/nouns/baba.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 5-6,8
+entries/nouns/diwodd.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-8
+entries/misc/raawon_na.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-7
+entries/nouns/kaddi.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-12
+entries/nouns/baullo.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-8
+entries/misc/anek.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-7
+entries/nouns/manzaat.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-8
+entries/nouns/bapoi.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 5-7
+entries/verbs/bos.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-9
+entries/verbs/jo.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 8-10
+entries/nouns/kutaamb.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-9
+entries/nouns/bapu.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 5-6,8
+entries/nouns/dant.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-9
+entries/pro-forms/yo.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 13-14
+src/routes/create/+page.svelte
+  s_7e7b4e7eb85d2a::t_006bb42d6ac4b8 153
+  s_7e7b4e7eb85d2a::t_6e5563472d1b24 18-19
+entries/adjectives/motwo.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-7
+entries/misc/bhaail_munis.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-8
+entries/nouns/paay.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-8
+entries/nouns/dhu.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-8
+entries/pro-forms/ye.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 13-15
+entries/nouns/kaazaar.toon
+  s_7e7b4e7eb85d2a::t_3ad21419214bef 13
+entries/verbs/pie.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-9
+entries/verbs/ghe.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-9
+entries/nouns/gaadi.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-8
+entries/verbs/pus.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 5-8
+entries/misc/naa.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 11-15
+entries/nouns/darna.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-8
+entries/nouns/kaaliz.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-8,10
+entries/nouns/suriyo.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-7
+entries/verbs/vos.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 14-15
+entries/nouns/paixe.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-8
+entries/nouns/fol.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-8
+entries/verbs/di.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-9
+entries/nouns/iskal.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-10
+entries/nouns/mis.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-9
+entries/nouns/handi.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-8
+entries/misc/parteyan.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-8
+entries/nouns/dis.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-8,10
+entries/nouns/vustur.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 5-8
+entries/nouns/maas.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-9
+entries/misc/sodd_dodd.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-7
+entries/nouns/mama.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 5-6
+entries/nouns/barik.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-8
+entries/misc/zai.toon
+  s_7e7b4e7eb85d2a::t_a69de3e4f30b94 11
+entries/nouns/mez.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-11
+entries/nouns/mirsaang.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-9
+entries/nouns/niste.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-7
+entries/verbs/axe.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-7,9
+entries/nouns/gosale.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-7
+entries/nouns/mausi.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 5-6,8
+entries/nouns/munis.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-8
+entries/verbs/boroi.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 5-8
+entries/verbs/du.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 8-11
+entries/nouns/wunut.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-9
+entries/nouns/sopan.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-8,10
+entries/misc/zai_zai_mun_karta.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-7
+entries/nouns/kuler.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-8
+entries/nouns/moce.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 5-7
+entries/verbs/waas.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 5-7
+entries/misc/sangata_galta.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-7
+entries/uncountable/magne.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-8
+entries/verbs/ye.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 14-15
+entries/nouns/kunkad.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 8-9,11
+entries/adjectives/rund.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-7
+entries/nouns/awei.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 5-7
+entries/nouns/kadela.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-10
+entries/misc/karte_raau.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-8
+entries/misc/taje_vixant.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-8
+"entries/misc/kar nakaa.toon"
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-10
+entries/nouns/raandoi.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-7
+entries/pro-forms/haau.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 12-13
+entries/misc/bifaa_maas.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-7
+entries/verbs/kad.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-7
+entries/pro-forms/tu.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 12-13
+entries/verbs/roi.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 8-10
+"entries/misc/naaunk veta.toon"
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 6-9
+entries/nouns/petto.toon
+  s_7e7b4e7eb85d2a::t_3cbc5eb0daea98 7-9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "8cacbe5c05be3ab3138c8458efa8d71193064a8c",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_7e7b4e7eb85d2a": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fede2a7ddffe93UAdZfo1D1a5F",
+        "model": "unknown"
+      },
+      "human_author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
