@@ -5,7 +5,7 @@ keywords[1|]: swine
 forms[2|]{label|english|value}:
   plural|pigs|dukor
   meat|pork|dukraa
-examples[1|]{konkani_sentence|english_sentence}:
-  kaal dukraa maas randle|yesterday I made pork
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  kaal dukraa maas randle|yesterday I made pork|
 categories[2|]: cooking|animals
 note: null

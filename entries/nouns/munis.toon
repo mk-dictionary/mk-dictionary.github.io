@@ -4,7 +4,7 @@ part_of_speech: noun
 keywords[1|]: people
 forms[1|]{label|english|value}:
   plural|people|munxaa
-examples[1|]{konkani_sentence|english_sentence}:
-  igarzjent mustu munxaa|there are many people in the church
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  igarzjent mustu munxaa|there are many people in the church|
 categories: []
 note: null

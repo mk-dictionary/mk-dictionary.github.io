@@ -10,8 +10,8 @@ forms[7|]{label|english|value}:
   genitive|of this|haso
   genitive|of this|haci
   past tense|this|hane
-examples[2|]{konkani_sentence|english_sentence}:
-  haci mai|the mother of this (one)
-  hane khale|this one ate
+examples[2|]{konkani_sentence|english_sentence|literal}:
+  haci mai|the mother of this (one)|
+  hane khale|this one ate|
 categories: []
 note: used in a proximal sense

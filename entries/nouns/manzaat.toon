@@ -4,7 +4,7 @@ part_of_speech: noun
 keywords: []
 forms[1|]{label|english|value}:
   plural|animals|manzaati
-examples[1|]{konkani_sentence|english_sentence}:
-  pette ani maazraa manzaati|dogs and cats are animals
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  pette ani maazraa manzaati|dogs and cats are animals|
 categories[1|]: animals
 note: null

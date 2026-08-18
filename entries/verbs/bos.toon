@@ -3,7 +3,7 @@ meaning[1|]: sit
 part_of_speech: verb
 keywords: []
 forms: []
-examples[2|]{konkani_sentence|english_sentence}:
-  bosiaangi?|shall we sit?
-  bosa naka, ut|don't sit, get up
+examples[2|]{konkani_sentence|english_sentence|literal}:
+  bosiaangi?|shall we sit?|
+  bosa naka, ut|don't sit, get up|
 categories[2|]: beginner|meals

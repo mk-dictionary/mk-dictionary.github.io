@@ -4,8 +4,8 @@ part_of_speech: noun
 keywords: []
 forms[1|]{label|english|value}:
   plural|ears|kaan
-examples[2|]{konkani_sentence|english_sentence}:
-  kaan aikaa naa|ears can't hear
-  tandak kaan tambde zatat|in the cold ears turn red
+examples[2|]{konkani_sentence|english_sentence|literal}:
+  kaan aikaa naa|ears can't hear|
+  tandak kaan tambde zatat|in the cold ears turn red|
 categories[2|]: body parts|health
 note: null

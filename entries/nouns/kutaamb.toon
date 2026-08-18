@@ -4,6 +4,6 @@ forms[1|]{label|english|value}:
   locative|in the family|kutmat
 part_of_speech: noun
 keywords: []
-examples[1|]{konkani_sentence|english_sentence}:
-  muje kutmat vodli mai, aab, mai, pai, baba, bhaai, haau bhaau, ani bhain asaat|I have a grandmother, grandfather, mother, father, elder brother, elder sister, me, younger sister and younger brother in my family
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  muje kutmat vodli mai, aab, mai, pai, baba, bhaai, haau bhaau, ani bhain asaat|I have a grandmother, grandfather, mother, father, elder brother, elder sister, me, younger sister and younger brother in my family|
 categories[1|]: family

@@ -5,7 +5,7 @@ keywords: []
 forms[2|]{label|english|value}:
   plural|houses|garaa
   locative|to the house|garaa
-examples[2|]{konkani_sentence|english_sentence}:
-  maka garaa vosun zai|I want to go home
-  kadela garak zai|we have enough chairs
+examples[2|]{konkani_sentence|english_sentence|literal}:
+  maka garaa vosun zai|I want to go home|
+  kadela garak zai|we have enough chairs|
 categories[2|]: beginner|household

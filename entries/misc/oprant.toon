@@ -3,8 +3,8 @@ meaning[1|]: after
 part_of_speech: misc
 keywords: []
 forms: []
-examples[2|]{konkani_sentence|english_sentence}:
-  haau ache oprant vetaa|I'm going after this
-  misaa oprant yetaa|I'm coming after mass
+examples[2|]{konkani_sentence|english_sentence|literal}:
+  haau ache oprant vetaa|I'm going after this|
+  misaa oprant yetaa|I'm coming after mass|
 categories[1|]: beginner
 note: null

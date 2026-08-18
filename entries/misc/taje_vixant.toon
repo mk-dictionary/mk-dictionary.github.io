@@ -3,8 +3,8 @@ meaning[1|]: about them
 part_of_speech: misc
 keywords: []
 forms: []
-examples[2|]{konkani_sentence|english_sentence}:
-  haau tuje vixant uleyta|I am talking about you
-  ye 'picture' taje vixant|this movie is about him
+examples[2|]{konkani_sentence|english_sentence|literal}:
+  haau tuje vixant uleyta|I am talking about you|
+  ye 'picture' taje vixant|this movie is about him|
 categories: []
 note: null

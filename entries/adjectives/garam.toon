@@ -3,7 +3,7 @@ meaning[1|]: hot
 part_of_speech: adjective
 keywords[1|]: warm
 forms: []
-examples[1|]{konkani_sentence|english_sentence}:
-  bair garam asa|its hot outside
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  bair garam asa|its hot outside|
 categories[2|]: beginner|temperature
 note: ""

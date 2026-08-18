@@ -5,7 +5,7 @@ keywords: []
 forms[2|]{label|english|value}:
   plural|chickens|kunkadaa
   meat|chicken meat|kunkadaa mas
-examples[1|]{konkani_sentence|english_sentence}:
-  kaal kunkadaa maas randle|yesterday I made chicken
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  kaal kunkadaa maas randle|yesterday I made chicken|
 categories[2|]: cooking|animals
 note: null

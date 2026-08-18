@@ -4,7 +4,7 @@ part_of_speech: noun
 keywords: []
 forms[1|]{label|english|value}:
   plural|friends|dosti
-examples[2|]{konkani_sentence|english_sentence}:
-  haau muje dostek mellunk vetha|im going to meet with my friends
-  maka koni dosti nant|I dont have any friends
+examples[2|]{konkani_sentence|english_sentence|literal}:
+  haau muje dostek mellunk vetha|im going to meet with my friends|
+  maka koni dosti nant|I dont have any friends|
 categories[3|]: beginner|gathering|friends

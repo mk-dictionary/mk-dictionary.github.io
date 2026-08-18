@@ -3,9 +3,9 @@ meaning[1|]: cold
 part_of_speech: adjective
 keywords[4|]: tand|frigid|chilly|freezing
 forms: []
-examples[3|]{konkani_sentence|english_sentence}:
-  bair tand asa|its cold outside
-  maaka tand kata|I feel cold
-  maaka tand lagta|I feel cold
+examples[3|]{konkani_sentence|english_sentence|literal}:
+  bair tand asa|its cold outside|
+  maaka tand kata|I feel cold|
+  maaka tand lagta|I feel cold|
 categories[1|]: beginner
 note: ""

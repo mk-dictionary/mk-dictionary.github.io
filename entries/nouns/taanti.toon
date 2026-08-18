@@ -4,7 +4,7 @@ part_of_speech: noun
 keywords: []
 forms[1|]{label|english|value}:
   plural|eggs|taantiaa
-examples[1|]{konkani_sentence|english_sentence}:
-  taanti khalar zai na|cannot eat egg
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  taanti khalar zai na|cannot eat egg|
 categories[2|]: meals|cooking
 note: null

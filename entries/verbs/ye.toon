@@ -11,7 +11,7 @@ forms[8|]{label|english|value}:
   first person plural past tense|we arrived|(ami) ailyau
   first person plural imperative|let's arrive|(ami) ya
   2nd person plural imperative|Y'all arrive|(tumi) yea
-examples[1|]{konkani_sentence|english_sentence}:
-  angaa ye|come here
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  angaa ye|come here|
 categories[2|]: beginner|transportation
 note: null

@@ -4,7 +4,7 @@ part_of_speech: misc
 keywords: []
 forms[1|]{label|english|value}:
   plural|men|dadle munxaa
-examples[1|]{konkani_sentence|english_sentence}:
-  dadle munxa sangaataa salun vetaat|the men are walking together
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  dadle munxa sangaataa salun vetaat|the men are walking together|
 categories: []
 note: null

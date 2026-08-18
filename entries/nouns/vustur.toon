@@ -2,7 +2,7 @@ konkani_word: vustur
 meaning[1|]: clothes
 part_of_speech: noun
 keywords: []
-examples[2|]{konkani_sentence|english_sentence}:
-  vustur gal|put on clothes
-  vustur dhu|wash clothes
+examples[2|]{konkani_sentence|english_sentence|literal}:
+  vustur gal|put on clothes|
+  vustur dhu|wash clothes|
 categories[2|]: clothing|beginner

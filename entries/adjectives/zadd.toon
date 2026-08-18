@@ -3,8 +3,8 @@ meaning[1|]: heavy
 part_of_speech: adjective
 keywords: []
 forms: []
-examples[2|]{konkani_sentence|english_sentence}:
-  faatar zadd asaa|the stone is heavy
-  tu zadd zate asai|you are becoming heavy
+examples[2|]{konkani_sentence|english_sentence|literal}:
+  faatar zadd asaa|the stone is heavy|
+  tu zadd zate asai|you are becoming heavy|
 categories: []
 note: null

@@ -3,6 +3,6 @@ meaning[1|]: daughter
 part_of_speech: noun
 keywords: []
 forms: []
-examples[1|]{konkani_sentence|english_sentence}:
-  tachi dhu garaa gella|his/her daughter went home
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  tachi dhu garaa gella|his/her daughter went home|
 categories[1|]: family

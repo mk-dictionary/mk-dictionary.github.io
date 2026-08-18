@@ -3,7 +3,7 @@ meaning[1|]: one more
 part_of_speech: misc
 keywords: []
 forms: []
-examples[1|]{konkani_sentence|english_sentence}:
-  anek khele di|give another banana
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  anek khele di|give another banana|
 categories[1|]: beginner
 note: null

@@ -2,7 +2,7 @@ konkani_word: mausi
 meaning[1|]: aunt
 part_of_speech: noun
 keywords: []
-examples[1|]{konkani_sentence|english_sentence}:
-  muji mausi garaa ailaa|my aunt came home
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  muji mausi garaa ailaa|my aunt came home|
 categories[1|]: family
 note: only for mother's sister

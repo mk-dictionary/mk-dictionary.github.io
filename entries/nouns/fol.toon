@@ -4,7 +4,7 @@ part_of_speech: noun
 keywords: []
 forms[1|]{label|english|value}:
   plural|fruits|folaa
-examples[1|]{konkani_sentence|english_sentence}:
-  taka folaa kaaunk bore lagtaa|he/she likes eating fruits
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  taka folaa kaaunk bore lagtaa|he/she likes eating fruits|
 categories[4|]: beginner|meals|cooking|nature
 note: null

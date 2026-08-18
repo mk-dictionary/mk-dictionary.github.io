@@ -5,8 +5,8 @@ keywords[1|]: plant
 forms[2|]{label|english|value}:
   present tense|sowing|roitaa
   past tense|sowed|roile
-examples[2|]{konkani_sentence|english_sentence}:
-  bio roitaa|sowing seeds
-  zadaa roitaa|planting plants
+examples[2|]{konkani_sentence|english_sentence|literal}:
+  bio roitaa|sowing seeds|
+  zadaa roitaa|planting plants|
 categories[2|]: gardening|nature
 note: null

@@ -10,7 +10,7 @@ forms[7|]{label|english|value}:
   genitive|of this|haso
   genitive|of this|haci
   past tense|this|hane
-examples[1|]{konkani_sentence|english_sentence}:
-  yo taso put|this is his son
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  yo taso put|this is his son|
 categories: []
 note: null

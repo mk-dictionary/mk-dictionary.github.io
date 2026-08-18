@@ -4,7 +4,7 @@ part_of_speech: noun
 keywords: []
 forms[1|]{label|english|value}:
   plural|stars|neketraa
-examples[1|]{konkani_sentence|english_sentence}:
-  raati molbaro mustu neketraa asaat|there are many stars in the sky at night
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  raati molbaro mustu neketraa asaat|there are many stars in the sky at night|
 categories[1|]: nature
 note: null

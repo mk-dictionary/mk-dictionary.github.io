@@ -4,7 +4,7 @@ part_of_speech: noun
 keywords: []
 forms[1|]{label|english|value}:
   plural|chairs|kadelaa
-examples[2|]{konkani_sentence|english_sentence}:
-  meza lagi kadelar bos|sit on the chair near the table
-  amche lagi kaadela asat, puro|we have enough chairs
+examples[2|]{konkani_sentence|english_sentence|literal}:
+  meza lagi kadelar bos|sit on the chair near the table|
+  amche lagi kaadela asat, puro|we have enough chairs|
 categories[3|]: beginner|meals|household

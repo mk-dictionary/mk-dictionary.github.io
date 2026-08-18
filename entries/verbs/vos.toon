@@ -11,7 +11,7 @@ forms[8|]{label|english|value}:
   first person plural past tense|we went|(ami) gellyau
   first person plural imperative|let's go|(ami) vosya
   2nd person plural imperative|y'all go|(tumi) vosa
-examples[1|]{konkani_sentence|english_sentence}:
-  haau vetaa|I am going
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  haau vetaa|I am going|
 categories[2|]: beginner|transportation
 note: null

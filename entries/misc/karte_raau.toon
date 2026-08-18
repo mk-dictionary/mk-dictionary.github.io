@@ -3,8 +3,8 @@ meaning[1|]: keep doing
 part_of_speech: misc
 keywords: []
 forms: []
-examples[2|]{konkani_sentence|english_sentence}:
-  kharte raau|keep eating
-  vete raau|keep going
+examples[2|]{konkani_sentence|english_sentence|literal}:
+  kharte raau|keep eating|
+  vete raau|keep going|
 categories: []
 note: null

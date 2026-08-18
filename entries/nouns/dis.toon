@@ -4,7 +4,7 @@ part_of_speech: noun
 keywords: []
 forms[1|]{label|english|value}:
   plural|days|dis
-examples[1|]{konkani_sentence|english_sentence}:
-  disaace mustu dag asaa|it is very hot in the daytime
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  disaace mustu dag asaa|it is very hot in the daytime|
 categories[1|]: beginner
 note: null

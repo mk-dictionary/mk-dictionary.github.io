@@ -3,8 +3,8 @@ meaning[1|]: money
 part_of_speech: noun
 keywords: []
 forms: []
-examples[2|]{konkani_sentence|english_sentence}:
-  kitle paixe lagle|how much money did it cost
-  muje lagi paixe nant|I have no money
+examples[2|]{konkani_sentence|english_sentence|literal}:
+  kitle paixe lagle|how much money did it cost|
+  muje lagi paixe nant|I have no money|
 categories[3|]: beginner|household|work
 note: null

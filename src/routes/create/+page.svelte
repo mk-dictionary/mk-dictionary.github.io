@@ -15,8 +15,8 @@
 	let forms = $state<{ label: string; english: string; value: string }[]>([]);
 	let addedKeywords: string[] = $state<string[]>([]);
 
-	let examples: { konkani_sentence: string; english_sentence: string }[] = $state([
-		{ konkani_sentence: '', english_sentence: '' }
+	let examples: { konkani_sentence: string; english_sentence: string; literal: string | null }[] = $state([
+		{ konkani_sentence: '', english_sentence: '', literal: null }
 	]);
 	let categories: Category[] = $state([]);
 
@@ -150,7 +150,7 @@ examples
 		<tr>
 			<td colspan="3"
 				><button
-					onclick={() => examples.push({ konkani_sentence: '', english_sentence: '', literal: '' })}
+					onclick={() => examples.push({ konkani_sentence: '', english_sentence: '', literal: null })}
 					>Add Example</button
 				></td
 			>

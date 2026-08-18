@@ -4,7 +4,7 @@ part_of_speech: noun
 keywords: []
 forms[1|]{label|english|value}:
   plural|dreams|sopna
-examples[1|]{konkani_sentence|english_sentence}:
-  tuka haave sopnant poleyle|I saw you in my dreams
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  tuka haave sopnant poleyle|I saw you in my dreams|
 categories[2|]: poetic|abstract
 note: null

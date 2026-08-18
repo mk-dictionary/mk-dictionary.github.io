@@ -3,7 +3,7 @@ meaning[2|]: will take a shower|taking a shower
 part_of_speech: misc
 keywords: []
 forms: []
-examples[2|]{konkani_sentence|english_sentence}:
-  haau naaunk vetaa|i'm taking a shower
-  naaunk vos|take a shower
+examples[2|]{konkani_sentence|english_sentence|literal}:
+  haau naaunk vetaa|i'm taking a shower|
+  naaunk vos|take a shower|
 categories[1|]: beginner

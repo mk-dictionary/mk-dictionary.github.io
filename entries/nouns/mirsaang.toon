@@ -4,8 +4,8 @@ part_of_speech: noun
 keywords[1|]: pepper
 forms[1|]{label|english|value}:
   plural|chillis|mirsaango
-examples[2|]{konkani_sentence|english_sentence}:
-  miit mirsaang|salt-chili
-  mirsaang kaddiek sadd galar tiik zata|adding too chili makes the curry spicy
+examples[2|]{konkani_sentence|english_sentence|literal}:
+  miit mirsaang|salt-chili|
+  mirsaang kaddiek sadd galar tiik zata|adding too chili makes the curry spicy|
 categories[2|]: meals|cooking
 note: null

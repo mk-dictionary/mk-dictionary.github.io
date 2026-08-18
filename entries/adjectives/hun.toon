@@ -3,7 +3,7 @@ meaning[1|]: hot
 part_of_speech: adjective
 keywords[1|]: warm
 forms: []
-examples[1|]{konkani_sentence|english_sentence}:
-  jevan hun kar|heat up the food
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  jevan hun kar|heat up the food|
 categories[2|]: beginner|temperature
 note: not for weather

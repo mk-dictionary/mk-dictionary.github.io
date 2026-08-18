@@ -3,8 +3,8 @@ meaning[1|]: school
 part_of_speech: noun
 keywords: []
 forms: []
-examples[3|]{konkani_sentence|english_sentence}:
-  haau aaz iskalak vetaa|I am going to school today
-  aaz iskal na|there is no school today
-  aaz iskalak raza|theres a holiday today
+examples[3|]{konkani_sentence|english_sentence|literal}:
+  haau aaz iskalak vetaa|I am going to school today|
+  aaz iskal na|there is no school today|
+  aaz iskalak raza|theres a holiday today|
 categories[1|]: school

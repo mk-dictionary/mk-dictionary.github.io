@@ -3,6 +3,6 @@ meaning[1|]: son
 part_of_speech: noun
 keywords: []
 forms: []
-examples[1|]{konkani_sentence|english_sentence}:
-  tazo put garaa gella|his/her son went home
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  tazo put garaa gella|his/her son went home|
 categories[1|]: family

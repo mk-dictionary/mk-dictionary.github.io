@@ -5,7 +5,7 @@ keywords: []
 forms[2|]{label|english|value}:
   past tense|washed|duli
   past tense|washed|dule
-examples[2|]{konkani_sentence|english_sentence}:
-  haave kail duli|I washed the pot
-  muje haath dule|I washed my hands
+examples[2|]{konkani_sentence|english_sentence|literal}:
+  haave kail duli|I washed the pot|
+  muje haath dule|I washed my hands|
 categories[3|]: cooking|household|health

@@ -2,7 +2,7 @@ konkani_word: bhaau
 meaning[1|]: brother
 part_of_speech: noun
 keywords[1|]: younger brother
-examples[1|]{konkani_sentence|english_sentence}:
-  muji bhaau garaa ailaa|my little brother came home
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  muji bhaau garaa ailaa|my little brother came home|
 categories[1|]: family
 note: for younger boys

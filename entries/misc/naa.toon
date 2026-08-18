@@ -8,10 +8,10 @@ forms[5|]{label|english|value}:
   3rd person singular|(he/she) doesn't|naa
   3rd person plural|(they) don't|naant
   1st person plural|(we) don't|naant
-examples[4|]{konkani_sentence|english_sentence}:
-  ami sakadd vosun naant|we all didn't go
-  ti sakadd youn naant|they didn't come
-  ti sakadd angaa naant|they are not here
-  aamca garaa yaa varsaa ponos zaun nant|this year, no jackfruits in my house
+examples[4|]{konkani_sentence|english_sentence|literal}:
+  ami sakadd vosun naant|we all didn't go|
+  ti sakadd youn naant|they didn't come|
+  ti sakadd angaa naant|they are not here|
+  aamca garaa yaa varsaa ponos zaun nant|this year, no jackfruits in my house|
 categories[1|]: beginner
 note: null

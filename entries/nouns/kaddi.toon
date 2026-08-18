@@ -4,11 +4,11 @@ part_of_speech: noun
 keywords: []
 forms[1|]{label|english|value}:
   plural|curries|kaddio
-examples[5|]{konkani_sentence|english_sentence}:
-  mirsaang kaddiek sadd galar tiik zata|adding too chili makes the curry spicy
-  masli kaddi|fish curry
-  masaaci kaddi|(any) meat curry
-  boble kaddi|"\"boble\" curry"
-  kunkadaaci kadi|chicken curry
+examples[5|]{konkani_sentence|english_sentence|literal}:
+  mirsaang kaddiek sadd galar tiik zata|adding too chili makes the curry spicy|
+  masli kaddi|fish curry|
+  masaaci kaddi|(any) meat curry|
+  boble kaddi|"\"boble\" curry"|
+  kunkadaaci kadi|chicken curry|
 categories[2|]: meals|cooking
 note: null

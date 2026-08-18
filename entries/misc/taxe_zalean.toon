@@ -3,7 +3,7 @@ meaning[1|]: this is finished
 part_of_speech: misc
 keywords: []
 forms: []
-examples[1|]{konkani_sentence|english_sentence}:
-  taxe zalean, haau veta|the job is finished, I'm leaving
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  taxe zalean, haau veta|the job is finished, I'm leaving|
 categories: []
 note: null

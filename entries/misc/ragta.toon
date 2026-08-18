@@ -6,8 +6,8 @@ forms[3|]{label|english|value}:
   command|(you) wait|raakun raau
   present tense|I'm waiting|ragta
   present tense|I'm waiting|raakun asa
-examples[2|]{konkani_sentence|english_sentence}:
-  haau tukaa ragta|I am waiting for you
-  tu makaa raakun raau|wait for me
+examples[2|]{konkani_sentence|english_sentence|literal}:
+  haau tukaa ragta|I am waiting for you|
+  tu makaa raakun raau|wait for me|
 categories: []
 note: null

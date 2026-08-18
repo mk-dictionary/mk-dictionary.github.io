@@ -4,7 +4,7 @@ part_of_speech: noun
 keywords: []
 forms[1|]{label|english|value}:
   plural (multiple)|goats|bokddio
-examples[1|]{konkani_sentence|english_sentence}:
-  makaa bokdde maas bore zata|I like goat meat
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  makaa bokdde maas bore zata|I like goat meat|
 categories[2|]: cooking|animals
 note: null

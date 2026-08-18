@@ -2,6 +2,6 @@ konkani_word: waas
 meaning[2|]: read|study
 part_of_speech: verb
 keywords: []
-examples[1|]{konkani_sentence|english_sentence}:
-  makaa parikxek waasunk asaa|I have to study for my exams
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  makaa parikxek waasunk asaa|I have to study for my exams|
 categories[1|]: school

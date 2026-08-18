@@ -3,6 +3,6 @@ meaning[2|]: both|two
 part_of_speech: misc
 keywords: []
 forms: []
-examples[1|]{konkani_sentence|english_sentence}:
-  ami dogi|us both
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  ami dogi|us both|
 categories[1|]: beginner

@@ -3,14 +3,14 @@ meaning[1|]: dance
 part_of_speech: verb
 keywords[1|]: naach
 forms: []
-examples[8|]{konkani_sentence|english_sentence}:
-  haau naaste asa|I am dancing
-  haau naasun asa|I am dancing
-  sakadd naasun asat|Everyone is dancing
-  maka naasunk bore zata|I like to dance
-  ami naasya|let's dance
-  maka bore naasunk ye na|I can't dance well
-  maka naasunk yeta|I can dance well
-  muje sangata naas|dance with me
+examples[8|]{konkani_sentence|english_sentence|literal}:
+  haau naaste asa|I am dancing|
+  haau naasun asa|I am dancing|
+  sakadd naasun asat|Everyone is dancing|
+  maka naasunk bore zata|I like to dance|
+  ami naasya|let's dance|
+  maka bore naasunk ye na|I can't dance well|
+  maka naasunk yeta|I can dance well|
+  muje sangata naas|dance with me|
 categories[1|]: beginner
 note: ""

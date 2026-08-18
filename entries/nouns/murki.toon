@@ -4,7 +4,7 @@ part_of_speech: noun
 keywords: []
 forms[1|]{label|english|value}:
   plural|pots|murkio
-examples[1|]{konkani_sentence|english_sentence}:
-  I made rice in the pot|haave xiit murkiant kela
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  I made rice in the pot|haave xiit murkiant kela|
 categories[1|]: cooking
 note: for cooking rice

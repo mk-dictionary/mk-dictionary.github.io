@@ -2,7 +2,7 @@ konkani_word: zaado mar
 meaning[1|]: sweep
 part_of_speech: misc
 keywords: []
-examples[2|]{konkani_sentence|english_sentence}:
-  haave sakali zaado marle|I swept in the morning
-  maaka zaado marunk asaa|I have to sweep
+examples[2|]{konkani_sentence|english_sentence|literal}:
+  haave sakali zaado marle|I swept in the morning|
+  maaka zaado marunk asaa|I have to sweep|
 categories[1|]: household

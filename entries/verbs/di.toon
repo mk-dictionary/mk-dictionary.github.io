@@ -3,7 +3,7 @@ meaning[1|]: give
 part_of_speech: verb
 keywords: []
 forms: []
-examples[2|]{konkani_sentence|english_sentence}:
-  maka di|give it to me
-  maka dile|I got it
+examples[2|]{konkani_sentence|english_sentence|literal}:
+  maka di|give it to me|
+  maka dile|I got it|
 categories[1|]: beginner

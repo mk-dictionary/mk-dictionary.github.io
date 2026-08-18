@@ -4,7 +4,7 @@ part_of_speech: noun
 keywords: []
 forms[1|]{label|english|value}:
   plural|plates|boxio
-examples[1|]{konkani_sentence|english_sentence}:
-  boxi dori|keep the plate
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  boxi dori|keep the plate|
 categories[2|]: meals|cooking
 note: null

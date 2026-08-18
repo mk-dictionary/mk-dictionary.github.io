@@ -9,7 +9,7 @@ forms[6|]{label|english|value}:
   possessive plural|your|tuji
   dative|to you|tukaa
   past tense|you did|tuv
-examples[1|]{konkani_sentence|english_sentence}:
-  tuv konkani xikte|I'm learning konkani
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  tuv konkani xikte|I'm learning konkani|
 categories[1|]: beginner
 note: ""

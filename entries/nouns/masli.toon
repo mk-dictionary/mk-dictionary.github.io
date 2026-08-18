@@ -4,7 +4,7 @@ part_of_speech: noun
 keywords: []
 forms[1|]{label|english|value}:
   plural|fish|maslio
-examples[1|]{konkani_sentence|english_sentence}:
-  muje lagi don maslio asaat|I have two fish
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  muje lagi don maslio asaat|I have two fish|
 categories[4|]: beginner|meals|cooking|animals
 note: null

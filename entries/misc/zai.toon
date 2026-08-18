@@ -8,7 +8,7 @@ forms[2|]{label|english|value}:
 examples[2|]:
   - konkani_sentence: maakaa awei-bapoi zai
     english_sentence: I want my parents
-    literal: ""
+    literal: null
   - konkani_sentence: maakaa nidonk zai
     english_sentence: I should sleep
 categories[1|]: beginner

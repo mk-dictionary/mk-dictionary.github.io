@@ -4,8 +4,8 @@ part_of_speech: noun
 keywords: []
 forms[1|]{label|english|value}:
   plural|walls|wunti
-examples[2|]{konkani_sentence|english_sentence}:
-  garaak mustu wunti asat|the house has many walls
-  "wunti weir \"photo\" asa"|there is a photo on the wall
+examples[2|]{konkani_sentence|english_sentence|literal}:
+  garaak mustu wunti asat|the house has many walls|
+  "wunti weir \"photo\" asa"|there is a photo on the wall|
 categories[2|]: household|buildings
 note: null

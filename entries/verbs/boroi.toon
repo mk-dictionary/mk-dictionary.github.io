@@ -2,7 +2,7 @@ konkani_word: boroi
 meaning[1|]: write
 part_of_speech: verb
 keywords: []
-examples[2|]{konkani_sentence|english_sentence}:
-  haau boroita|I write
-  tuve sangle, haau boroite asa|What you say, that I'm writing
+examples[2|]{konkani_sentence|english_sentence|literal}:
+  haau boroita|I write|
+  tuve sangle, haau boroite asa|What you say, that I'm writing|
 categories[2|]: work|school

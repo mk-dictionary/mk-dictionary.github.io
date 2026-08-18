@@ -3,7 +3,7 @@ meaning[2|]: stop|stopped
 part_of_speech: misc
 keywords: []
 forms: []
-examples[1|]{konkani_sentence|english_sentence}:
-  to salat gelo raawon na|he kept going, he didnt stop
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  to salat gelo raawon na|he kept going, he didnt stop|
 categories: []
 note: null

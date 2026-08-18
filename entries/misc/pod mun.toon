@@ -3,7 +3,7 @@ meaning[1|]: sing
 part_of_speech: misc
 keywords: []
 forms: []
-examples[2|]{konkani_sentence|english_sentence}:
-  haau pod munthaa|I am singing
-  pod munaa nakaa|don't sing
+examples[2|]{konkani_sentence|english_sentence|literal}:
+  haau pod munthaa|I am singing|
+  pod munaa nakaa|don't sing|
 categories[1|]: gathering

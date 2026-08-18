@@ -5,7 +5,7 @@ keywords: []
 forms[2|]{label|english|value}:
   plural (multiple)|sheep|bokre
   meat|mutton|bokro maas
-examples[1|]{konkani_sentence|english_sentence}:
-  sezaaraa mustu bokre asaat|the neighbor has many sheep
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  sezaaraa mustu bokre asaat|the neighbor has many sheep|
 categories[3|]: meals|cooking|animals
 note: null

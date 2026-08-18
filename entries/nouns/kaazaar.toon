@@ -10,6 +10,6 @@ examples[2|]:
     english_sentence: we are going to the wedding
   - konkani_sentence: tace kaazaar zala
     english_sentence: he is married
-    literal: ""
+    literal: null
 categories[5|]: beginner|family|friends|household|religion
 note: null

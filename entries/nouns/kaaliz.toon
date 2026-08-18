@@ -4,7 +4,7 @@ part_of_speech: noun
 keywords: []
 forms[1|]{label|english|value}:
   plural|hearts|kaalzaa
-examples[1|]{konkani_sentence|english_sentence}:
-  kaalzaan thaau|from the heart
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  kaalzaan thaau|from the heart|
 categories[2|]: poetic|abstract
 note: null

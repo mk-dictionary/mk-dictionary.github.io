@@ -10,7 +10,7 @@
 		part_of_speech: string;
 		keywords: string[];
 		forms: { label: string; english: string; value: string }[];
-		examples: { konkani_sentence: string; english_sentence: string; literal?: string }[];
+		examples: { konkani_sentence: string; english_sentence: string; literal: string | null }[];
 		categories: string[];
 		note: string | null;
 	};
@@ -72,7 +72,7 @@
 	let pos = $state('noun');
 	let keywords = $state<string[]>([]);
 	let forms = $state<{ label: string; english: string; value: string }[]>([]);
-	let examples = $state<{ konkani_sentence: string; english_sentence: string; literal?: string }[]>(
+	let examples = $state<{ konkani_sentence: string; english_sentence: string; literal: string | null }[]>(
 		[]
 	);
 	let cats = $state<string[]>([]);
@@ -101,7 +101,7 @@
 		pos = e.part_of_speech;
 		keywords = [...e.keywords];
 		forms = e.forms ? e.forms.map((f) => ({ ...f })) : [];
-		examples = e.examples ? e.examples.map((x) => ({ ...x })) : [];
+		examples = e.examples ? e.examples.map((x) => ({ ...x, literal: x.literal ?? null })) : [];
 		cats = [...e.categories];
 		if (e.note) {
 			hasNote = true;
@@ -289,7 +289,7 @@
 		<button onclick={() => examples.splice(i, 1)}>x</button>
 	</div>
 {/each}
-<button onclick={() => examples.push({ konkani_sentence: '', english_sentence: '' })}
+<button onclick={() => examples.push({ konkani_sentence: '', english_sentence: '', literal: null })}
 	>+ Add Example</button
 >
 

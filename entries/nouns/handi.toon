@@ -4,7 +4,7 @@ part_of_speech: noun
 keywords: []
 forms[1|]{label|english|value}:
   plural|pots|handio
-examples[1|]{konkani_sentence|english_sentence}:
-  haave masli handiant kela|I made fish in the pot
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  haave masli handiant kela|I made fish in the pot|
 categories[1|]: cooking
 note: hindi

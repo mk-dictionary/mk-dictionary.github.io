@@ -3,8 +3,8 @@ meaning[1|]: ground
 part_of_speech: noun
 keywords[1|]: floor
 forms: []
-examples[2|]{konkani_sentence|english_sentence}:
-  darne weyr|on the ground
-  darne weyr ruuk ani zadaa asat|there are plants and trees on the ground
+examples[2|]{konkani_sentence|english_sentence|literal}:
+  darne weyr|on the ground|
+  darne weyr ruuk ani zadaa asat|there are plants and trees on the ground|
 categories[2|]: household|buildings
 note: null

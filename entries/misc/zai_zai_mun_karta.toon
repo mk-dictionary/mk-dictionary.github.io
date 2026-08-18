@@ -3,7 +3,7 @@ meaning[1|]: do on purpose
 part_of_speech: misc
 keywords: []
 forms: []
-examples[1|]{konkani_sentence|english_sentence}:
-  laan bhurgi zaai zaai mun radtat|small children cry on purpose
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  laan bhurgi zaai zaai mun radtat|small children cry on purpose|
 categories: []
 note: null

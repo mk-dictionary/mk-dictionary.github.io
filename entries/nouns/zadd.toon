@@ -4,9 +4,9 @@ part_of_speech: noun
 keywords: []
 forms[1|]{label|english|value}:
   plural|plants|zaddaa
-examples[3|]{konkani_sentence|english_sentence}:
-  kiddi zaddaa khata|the caterpillar eats the plants
-  zadd roita|planting the plant
-  zaddaar ful falta|the flower on the plant is opening
+examples[3|]{konkani_sentence|english_sentence|literal}:
+  kiddi zaddaa khata|the caterpillar eats the plants|
+  zadd roita|planting the plant|
+  zaddaar ful falta|the flower on the plant is opening|
 categories[2|]: gardening|nature
 note: null

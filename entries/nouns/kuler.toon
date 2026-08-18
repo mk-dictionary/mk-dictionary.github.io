@@ -4,7 +4,7 @@ part_of_speech: noun
 keywords: []
 forms[1|]{label|english|value}:
   plural|spoons|kuleraa
-examples[1|]{konkani_sentence|english_sentence}:
-  kuleraa dori|keep the spoons
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  kuleraa dori|keep the spoons|
 categories[2|]: meals|cooking
 note: null

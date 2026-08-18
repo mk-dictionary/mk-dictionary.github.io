@@ -4,7 +4,7 @@ part_of_speech: noun
 keywords: []
 forms[1|]{label|english|value}:
   plural|cars|gaadiyo
-examples[1|]{konkani_sentence|english_sentence}:
-  gaadi khai asaa|where is the car
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  gaadi khai asaa|where is the car|
 categories[2|]: beginner|household
 note: borrowed from hindi, 'car' can also be used

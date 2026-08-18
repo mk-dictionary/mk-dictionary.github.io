@@ -4,7 +4,7 @@ part_of_speech: noun
 keywords: []
 forms[1|]{label|english|value}:
   plural|potatoes|bataate
-examples[1|]{konkani_sentence|english_sentence}:
-  bataate ani boble kaddi bore zata|potato and bottlegourd curry is good
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  bataate ani boble kaddi bore zata|potato and bottlegourd curry is good|
 categories[2|]: meals|cooking
 note: null

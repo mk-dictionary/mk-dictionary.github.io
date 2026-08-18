@@ -3,7 +3,7 @@ meaning[1|]: cost money
 part_of_speech: misc
 keywords: []
 forms: []
-examples[1|]{konkani_sentence|english_sentence}:
-  kitle paixe lagle|how much money did it cost?
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  kitle paixe lagle|how much money did it cost?|
 categories[1|]: work
 note: null

@@ -4,7 +4,7 @@ part_of_speech: noun
 keywords: []
 forms[1|]{label|english|value}:
   plural/dual|both legs|(doni) paay
-examples[1|]{konkani_sentence|english_sentence}:
-  paay dukta|leg hurts
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  paay dukta|leg hurts|
 categories[3|]: beginner|body parts|health
 note: null

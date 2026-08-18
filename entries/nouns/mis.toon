@@ -3,7 +3,7 @@ meaning[1|]: mass
 part_of_speech: noun
 keywords: []
 forms: []
-examples[2|]{konkani_sentence|english_sentence}:
-  misak vosunk asaa|have to go to mass
-  aaz mis laamb zaale|the mass became long
+examples[2|]{konkani_sentence|english_sentence|literal}:
+  misak vosunk asaa|have to go to mass|
+  aaz mis laamb zaale|the mass became long|
 categories[1|]: religion

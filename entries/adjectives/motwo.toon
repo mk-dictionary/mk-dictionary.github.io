@@ -3,7 +3,7 @@ meaning[1|]: short
 part_of_speech: adjective
 keywords: []
 forms: []
-examples[1|]{konkani_sentence|english_sentence}:
-  to motwo asa|he is short
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  to motwo asa|he is short|
 categories[1|]: beginner
 note: null
