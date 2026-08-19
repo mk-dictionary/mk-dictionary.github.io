@@ -4,7 +4,7 @@
 	"version": "0.0.1",
 	"type": "module",
 	"scripts": {
-		"validate": "npx tsx scripts/validation.ts",
+		"validate": "bun scripts/validation.ts",
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
