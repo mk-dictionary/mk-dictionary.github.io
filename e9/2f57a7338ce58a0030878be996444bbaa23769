@@ -1,0 +1,14 @@
+package-lock.json
+  h_7ffaac8f5937a6 1-2299
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "e92f57a7338ce58a0030878be996444bbaa23769",
+  "prompts": {},
+  "humans": {
+    "h_7ffaac8f5937a6": {
+      "author": "rod520 <rodriguesorlen@gmail.com>"
+    }
+  }
+}
