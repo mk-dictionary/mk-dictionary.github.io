@@ -1,6 +1,5 @@
 <script lang="ts">
-  import Categories from '$lib/cmpnts/Categories.svelte';
-
+	import Categories from '$lib/cmpnts/Categories.svelte';
 	/* eslint-disable svelte/require-each-key */
 	import { resolve } from '$app/paths';
 	import { entries } from '$lib/import';
@@ -17,9 +16,8 @@
     {/each}
 -->
 <br />
-<a href={resolve('/create')}>Create a new entry</a>
+<a href={resolve('/edit')}>Create a new entry</a>
 <br />
 Categories:
 
-<Categories/>
-
+<Categories />

@@ -13,7 +13,7 @@
 	let note = $state('');
 	let part_of_speech: (typeof parts_of_speech)[number] = $state('noun'); // default value
 	let forms = $state<{ label: string; english: string; value: string }[]>([]);
-	let addedKeywords: string[] = $state<string[]>([]);
+	let keywords: string[] = $state<string[]>([]);
 
 	let examples: { konkani_sentence: string; english_sentence: string; literal: string | null }[] = $state([
 		{ konkani_sentence: '', english_sentence: '', literal: null }
@@ -25,7 +25,7 @@
 			konkani_word,
 			meaning,
 			part_of_speech,
-			keywords: addedKeywords,
+			keywords,
 			forms,
 			examples,
 			categories,
@@ -39,10 +39,10 @@
 
 	// import option as well
 	function importToon(toon: string) {
-		const importedEntry = decode(toon, { delimiter: '|' }) as Entry;
+		const importedEntry = decode(toon) as Entry;
 		konkani_word = importedEntry.konkani_word;
 		meaning = importedEntry.meaning;
-		part_of_speech = importedEntry.part_of_speech;
+		part_of_speech = importedEntry.part_of_speech as typeof part_of_speech;
 		keywords = importedEntry.keywords;
 		forms = importedEntry.forms;
 		examples = importedEntry.examples;
@@ -93,11 +93,11 @@
 <br />
 keywords:
 <ul>
-	{#each addedKeywords as keyword, i (i)}
-		<li><input type="text" bind:value={addedKeywords[i]} /></li>
+	{#each keywords as keyword, i (i)}
+		<li><input type="text" bind:value={keywords[i]} /></li>
 	{/each}
-	<button onclick={() => addedKeywords.push('')}>Add Keyword</button>
-	<button onclick={() => addedKeywords.pop()}>Remove Keyword</button>
+	<button onclick={() => keywords.push('')}>Add Keyword</button>
+	<button onclick={() => keywords.pop()}>Remove Keyword</button>
 </ul>
 
 forms
@@ -175,6 +175,7 @@ examples
 <button onclick={() => importToon(inputToonString)}>Import</button>
 <br />
 <h1>Result</h1>
+<button onclick={() => navigator.clipboard.writeText(toonString)}>Copy entry</button>
 <br />
 
 <pre>{toonString}</pre>

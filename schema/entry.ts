@@ -12,7 +12,7 @@ export const FormSchema = z.object({
 export const ExampleSchema = z.object({
 	konkani_sentence: z.string(),
 	english_sentence: z.string(),
-	literal: z.string().nullable().optional()
+	literal: z.string().nullable()
 });
 
 // Folder name (inside words/) -> the part_of_speech value expected in the file
@@ -33,9 +33,9 @@ export const EntrySchema = z.object({
 	meaning: z.array(z.string()).min(1),
 	part_of_speech: PartOfSpeechSchema,
 	keywords: z.array(z.string()),
-	forms: z.array(FormSchema).optional(),
-	examples: z.array(ExampleSchema).optional(),
-	categories: z.array(z.enum(categories)).optional(),
+	forms: z.array(FormSchema),
+	examples: z.array(ExampleSchema),
+	categories: z.array(z.enum(categories)),
 	note: z.string().nullable().optional()
 });
 
