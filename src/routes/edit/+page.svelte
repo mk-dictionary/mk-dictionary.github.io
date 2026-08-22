@@ -7,7 +7,15 @@
 	import type { Entry } from '../../../schema/entry';
 	let konkani_word = $state('');
 	let meaning: string[] = $state(['']);
-	const parts_of_speech = ['noun', 'verb', 'adjective', 'pro-form', 'query', 'uncountable', 'misc'] as const;
+	const parts_of_speech = [
+		'noun',
+		'verb',
+		'adjective',
+		'pro-form',
+		'query',
+		'uncountable',
+		'misc'
+	] as const;
 	let inputToonString = $state('');
 	let isNote = $state(false);
 	let note = $state('');
@@ -15,9 +23,8 @@
 	let forms = $state<{ label: string; english: string; value: string }[]>([]);
 	let keywords: string[] = $state<string[]>([]);
 
-	let examples: { konkani_sentence: string; english_sentence: string; literal: string | null }[] = $state([
-		{ konkani_sentence: '', english_sentence: '', literal: null }
-	]);
+	let examples: { konkani_sentence: string; english_sentence: string; literal: string | null }[] =
+		$state([{ konkani_sentence: '', english_sentence: '', literal: null }]);
 	let categories: Category[] = $state([]);
 
 	let entry: Entry = $derived.by(() => {
@@ -27,7 +34,12 @@
 			part_of_speech,
 			keywords,
 			forms,
-			examples,
+			// there's gotta be some way to replace "" and " " with null
+			examples: examples.map((e) => ({
+				konkani_sentence: e.konkani_sentence,
+				english_sentence: e.english_sentence,
+				literal: e.literal || null
+			})),
 			categories,
 			note: isNote ? note : null
 		};
@@ -58,10 +70,9 @@
 </script>
 
 <h1>Create a new entry</h1>
-<input type="radio" bind:group={part_of_speech} value="noun" /> Noun
-<input type="radio" bind:group={part_of_speech} value="verb" /> Verb
-<input type="radio" bind:group={part_of_speech} value="adjective" /> Adjective
-<input type="radio" bind:group={part_of_speech} value="misc" /> Misc
+{#each parts_of_speech as pos, i (i)}
+	<input type="radio" bind:group={part_of_speech} value={pos} /> {pos}
+{/each}
 <br />
 <input type="text" placeholder="Enter a new word, in konkani" bind:value={konkani_word} />
 <table>
@@ -91,7 +102,8 @@
 
 <button onclick={() => meaning.push('')}>Add Meaning</button>
 <br />
-keywords:
+<h2>Keywords</h2>
+<p>synonyms for the english meanings as well as common alternate spellings</p>
 <ul>
 	{#each keywords as keyword, i (i)}
 		<li><input type="text" bind:value={keywords[i]} /></li>
@@ -100,7 +112,24 @@ keywords:
 	<button onclick={() => keywords.pop()}>Remove Keyword</button>
 </ul>
 
-forms
+<h2>Forms</h2>
+<p>tenses, irregular conjugations, plurals, variations due to gender</p>
+<br />
+{#if part_of_speech == 'noun'}
+	<p>
+		remember to put a plural! i.e. maazaar(cat) -> maazraa (cats), even if the word itself doesn't
+		change!
+	</p>
+
+	<br />
+	<p>If it's a concept without a plural, then part of speech should be <b>uncountable</b></p>
+{:else if part_of_speech == 'verb'}
+	<p>Remember to add a past tense! if the verb never means past tense, it should be in misc</p>
+	<br />
+	<p>Also add irregular conjugations i.e. (vos -> veta)</p>
+{:else if part_of_speech == 'adjective'}
+	<p>does this word sound different for masculine/feminine/plural subjects? add that here!</p>
+{/if}
 <ul>
 	{#each forms as _form, index (index)}
 		<li>
@@ -144,13 +173,21 @@ examples
 						bind:value={examples[index].english_sentence}
 					/></td
 				>
+				<td
+					><input
+						type="text"
+						placeholder="Enter the translation, in english"
+						bind:value={examples[index].literal}
+					/></td
+				>
 				<td><button onclick={() => examples.splice(index, 1)}>Remove</button></td>
 			</tr>
 		{/each}
 		<tr>
 			<td colspan="3"
 				><button
-					onclick={() => examples.push({ konkani_sentence: '', english_sentence: '', literal: null })}
+					onclick={() =>
+						examples.push({ konkani_sentence: '', english_sentence: '', literal: null })}
 					>Add Example</button
 				></td
 			>
@@ -171,9 +208,11 @@ examples
 
 <br />
 <h1>Import a .toon string</h1>
-<textarea bind:value={inputToonString} placeholder="Enter a .toon string" ></textarea>
+<textarea bind:value={inputToonString} placeholder="Enter a .toon string"></textarea>
 <button onclick={() => importToon(inputToonString)}>Import</button>
 <br />
+
+
 <h1>Result</h1>
 <button onclick={() => navigator.clipboard.writeText(toonString)}>Copy entry</button>
 <br />
