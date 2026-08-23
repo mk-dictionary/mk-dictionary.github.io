@@ -13,12 +13,12 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-node@v4
+      - uses: oven-sh/setup-bun@v2
         with:
-          node-version: 20
+          bun-version: latest
 
       - name: Install dependencies
-        run: npm install zod tsx
+        run: bun install
 
       - name: Get changed word files
         id: changed
@@ -32,4 +32,4 @@ jobs:
 
       - name: Validate changed entries
         if: steps.changed.outputs.files != ''
-        run: npx tsx scripts/validation.ts ${{ steps.changed.outputs.files }}
+        run: bun scripts/validation.ts ${{ steps.changed.outputs.files }}
