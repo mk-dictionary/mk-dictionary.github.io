@@ -71,10 +71,18 @@
 
 <h1>Create a new entry</h1>
 {#each parts_of_speech as pos, i (i)}
-	<input type="radio" bind:group={part_of_speech} value={pos} /> {pos}
+	<input type="radio" bind:group={part_of_speech} value={parts_of_speech[i]} /> {pos}
 {/each}
 <br />
-<input type="text" placeholder="Enter a new word, in konkani" bind:value={konkani_word} />
+<p> the word, in konkani:</p><input type="text" placeholder="Enter a new word, in konkani" bind:value={konkani_word} />
+{#if part_of_speech == "noun"}
+	<p>this should be singular (one)</p>
+	{:else if part_of_speech == "verb"}
+	<p> in the command/request form, i.e. vos (as opposed to veta, vosun, vosunk, etc.)</p>
+	{:else if part_of_speech == "adjective"}
+{/if}
+
+
 <table>
 	<tbody>
 		<tr>
@@ -113,22 +121,25 @@
 </ul>
 
 <h2>Forms</h2>
-<p>tenses, irregular conjugations, plurals, variations due to gender</p>
+<p>tenses, cases, irregular conjugations, plurals, variations due to gender</p>
 <br />
 {#if part_of_speech == 'noun'}
 	<p>
 		remember to put a plural! i.e. maazaar(cat) -> maazraa (cats), even if the word itself doesn't
-		change!
+		change! If it's a concept without a plural, then part of speech should be <b>uncountable</b>
 	</p>
 
 	<br />
-	<p>If it's a concept without a plural, then part of speech should be <b>uncountable</b></p>
+	<p>Also put irregular cases and other forms (i.e. )</p>
 {:else if part_of_speech == 'verb'}
 	<p>Remember to add a past tense! if the verb never means past tense, it should be in misc</p>
 	<br />
 	<p>Also add irregular conjugations i.e. (vos -> veta)</p>
 {:else if part_of_speech == 'adjective'}
 	<p>does this word sound different for masculine/feminine/plural subjects? add that here!</p>
+	{:else if part_of_speech == 'misc'}
+	<p>what are some of the most common ways to use this pattern? is there a way to negate the pattern?</p>
+
 {/if}
 <ul>
 	{#each forms as _form, index (index)}
@@ -150,7 +161,8 @@
 	<button onclick={() => forms.push({ label: '', english: '', value: '' })}>Add Form</button>
 </ul>
 
-examples
+<h2>Examples</h2>
+<p> try and get a wide variety of ways to use the word </p>
 <table>
 	<tbody>
 		<tr>
@@ -208,6 +220,7 @@ examples
 
 <br />
 <h1>Import a .toon string</h1>
+<p>to edit an existing entry</p>
 <textarea bind:value={inputToonString} placeholder="Enter a .toon string"></textarea>
 <button onclick={() => importToon(inputToonString)}>Import</button>
 <br />
