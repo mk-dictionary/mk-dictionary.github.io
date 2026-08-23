@@ -4,13 +4,9 @@ part_of_speech: noun
 keywords: []
 forms[1|]{label|english|value}:
   plural|eyes|dole
-examples[3|]:
-  - konkani_sentence: makaa dole duktaat
-    english_sentence: my eyes hurt
-  - konkani_sentence: tuje dole tambde zaleyat
-    english_sentence: your eyes are red
-    literal: your eyes became red
-  - konkani_sentence: tuzo dolo tambdo zala
-    english_sentence: your eye became red
+examples[3|]{konkani_sentence|english_sentence|literal}:
+  makaa dole duktaat|my eyes hurt|null
+  tuje dole tambde zaleyat|your eyes are red|your eyes became red
+  tuzo dolo tambdo zala|your eye became red|null
 categories[2|]: body parts|health
 note: null

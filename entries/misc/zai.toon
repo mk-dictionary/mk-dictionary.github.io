@@ -5,11 +5,8 @@ keywords: []
 forms[2|]{label|english|value}:
   passive|(I) want|(maakaa) zai
   active 1st/2nd/3rd person|"(I) want (that) "|(te) (maakaa) zai
-examples[2|]:
-  - konkani_sentence: maakaa awei-bapoi zai
-    english_sentence: I want my parents
-    literal: null
-  - konkani_sentence: maakaa nidonk zai
-    english_sentence: I should sleep
+examples[2|]{konkani_sentence|english_sentence|literal}:
+  maakaa awei-bapoi zai|I want my parents|null
+  maakaa nidonk zai|I should sleep|null
 categories[1|]: beginner
 note: null

@@ -1,6 +1,5 @@
 <script lang="ts">
 	import Categories from '$lib/cmpnts/Categories.svelte';
-	/* eslint-disable svelte/require-each-key */
 	import { resolve } from '$app/paths';
 	import { entries } from '$lib/import';
 	console.log(entries);

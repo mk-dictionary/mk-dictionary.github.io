@@ -7,6 +7,7 @@ forms[1|]{label|english|value}:
 examples[2|]:
   - konkani_sentence: garaak mustu zanelaa asat
     english_sentence: there are many windows in the house
+    literal:null
   - konkani_sentence: mus zanelaa taaun bitr ailo
     english_sentence: the fly came in through the window
     literal: from the window the fly came in

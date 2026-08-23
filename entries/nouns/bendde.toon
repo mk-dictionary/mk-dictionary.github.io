@@ -4,11 +4,8 @@ part_of_speech: noun
 keywords: []
 forms[1|]{label|english|value}:
   plural|ladyfingers|benddi
-examples[2|]:
-  - konkani_sentence: benddi jo
-    english_sentence: eat the ladyfingers
-  - konkani_sentence: bendde zad benddi zalant
-    english_sentence: there are ladyfingers on the ladyfinger plant
-    literal: ladyfinger plant ladyfingers happened
+examples[2|]{konkani_sentence|english_sentence|literal}:
+  benddi jo|eat the ladyfingers|null
+  bendde zad benddi zalant|there are ladyfingers on the ladyfinger plant|ladyfinger plant ladyfingers happened
 categories[3|]: meals|cooking|gardening
 note: null

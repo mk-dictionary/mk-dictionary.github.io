@@ -9,5 +9,6 @@ examples[2|]:
     literal: feeling hunger, then eat
   - konkani_sentence: haau khaata
     english_sentence: I will eat
+    literal: null
 categories[2|]: beginner|meals
 note: refers to eating breakfast and snacks, not lunch or dinner. Jo refers to lunch and dinner

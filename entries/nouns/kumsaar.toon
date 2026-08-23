@@ -1,9 +1,10 @@
-konkani_word: "kumsaar"
+konkani_word: kumsaar
 meaning[1|]: confession
 part_of_speech: noun
 keywords: []
 examples[3|]{konkani_sentence|english_sentence|literal}:
-  haau igarjek vosun kumsaar zata|I am going to church for confession|
-  muje kaal kumsaar zale|I finished confession yesterday|
-  kumsaaraak vos|go for confession|
+  haau igarjek vosun kumsaar zata|I am going to church for confession|""
+  muje kaal kumsaar zale|I finished confession yesterday|""
+  kumsaaraak vos|go for confession|""
 categories[1|]: religion
+forms: []

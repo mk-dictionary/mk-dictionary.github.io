@@ -5,11 +5,8 @@ keywords: []
 forms[2|]{label|english|value}:
   locative|to wedding|kaazaaraa
   plural|weddings|kaazaaraa~
-examples[2|]:
-  - konkani_sentence: kaazaaraa vetaau
-    english_sentence: we are going to the wedding
-  - konkani_sentence: tace kaazaar zala
-    english_sentence: he is married
-    literal: null
+examples[2|]{konkani_sentence|english_sentence|literal}:
+  kaazaaraa vetaau|we are going to the wedding|null
+  tace kaazaar zala|he is married|null
 categories[5|]: beginner|family|friends|household|religion
 note: null

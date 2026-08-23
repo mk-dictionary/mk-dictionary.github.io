@@ -4,11 +4,8 @@ part_of_speech: noun
 keywords: []
 forms[1|]{label|english|value}:
   plural|worms|kiddio
-examples[2|]:
-  - konkani_sentence: kiddio baaz
-    english_sentence: fry the 'kiddio'
-    literal: fry the caterpillars
-  - konkani_sentence: kiddi zad khata
-    english_sentence: caterpillar eats the plant
+examples[2|]{konkani_sentence|english_sentence|literal}:
+  kiddio baaz|fry the 'kiddio'|fry the caterpillars
+  kiddi zad khata|caterpillar eats the plant|null
 categories[3|]: meals|cooking|gardening
 note: Can also refer to a caterpillar-shaped sweet

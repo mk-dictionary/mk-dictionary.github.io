@@ -3,10 +3,7 @@ meaning[1|]: feeling sleepy
 part_of_speech: misc
 keywords[1|]: drowsy
 forms: []
-examples[2|]:
-  - konkani_sentence: maaka nid yetaa
-    english_sentence: i'm feeling sleepy
-    literal: sleep is coming to me
-  - konkani_sentence: nid yetaa zalar nidunk vos
-    english_sentence: if your'e feeling sleepy, go to sleep
+examples[2|]{konkani_sentence|english_sentence|literal}:
+  maaka nid yetaa|i'm feeling sleepy|sleep is coming to me
+  nid yetaa zalar nidunk vos|if your'e feeling sleepy, go to sleep|null
 categories[1|]: beginner

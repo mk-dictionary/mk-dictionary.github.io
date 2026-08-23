@@ -8,10 +8,12 @@ forms[2|]{label|english|value}:
 examples[3|]:
   - konkani_sentence: haave xiit keli
     english_sentence: I cooked rice
+    literal: null
   - konkani_sentence: haave xiit kele
     english_sentence: I cooked rice
     literal: I made rice
   - konkani_sentence: haave raandhoi kela
     english_sentence: I cooked vegetable (earlier)
+    literal: null
 categories[1|]: beginner
-note: ""
+note: null

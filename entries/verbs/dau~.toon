@@ -15,6 +15,7 @@ forms[9|]{label|english|value}:
 examples[2|]:
   - konkani_sentence: ami dau~tau~
     english_sentence: we run
+    literal: null
   - konkani_sentence: dawaa nakaa
     english_sentence: don't run
     literal: running is not good
