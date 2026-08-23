@@ -16,7 +16,7 @@ each entry is a file in a part of speech folder within the entries folder
 - similarly, phrases that have components that act differently (karunka, maka zai)
 - interrogative words (kaale, kite~)
   - subject to change
-- non-pronoun pro-forms (angaa, tho~i, ixin, tixin)
+- non-pronoun pro-forms (angaa, tha~i, ixin, tixin)
 
 ## spelling
 
