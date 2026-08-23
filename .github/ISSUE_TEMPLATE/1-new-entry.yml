@@ -13,8 +13,11 @@ body:
       label: review
       options:
         - label: I have checked the dictionary for this word/phrase, and it wasn't there
+          required: true
         - label: I have checked the Issues tab for this word/phrase, and it wasn't there
+          required: true
         - label: I am pretty sure this is a real word/phrase 
+          required: true
   - type: textarea
     id: entry-code
     attributes:
