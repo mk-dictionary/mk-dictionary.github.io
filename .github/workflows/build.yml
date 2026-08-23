@@ -43,6 +43,9 @@ jobs:
       - name: Install dependencies
         run: bun install
         working-directory: ${{ env.BUILD_PATH }}
+      - name: Install rolldown linux
+        run: bun install @rolldown/binding-linux-x64-gnu@1.2.4 --no-save
+        working-directory: ${{ env.BUILD_PATH }}
       - name: Build with SvelteKit
         run: bun run build
         working-directory: ${{ env.BUILD_PATH }}
