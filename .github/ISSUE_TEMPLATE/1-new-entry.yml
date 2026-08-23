@@ -18,10 +18,10 @@ body:
           required: true
         - label: I am pretty sure this is a real word/phrase 
           required: true
-- type: textarea
-    id: entry-code
-    attributes:
-      label: Paste the entry here
-      placeholder: After pressing copy entry, press this and press Ctrl-V 
-    validations:
-      required: true
+  - type: textarea
+      id: entry-code
+      attributes:
+        label: Paste the entry here
+        placeholder: After pressing copy entry, press this and press Ctrl-V 
+      validations:
+        required: true
