@@ -11,7 +11,7 @@ body:
     id: review
     attributes:
       label: review
-       options:
+      options:
         - label: I have checked the dictionary for this word/phrase, and it wasn't there
         - label: I have checked the Issues tab for this word/phrase, and it wasn't there
         - label: I am pretty sure this is a real word/phrase 
