@@ -231,7 +231,7 @@
 <p> you'll take this and create a new "issue" in github</p>
 <ol>
 	<li>Copy the entry below</li>
-	<li>go to <a href="https://github.com/rod520/dictionary/issues">https://github.com/rod520/dictionary/issues</a></li>
+	<li>go to <a href="https://github.com/mk-dictionary/mk-dictionary.github.io/issues">https://github.com/mk-dictionary/mk-dictionary.github.io/issues</a></li>
 	<li>press the green button that says "New Issue"</li>
 	<li>press "New Entry"</li>
 	<li>paste the entry into the box where it says to</li>
