@@ -4,8 +4,6 @@
 	/* eslint-disable svelte/require-each-key */
 
 	let { data } = $props();
-	// svelte-ignore state_referenced_locally
-	console.log(data);
 </script>
 
 <div class="entry-container">

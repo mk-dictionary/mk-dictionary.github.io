@@ -77,9 +77,10 @@
 <p> the word, in konkani:</p>	<p>this should be singular (one)</p>
 <input type="text" placeholder="Enter a new word, in konkani" bind:value={konkani_word} />
 {#if part_of_speech == "noun"}
+	<p> remember to put the singular form of the word, i.e. maazaar (cat) as opposed to maazraa (cats) </p>
 	{:else if part_of_speech == "verb"}
 	<p> in the command/request form, i.e. vos (as opposed to veta, vosun, vosunk, etc.)</p>
-	{:else if part_of_speech == "adjective"}
+	
 {/if}
 
 <h2>Meanings</h2>
