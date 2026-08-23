@@ -3,7 +3,6 @@
 
 	let { children } = $props();
 
-	import './global.scss';
 </script>
 
 <svelte:head>
