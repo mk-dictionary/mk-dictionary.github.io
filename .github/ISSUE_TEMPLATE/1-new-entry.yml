@@ -1,0 +1,24 @@
+name: New Entry
+description: Request a new word, phrase or pattern
+title: "[New Entry]: "
+labels: ["needs a look"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to request a new entry!
+  - type: checkboxes
+    id: review
+    attributes:
+      label: review
+      options:
+        - label: I have checked the dictionary for this word/phrase, and it wasn't there
+        - label: I have checked the Issues tab for this word/phrase, and it wasn't there
+        - label: I am pretty sure this is a real word/phrase 
+  - type: textarea
+    id: entry-code
+    attributes:
+      label: Paste the entry here
+      placeholder: After pressing copy entry, press this and press Ctrl-V 
+    validations:
+      required: true
