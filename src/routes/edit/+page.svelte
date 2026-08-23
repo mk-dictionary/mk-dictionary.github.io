@@ -228,6 +228,14 @@
 
 <h1>Result</h1>
 <p> you'll take this and create a new "issue" in github</p>
+<ol>
+	<li>Copy the entry below</li>
+	<li>go to <a href="https://github.com/rod520/dictionary/issues">https://github.com/rod520/dictionary/issues</a></li>
+	<li>press the green button that says "New Issue"</li>
+	<li>press "New Entry"</li>
+	<li>paste the entry into the box where it says to</li>
+	<li>add to the title, check the checkboxes and press create</li>
+</ol>
 <button onclick={() => navigator.clipboard.writeText(toonString)}>Copy entry</button>
 <br />
 
