@@ -12,9 +12,9 @@ body:
     attributes:
       label: review
        options:
-      - label: I have checked the dictionary for this word/phrase, and it wasn't there
-      - label: I have checked the Issues tab for this word/phrase, and it wasn't there
-      - label: I am pretty sure this is a real word/phrase 
+        - label: I have checked the dictionary for this word/phrase, and it wasn't there
+        - label: I have checked the Issues tab for this word/phrase, and it wasn't there
+        - label: I am pretty sure this is a real word/phrase 
   - type: textarea
     id: entry-code
     attributes:
