@@ -74,15 +74,16 @@
 	<input type="radio" bind:group={part_of_speech} value={parts_of_speech[i]} /> {pos}
 {/each}
 <br />
-<p> the word, in konkani:</p><input type="text" placeholder="Enter a new word, in konkani" bind:value={konkani_word} />
+<p> the word, in konkani:</p>	<p>this should be singular (one)</p>
+<input type="text" placeholder="Enter a new word, in konkani" bind:value={konkani_word} />
 {#if part_of_speech == "noun"}
-	<p>this should be singular (one)</p>
 	{:else if part_of_speech == "verb"}
 	<p> in the command/request form, i.e. vos (as opposed to veta, vosun, vosunk, etc.)</p>
 	{:else if part_of_speech == "adjective"}
 {/if}
 
-
+<h2>Meanings</h2>
+<p>english translations of the word, except for synonyms (go under Keywords)</p>
 <table>
 	<tbody>
 		<tr>
@@ -107,8 +108,6 @@
 	</tbody>
 </table>
 <br />
-
-<button onclick={() => meaning.push('')}>Add Meaning</button>
 <br />
 <h2>Keywords</h2>
 <p>synonyms for the english meanings as well as common alternate spellings</p>
@@ -125,7 +124,7 @@
 <br />
 {#if part_of_speech == 'noun'}
 	<p>
-		remember to put a plural! i.e. maazaar(cat) -> maazraa (cats), even if the word itself doesn't
+		remember to put a plural (i.e. maazaar(cat) -> maazraa (cats)), even if the word itself doesn't
 		change! If it's a concept without a plural, then part of speech should be <b>uncountable</b>
 	</p>
 
@@ -146,15 +145,15 @@
 		<li>
 			<input
 				type="text"
-				placeholder="Enter the label: the form description e.g. plural"
+				placeholder="label: ie plural"
 				bind:value={forms[index].label}
 			/>
 			<input
 				type="text"
-				placeholder="Enter the english translation"
+				placeholder="english form; ie cats"
 				bind:value={forms[index].english}
 			/>
-			<input type="text" placeholder="Enter the value, konkani" bind:value={forms[index].value} />
+			<input type="text" placeholder="konkani form; ie maazraa" bind:value={forms[index].value} />
 			<button onclick={() => forms.splice(index, 1)}>Remove</button>
 		</li>
 	{/each}
@@ -166,29 +165,30 @@
 <table>
 	<tbody>
 		<tr>
-			<th>Example</th>
-			<th>Translation</th>
+			<th style=" width: 1em">Example (konkani)</th>
+			<th style=" width: 1em">Translation (english)</th>
+			<th style=" width: 1em; overflow-wrap: break-word;">Literal translation (optional, when example and translation very different literally)</th>
 		</tr>
 		{#each examples as example, index (index)}
 			<tr>
 				<td
 					><input
 						type="text"
-						placeholder="Enter the example, in konkani"
+						placeholder="example, in konkani"
 						bind:value={examples[index].konkani_sentence}
 					/></td
 				>
 				<td
 					><input
 						type="text"
-						placeholder="Enter the translation, in english"
+						placeholder="translation, in english"
 						bind:value={examples[index].english_sentence}
 					/></td
 				>
 				<td
 					><input
 						type="text"
-						placeholder="Enter the translation, in english"
+						placeholder="literal, in english"
 						bind:value={examples[index].literal}
 					/></td
 				>
@@ -227,6 +227,7 @@
 
 
 <h1>Result</h1>
+<p> you'll take this and create a new "issue" in github</p>
 <button onclick={() => navigator.clipboard.writeText(toonString)}>Copy entry</button>
 <br />
 
