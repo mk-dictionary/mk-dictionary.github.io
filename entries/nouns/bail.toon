@@ -5,6 +5,6 @@ keywords: []
 forms[1|]{label|english|value}:
   plural|wives|bailo
 examples[1|]{konkani_sentence|english_sentence|literal}:
-  ye muje bail|this is my wife|""
+  ye muje bail|this is my wife|null
 categories[5|]: beginner|family|friends|household|religion
 note: null
