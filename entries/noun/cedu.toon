@@ -1,0 +1,10 @@
+konkani_word: cedu
+meaning[1|]: girl
+part_of_speech: noun
+keywords[3|]: female|young woman|bride
+forms[1|]{label|english|value}:
+  plural|girls|ceduwaa
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  cedu huxaar aasaa|girl is clever|null
+categories[1|]: family
+note: null
