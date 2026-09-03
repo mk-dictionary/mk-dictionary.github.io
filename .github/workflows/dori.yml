@@ -21,7 +21,7 @@ jobs:
       - name: Checkout branch
         uses: actions/checkout@v4
         with:
-          ref: dev-1
+          ref: ${{ github.event.repository.default_branch }}
           fetch-depth: 0
 
       - name: Create entry
@@ -33,7 +33,7 @@ jobs:
 
       - name: Commit and push
         env:
-          TARGET_BRANCH: dev-1
+          TARGET_BRANCH: ${{ github.event.repository.default_branch }}
           ENTRY_FILE: ${{ steps.dori.outputs.file }}
           KONKANI_WORD: ${{ steps.dori.outputs.word }}
         run: |
