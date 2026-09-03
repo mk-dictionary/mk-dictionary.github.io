@@ -1,0 +1,11 @@
+konkani_word: gaai
+meaning[1|]: cow
+part_of_speech: noun
+keywords: []
+forms[2|]{label|english|value}:
+  plural|cows|gaaio
+  plural|cows|gorvaa
+examples[1|]{konkani_sentence|english_sentence|literal}:
+  gaai dud dita|cow gives milk|null
+categories[1|]: animals
+note: null
