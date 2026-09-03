@@ -33,7 +33,7 @@ jobs:
 
       - name: Commit and push
         env:
-          TARGET_BRANCH: YOUR_BRANCH_NAME
+          TARGET_BRANCH: dev-1
           ENTRY_FILE: ${{ steps.dori.outputs.file }}
           KONKANI_WORD: ${{ steps.dori.outputs.word }}
         run: |
