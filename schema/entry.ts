@@ -15,18 +15,10 @@ export const ExampleSchema = z.object({
 	literal: z.string().nullable()
 });
 
-// Folder name (inside words/) -> the part_of_speech value expected in the file
-export const FOLDER_TO_POS = {
-	nouns: 'noun',
-	verbs: 'verb',
-	adjectives: 'adjective',
-	'pro-forms': 'pro-form',
-	'queries': 'query',
-	uncountable: 'uncountable',
-	misc: 'misc'
-} as const;
 
-export const PartOfSpeechSchema = z.enum(Object.values(FOLDER_TO_POS) as [string, ...string[]]);
+
+
+export const PartOfSpeechSchema = z.enum(['nouns', 'verbs', 'adjectives', 'pro-forms', 'queries', 'uncountable', 'misc']);
 
 export const EntrySchema = z.object({
 	konkani_word: z.string(),
