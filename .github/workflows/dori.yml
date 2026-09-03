@@ -42,7 +42,16 @@ jobs:
 
           git add "$ENTRY_FILE"
           git commit -m "Add Dori entry: $KONKANI_WORD"
-          git push origin "HEAD:$TARGET_BRANCH"
+          for attempt in 1 2 3; do
+            git pull --rebase origin "$TARGET_BRANCH"
+            if git push origin "HEAD:$TARGET_BRANCH"; then
+              exit 0
+            fi
+            sleep 2
+          done
+
+          echo "Failed to push after 3 attempts due to concurrent updates on $TARGET_BRANCH."
+          exit 1
 
       - name: Comment result
         env:
