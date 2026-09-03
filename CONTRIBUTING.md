@@ -31,11 +31,11 @@ Every entry lives inside `entries/` in a folder that matches its part of speech:
 
 ```
 entries/
-  nouns/          part_of_speech: noun
-  verbs/          part_of_speech: verb
-  adjectives/     part_of_speech: adjective
+  nouns/          part_of_speech: nouns
+  verbs/          part_of_speech: verbs
+  adjectives/     part_of_speech: adjectives
   pro-forms/      part_of_speech: pro-form
-  queries/        part_of_speech: query
+  queries/        part_of_speech: queries
   uncountable/    part_of_speech: uncountable
   misc/           part_of_speech: misc
 ```
@@ -71,7 +71,7 @@ Here's a complete example entry, annotated:
 ```
 konkani_word: bail
 meaning[1|]: wife
-part_of_speech: noun
+part_of_speech: nouns
 keywords: []
 forms[1|]{label|english|value}:
   plural|wives|bailo
@@ -264,7 +264,7 @@ Don't worry about memorizing this — copy an existing file and modify it.
 ```
 konkani_word: YOUR_WORD
 meaning[1|]: YOUR_ENGLISH
-part_of_speech: noun
+part_of_speech: nouns
 keywords: []
 forms[1|]{label|english|value}:
   plural|PLURAL_ENGLISH|PLURAL_KONKANI
@@ -277,7 +277,7 @@ note: null
 ```
 konkani_word: YOUR_WORD
 meaning[1|]: YOUR_ENGLISH
-part_of_speech: verb
+part_of_speech: verbs
 keywords: []
 forms[1|]{label|english|value}:
   past tense|PAST_ENGLISH|PAST_KONKANI
@@ -290,7 +290,7 @@ note: null
 ```
 konkani_word: YOUR_WORD
 meaning[1|]: YOUR_ENGLISH
-part_of_speech: adjective
+part_of_speech: adjectives
 keywords: []
 forms: []
 examples: []
