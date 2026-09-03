@@ -2,7 +2,7 @@ konkani_word: kutaamb
 meaning[1|]: family
 forms[1|]{label|english|value}:
   locative|in the family|kutmat
-part_of_speech: noun
+part_of_speech: nouns
 keywords: []
 examples[1|]{konkani_sentence|english_sentence|literal}:
   muje kutmat vodli mai, aab, mai, pai, baba, bhaai, haau bhaau, ani bhain asaat|I have a grandmother, grandfather, mother, father, elder brother, elder sister, me, younger sister and younger brother in my family|

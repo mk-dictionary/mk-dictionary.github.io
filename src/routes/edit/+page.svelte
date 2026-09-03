@@ -8,18 +8,18 @@
 	let konkani_word = $state('');
 	let meaning: string[] = $state(['']);
 	const parts_of_speech = [
-		'noun',
-		'verb',
-		'adjective',
-		'pro-form',
-		'query',
+		'nouns',
+		'verbs',
+		'adjectives',
+		'pro-forms',
+		'queries',
 		'uncountable',
 		'misc'
 	] as const;
 	let inputToonString = $state('');
 	let isNote = $state(false);
 	let note = $state('');
-	let part_of_speech: (typeof parts_of_speech)[number] = $state('noun'); // default value
+	let part_of_speech: (typeof parts_of_speech)[number] = $state('nouns'); // default value
 	let forms = $state<{ label: string; english: string; value: string }[]>([]);
 	let keywords: string[] = $state<string[]>([]);
 
@@ -76,9 +76,9 @@
 <br />
 <p> the word, in konkani:</p>	<p>this should be singular (one)</p>
 <input type="text" placeholder="Enter a new word, in konkani" bind:value={konkani_word} />
-{#if part_of_speech == "noun"}
+{#if part_of_speech == "nouns"}
 	<p> remember to put the singular form of the word, i.e. maazaar (cat) as opposed to maazraa (cats) </p>
-	{:else if part_of_speech == "verb"}
+	{:else if part_of_speech == "verbs"}
 	<p> in the command/request form, i.e. vos (as opposed to veta, vosun, vosunk, etc.)</p>
 	
 {/if}
@@ -123,7 +123,7 @@
 <h2>Forms</h2>
 <p>tenses, cases, irregular conjugations, plurals, variations due to gender</p>
 <br />
-{#if part_of_speech == 'noun'}
+{#if part_of_speech == 'nouns'}
 	<p>
 		remember to put a plural (i.e. maazaar(cat) -> maazraa (cats)), even if the word itself doesn't
 		change! If it's a concept without a plural, then part of speech should be <b>uncountable</b>
@@ -131,11 +131,11 @@
 
 	<br />
 	<p>Also put irregular cases and other forms (i.e. )</p>
-{:else if part_of_speech == 'verb'}
+{:else if part_of_speech == 'verbs'}
 	<p>Remember to add a past tense! if the verb never means past tense, it should be in misc</p>
 	<br />
 	<p>Also add irregular conjugations i.e. (vos -> veta)</p>
-{:else if part_of_speech == 'adjective'}
+{:else if part_of_speech == 'adjectives'}
 	<p>does this word sound different for masculine/feminine/plural subjects? add that here!</p>
 	{:else if part_of_speech == 'misc'}
 	<p>what are some of the most common ways to use this pattern? is there a way to negate the pattern?</p>
