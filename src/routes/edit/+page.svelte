@@ -75,6 +75,7 @@
 	<input type="radio" bind:group={part_of_speech} value={parts_of_speech[i]} /> {pos}
 {/each}
 <br />
+<h2><i>Spelling:</i>see <a href={resolve('/edit/spelling')}>Spelling Guide</a> for our spelling conventions</h2>
 <p>the word, in konkani:</p>
 <p>this should be singular (one)</p>
 <input type="text" placeholder="Enter a new word, in konkani" bind:value={konkani_word} />
@@ -273,6 +274,7 @@
 	<li>and press create</li>
 </ol>
 
+<hr>
 <p>debugging: do not touch</p>
 <button onclick={() => navigator.clipboard.writeText(toonString)}>Copy entry</button>
 <br />
