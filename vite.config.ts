@@ -1,4 +1,6 @@
 import adapter from '@sveltejs/adapter-static';
+import { vanillaExtractPlugin } from '@vanilla-extract/vite-plugin';
+
 import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
 
@@ -25,7 +27,7 @@ function toonPlugin() {
 }
 
 export default defineConfig({
-	plugins: [
+	plugins: [ vanillaExtractPlugin(),
 		sveltekit({
 			compilerOptions: {
 				// Force runes mode for the project, except for libraries. Can be removed in svelte 6.

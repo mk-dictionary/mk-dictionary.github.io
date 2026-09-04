@@ -6,6 +6,7 @@
 	import { type Category, categories as allCategories } from '../../../schema/categories';
 	import type { Entry } from '../../../schema/entry';
 	import { resolve } from '$app/paths';
+	import { editPageStyles } from '$lib/styles.css.js';
 	let konkani_word = $state('');
 	let meaning: string[] = $state(['']);
 	const parts_of_speech = [
@@ -75,7 +76,9 @@
 	<input type="radio" bind:group={part_of_speech} value={parts_of_speech[i]} /> {pos}
 {/each}
 <br />
-<h2><i>Spelling:</i>see <a href={resolve('/edit/spelling')}>Spelling Guide</a> for our spelling conventions</h2>
+<h2>
+	<i>Spelling:</i>see <a href={resolve('/edit/spelling')}>Spelling Guide</a> for our spelling conventions
+</h2>
 <p>the word, in konkani:</p>
 <p>this should be singular (one)</p>
 <input type="text" placeholder="Enter a new word, in konkani" bind:value={konkani_word} />
@@ -89,27 +92,35 @@
 <br />
 
 <h2>Meanings</h2>
-<p>english translations of the word, except for synonyms </p>
-<table>
-	<tbody>
-		<tr>
+<p>english translations of the word, except for synonyms</p>
+<table class={editPageStyles.table}>
+	<tbody class={editPageStyles.tableBody}>
+		<tr class={editPageStyles.tableRow}>
 			<th>Meaning</th>
 			<th></th>
 		</tr>
 		{#each meaning as m, index (index)}
-			<tr>
+			<tr class={editPageStyles.tableRow}>
 				<td
-					><input
+					><input class={editPageStyles.tableCellInput}
 						type="text"
 						placeholder="Enter the meaning, in english"
 						bind:value={meaning[index]}
 					/></td
 				>
-				<td><button onclick={() => meaning.splice(index, 1)}>Remove</button></td>
+				<td class={editPageStyles.tableCell}
+					><button class={editPageStyles.removeRowButton} onclick={() => meaning.splice(index, 1)}
+						>Remove</button
+					></td
+				>
 			</tr>
 		{/each}
 		<tr>
-			<td colspan="2"><button onclick={() => meaning.push('')}>Add Meaning</button></td>
+			<td colspan="2"
+				><button class={editPageStyles.addRowButton} onclick={() => meaning.push('')}
+					>Add Meaning</button
+				></td
+			>
 		</tr>
 	</tbody>
 </table>
@@ -130,14 +141,18 @@
 <br />
 {#if part_of_speech == 'nouns'}
 	<p>
-		For nouns: remember to put a <strong>plural</strong> (i.e. maazaar(cat) -> maazraa (cats)), even if the word itself doesn't
-		change! If it's a concept without a plural, then part of speech should be <b>uncountable</b>
+		For nouns: remember to put a <strong>plural</strong> (i.e. maazaar(cat) -> maazraa (cats)), even
+		if the word itself doesn't change! If it's a concept without a plural, then part of speech
+		should be <b>uncountable</b>
 	</p>
 
 	<br />
 	<p>Also put irregular cases and other forms</p>
 {:else if part_of_speech == 'verbs'}
-	<p>For verbs: Remember to add a <strong>past tense!</strong> if the verb never means past tense, it should be in misc</p>
+	<p>
+		For verbs: Remember to add a <strong>past tense!</strong> if the verb never means past tense, it should
+		be in misc
+	</p>
 	<br />
 	<p>Also add irregular conjugations i.e. (vos -> veta)</p>
 {:else if part_of_speech == 'adjectives'}
@@ -147,45 +162,56 @@
 		what are some of the most common ways to use this pattern? is there a way to negate the pattern?
 	</p>
 {/if}
-<p>the label is a short description of the form, i.e. <strong>plural, past tense, feminine, etc.</strong>, what has <i> changed </i> about the word</p>
+<p>
+	the label is a short description of the form, i.e. <strong
+		>plural, past tense, feminine, etc.</strong
+	>, what has <i> changed </i> about the word
+</p>
 <p>put the english version of the form here</p>
 <p>put the konkani version of the form here</p>
-<table>
-<thead>
-<tr>
-	<th>Label</th>
-	<th>English Form</th>
-	<th>Konkani Form</th>
-	<th></th>
-</tr>
-	
-</thead>
-
-<tbody>
-	{#each forms as _form, index (index)}
+<table class={editPageStyles.table}>
+	<thead>
 		<tr>
-			<td>
-				<input type="text" placeholder="label: ie plural" bind:value={forms[index].label} />
-			</td>
-			<td>
-				<input type="text" placeholder="english form; ie cats" bind:value={forms[index].english} />
-			</td>
-			<td>
-			<input type="text" placeholder="konkani form; ie maazraa" bind:value={forms[index].value} />
-			</td>
-			<td>
-			<button onclick={() => forms.splice(index, 1)}>Remove</button>
-			</td>
+			<th>Label</th>
+			<th>English Form</th>
+			<th>Konkani Form</th>
+			<th></th>
 		</tr>
-	{/each}
-</tbody>
+	</thead>
+
+	<tbody class={editPageStyles.tableBody}>
+		{#each forms as _form, index (index)}
+			<tr class={editPageStyles.tableRow}>
+				<td class={editPageStyles.tableCell}>
+					<input type="text" placeholder="label: ie plural" bind:value={forms[index].label} />
+				</td>
+				<td class={editPageStyles.tableCell}>
+					<input class={editPageStyles.tableCellInput}
+						type="text"
+						placeholder="english form; ie cats"
+						bind:value={forms[index].english}
+					/>
+				</td>
+				<td class={editPageStyles.tableCell}>
+					<input class={editPageStyles.tableCellInput}
+						type="text"
+						placeholder="konkani form; ie maazraa"
+						bind:value={forms[index].value}
+					/>
+				</td>
+				<td class={editPageStyles.tableCell}>
+					<button class={editPageStyles.removeRowButton} onclick={() => forms.splice(index, 1)}>Remove</button>
+				</td>
+			</tr>
+		{/each}
+	</tbody>
 </table>
-	<button onclick={() => forms.push({ label: '', english: '', value: '' })}>Add Form</button>
+<button class={editPageStyles.addRowButton} onclick={() => forms.push({ label: '', english: '', value: '' })}>Add Form</button>
 
 <h2>Examples</h2>
 <p>try and get a wide variety of ways to use the word</p>
-<table>
-	<tbody>
+<table class={editPageStyles.table}>
+	<tbody class={editPageStyles.tableBody}>
 		<tr>
 			<th style=" width: 1em">Example (konkani)</th>
 			<th style=" width: 1em">Translation (english)</th>
@@ -194,29 +220,29 @@
 			>
 		</tr>
 		{#each examples as example, index (index)}
-			<tr>
-				<td
-					><input
+			<tr class={editPageStyles.tableRow}>
+				<td class={editPageStyles.tableCell}
+					><input class={editPageStyles.tableCellInput}
 						type="text"
 						placeholder="example, in konkani"
 						bind:value={examples[index].konkani_sentence}
 					/></td
 				>
-				<td
-					><input
+				<td class={editPageStyles.tableCell}
+					><input class={editPageStyles.tableCellInput}
 						type="text"
 						placeholder="translation, in english"
 						bind:value={examples[index].english_sentence}
 					/></td
 				>
-				<td
-					><input
+				<td class={editPageStyles.tableCell}
+					><input class={editPageStyles.tableCellInput}
 						type="text"
 						placeholder="literal, in english"
 						bind:value={examples[index].literal}
 					/></td
 				>
-				<td><button onclick={() => examples.splice(index, 1)}>Remove</button></td>
+				<td class={editPageStyles.tableCell}><button class={editPageStyles.removeRowButton} onclick={() => examples.splice(index, 1)}>Remove</button></td>
 			</tr>
 		{/each}
 		<tr>
@@ -274,7 +300,7 @@
 	<li>and press create</li>
 </ol>
 
-<hr>
+<hr />
 <p>debugging: do not touch</p>
 <button onclick={() => navigator.clipboard.writeText(toonString)}>Copy entry</button>
 <br />

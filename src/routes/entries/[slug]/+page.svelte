@@ -3,15 +3,26 @@
 
 	/* eslint-disable svelte/require-each-key */
 
-	let { data } = $props();
+	let { data }: { data: {
+		konkani_word: string;
+		part_of_speech: string;
+		meaning: string[];
+		forms: { label: string; english: string; value: string }[];
+		examples: { konkani_sentence: string; english_sentence: string; literal?: string }[];
+		categories: string[];
+	}
+
+
+	 } = $props();
+	import { entryPageStyles } from '$lib/styles.css.js';
 </script>
 
-<div class="entry-container">
-	<h1 class="word">{data.konkani_word}</h1>
+<div class={entryPageStyles.wordContainer}>
+	<h1 class={entryPageStyles.entryWord}>{data.konkani_word}</h1>
 </div>
-<h3 class="part-of-speech">{data.part_of_speech}</h3>
-<div class="meaning-container">
-	<h2 class="meaning">Meaning:</h2>
+<h3 class={entryPageStyles.entryPOS}>{data.part_of_speech}</h3>
+<div class={entryPageStyles.meaningContainer}>
+	<h2 class={entryPageStyles.meanings}>Meaning:</h2>
 	<ul>
 		{#if data.meaning.length === 0}
 			<li>ERROR: no meaning found</li>
@@ -22,26 +33,39 @@
 	</ul>
 </div>
 
-
-
 <div class="meaning-container">
 	<h2 class="meaning">Forms:</h2>
-	<ul>
+	<ul></ul>
+</div>
+<table class={entryPageStyles.formTable}>
+	<tbody>
 		{#each data.forms as form}
-			<li>{form.label} ({form.english}): {form.value}</li>
+			<tr class={entryPageStyles.formTableRow}>
+				<td class={entryPageStyles.formTableLabelCell}>{form.label}</td>
+				<td class={entryPageStyles.formTableEnglishCell}> ({form.english}) </td>
+				<td
+					class={entryPageStyles.formTableValueCell}>{form.value}</td
+				>
+			</tr>
 		{/each}
-	</ul>
-</div>
-<div class="example-container">
-	<h2 class="example">Examples:</h2>
-	<ul>
+	</tbody>
+</table>
+	<h2>Examples:</h2>
+
+<table class={entryPageStyles.exampleTable}>
+	<tbody>
 		{#each data.examples as example}
-			<li>
-				{example.konkani_sentence} - {example.english_sentence}
-			</li>
+			<tr class={entryPageStyles.exampleTableRow}>
+				<td class={entryPageStyles.exampleTableKonkani}>{example.konkani_sentence}</td>
+				<td class={entryPageStyles.exampleTableEnglish}>{example.english_sentence}</td>
+				{#if example.literal}
+					<td class={entryPageStyles.exampleTableLiteral}>({example.literal})</td>
+				{/if}
+			</tr>
 		{/each}
-	</ul>
-</div>
+	</tbody>
+</table>
+
 <div class="category-container">
 	<h2 class="category">Categories:</h2>
 	<ul>

@@ -2,13 +2,16 @@
 	import Categories from '$lib/cmpnts/Categories.svelte';
 	import { resolve } from '$app/paths';
 	import Search from '$lib/cmpnts/Search.svelte';
+	import { frontPageStyles } from '$lib/styles.css.js';
 </script>
 
-<Search />
+<div class={frontPageStyles.layout}>
+	<Search />
 
-<br />
-<a href={resolve('/edit')}>Create a new entry</a>
-<br />
-Categories:
+	<br />
+	<a class={frontPageStyles.createEntryLink} href={resolve('/edit')}>Create a new entry</a>
+	<br />
+	Categories:
 
-<Categories />
+	<Categories />
+</div>

@@ -19,6 +19,7 @@ export const entries = Object.values(entriesArray)
 		return entry;
 	}) as Entry[];
 
+type Path = "entries"
 // the type of our entries
 type Entry = {
 	konkani_word: string;
@@ -29,5 +30,5 @@ type Entry = {
 	examples: { konkani_sentence: string; english_sentence: string }[];
 	categories: string[];
 	note: string;
-	path: string;
+	path: `entries/${string}`;
 };
