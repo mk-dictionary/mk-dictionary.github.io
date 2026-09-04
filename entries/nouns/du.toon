@@ -1,8 +1,8 @@
-konkani_word: dhu
+konkani_word: du
 meaning[1|]: daughter
 part_of_speech: nouns
 keywords: []
 forms: []
 examples[1|]{konkani_sentence|english_sentence|literal}:
-  tachi dhu garaa gella|his/her daughter went home|
+  taci du garaa gella|his/her daughter went home|null
 categories[1|]: family
