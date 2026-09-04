@@ -5,8 +5,8 @@ export const [themeClass, themeVars] = createTheme({
 		bg: '#fbffe3',
 		text: '#000000',
 		header: '#000000',
-		konkani_word: '#000000',
-		konkani_text: '#000000',
+		konkani_word: '#d62a03',
+		konkani_text: '#d62a03',
 		english_word: '#480303',
 		english_text: '#560808',
 		meta_text: '#043e3f'
@@ -40,32 +40,42 @@ export const entryPageStyles = {
 
 	exampleTable: style({}),
 	exampleTableRow: style({}),
-	exampleTableEnglish: style({ color: themeVars.color.english_text, fontFamily: themeVars.font.english_text}),
-	exampleTableKonkani: style({ color: themeVars.color.konkani_text, fontFamily: themeVars.font.konkani_text }),
-	exampleTableLiteral: style({ color: themeVars.color.meta_text, fontFamily: themeVars.font.meta_text }),
+	exampleTableEnglish: style({
+		border: '1px solid black',
+		color: themeVars.color.english_text,
+		fontFamily: themeVars.font.english_text
+	}),
+	exampleTableKonkani: style({
+		border: '1px solid black',
+		color: themeVars.color.konkani_text,
+		fontFamily: themeVars.font.konkani_text
+	}),
+	exampleTableLiteral: style({
+		border: '1px solid black',
+		color: themeVars.color.meta_text,
+		fontFamily: themeVars.font.meta_text
+	}),
 
 	formTable: style({
-        borderCollapse: 'collapse',
-    }),
-	formTableRow: style({
-
-    }),
+		borderCollapse: 'collapse'
+	}),
+	formTableRow: style({}),
 	formTableLabelCell: style({
-                border: '1px solid black',
+		border: '1px solid black',
 
 		color: themeVars.color.meta_text,
 		fontFamily: themeVars.font.meta_text
 	}),
 	formTableEnglishCell: style({
-                border: '1px solid black',
+		border: '1px solid black',
 
-		color: themeVars.color.english_text,
+		color: themeVars.color.english_word,
 		fontFamily: themeVars.font.english_text
 	}),
 	formTableValueCell: style({
-                border: '1px solid black',
+		border: '1px solid black',
 
-		color: themeVars.color.konkani_text,
+		color: themeVars.color.konkani_word,
 		fontFamily: themeVars.font.konkani_text
 	}),
 	categoryContainer: style({}),
