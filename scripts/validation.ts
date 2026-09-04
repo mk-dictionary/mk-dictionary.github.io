@@ -1,6 +1,6 @@
 import { readFileSync, readdirSync } from 'fs';
 import { join, relative, sep } from 'path';
-import { EntrySchema, FOLDER_TO_POS } from '../schema/entry';
+import { EntrySchema } from '../schema/entry';
 import { decode } from '@toon-format/toon';
 const baseDir = 'entries';
 
@@ -32,7 +32,7 @@ function checkFile(path: string): { errors: string[]; warnings: string[] } {
 
 	const parts = relative(baseDir, path).split(sep);
 	const folder = parts[0];
-	const expectedPos = FOLDER_TO_POS[folder as keyof typeof FOLDER_TO_POS];
+	const expectedPos = folder;
 
 	if (!expectedPos) {
 		errors.push(`unrecognized folder "${folder}" — not a known part of speech`);
@@ -67,14 +67,14 @@ function checkFile(path: string): { errors: string[]; warnings: string[] } {
 		errors.push(`part_of_speech is "${result.data.part_of_speech}" but file lives in "${folder}/"`);
 	}
 
-	if (result.data.part_of_speech === 'noun') {
+	if (result.data.part_of_speech === 'nouns') {
 		const forms = result.data.forms;
 		if (!forms || forms.length === 0) {
 			warnings.push(`nouns should have at least one form (e.g. plural) — add forms or move to uncountable/`);
 		}
 	}
 
-	if (result.data.part_of_speech === 'verb') {
+	if (result.data.part_of_speech === 'verbs') {
 		const forms = result.data.forms;
 		if (!forms || forms.length === 0) {
 			warnings.push(`verbs should have at least one inflected form`);
