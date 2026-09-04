@@ -5,6 +5,7 @@
 	import { encode, decode } from '@toon-format/toon';
 	import { type Category, categories as allCategories } from '../../../schema/categories';
 	import type { Entry } from '../../../schema/entry';
+	import { resolve } from '$app/paths';
 	let konkani_word = $state('');
 	let meaning: string[] = $state(['']);
 	const parts_of_speech = [
@@ -74,17 +75,20 @@
 	<input type="radio" bind:group={part_of_speech} value={parts_of_speech[i]} /> {pos}
 {/each}
 <br />
-<p> the word, in konkani:</p>	<p>this should be singular (one)</p>
+<p>the word, in konkani:</p>
+<p>this should be singular (one)</p>
 <input type="text" placeholder="Enter a new word, in konkani" bind:value={konkani_word} />
-{#if part_of_speech == "nouns"}
-	<p> remember to put the singular form of the word, i.e. maazaar (cat) as opposed to maazraa (cats) </p>
-	{:else if part_of_speech == "verbs"}
-	<p> in the command/request form, i.e. vos (as opposed to veta, vosun, vosunk, etc.)</p>
-	
+{#if part_of_speech == 'nouns'}
+	<p>
+		remember to put the singular form of the word, i.e. maazaar (cat) as opposed to maazraa (cats)
+	</p>
+{:else if part_of_speech == 'verbs'}
+	<p>in the command/request form, i.e. vos (as opposed to veta, vosun, vosunk, etc.)</p>
 {/if}
+<br />
 
 <h2>Meanings</h2>
-<p>english translations of the word, except for synonyms (go under Keywords)</p>
+<p>english translations of the word, except for synonyms </p>
 <table>
 	<tbody>
 		<tr>
@@ -125,50 +129,68 @@
 <br />
 {#if part_of_speech == 'nouns'}
 	<p>
-		remember to put a plural (i.e. maazaar(cat) -> maazraa (cats)), even if the word itself doesn't
+		For nouns: remember to put a <strong>plural</strong> (i.e. maazaar(cat) -> maazraa (cats)), even if the word itself doesn't
 		change! If it's a concept without a plural, then part of speech should be <b>uncountable</b>
 	</p>
 
 	<br />
-	<p>Also put irregular cases and other forms (i.e. )</p>
+	<p>Also put irregular cases and other forms</p>
 {:else if part_of_speech == 'verbs'}
-	<p>Remember to add a past tense! if the verb never means past tense, it should be in misc</p>
+	<p>For verbs: Remember to add a <strong>past tense!</strong> if the verb never means past tense, it should be in misc</p>
 	<br />
 	<p>Also add irregular conjugations i.e. (vos -> veta)</p>
 {:else if part_of_speech == 'adjectives'}
 	<p>does this word sound different for masculine/feminine/plural subjects? add that here!</p>
-	{:else if part_of_speech == 'misc'}
-	<p>what are some of the most common ways to use this pattern? is there a way to negate the pattern?</p>
-
+{:else if part_of_speech == 'misc'}
+	<p>
+		what are some of the most common ways to use this pattern? is there a way to negate the pattern?
+	</p>
 {/if}
-<ul>
+<p>the label is a short description of the form, i.e. <strong>plural, past tense, feminine, etc.</strong>, what has <i> changed </i> about the word</p>
+<p>put the english version of the form here</p>
+<p>put the konkani version of the form here</p>
+<table>
+<thead>
+<tr>
+	<th>Label</th>
+	<th>English Form</th>
+	<th>Konkani Form</th>
+	<th></th>
+</tr>
+	
+</thead>
+
+<tbody>
 	{#each forms as _form, index (index)}
-		<li>
-			<input
-				type="text"
-				placeholder="label: ie plural"
-				bind:value={forms[index].label}
-			/>
-			<input
-				type="text"
-				placeholder="english form; ie cats"
-				bind:value={forms[index].english}
-			/>
+		<tr>
+			<td>
+				<input type="text" placeholder="label: ie plural" bind:value={forms[index].label} />
+			</td>
+			<td>
+				<input type="text" placeholder="english form; ie cats" bind:value={forms[index].english} />
+			</td>
+			<td>
 			<input type="text" placeholder="konkani form; ie maazraa" bind:value={forms[index].value} />
+			</td>
+			<td>
 			<button onclick={() => forms.splice(index, 1)}>Remove</button>
-		</li>
+			</td>
+		</tr>
 	{/each}
+</tbody>
+</table>
 	<button onclick={() => forms.push({ label: '', english: '', value: '' })}>Add Form</button>
-</ul>
 
 <h2>Examples</h2>
-<p> try and get a wide variety of ways to use the word </p>
+<p>try and get a wide variety of ways to use the word</p>
 <table>
 	<tbody>
 		<tr>
 			<th style=" width: 1em">Example (konkani)</th>
 			<th style=" width: 1em">Translation (english)</th>
-			<th style=" width: 1em; overflow-wrap: break-word;">Literal translation (optional, when example and translation very different literally)</th>
+			<th style=" width: 1em; overflow-wrap: break-word;"
+				>Literal translation (optional, when example and translation very different literally)</th
+			>
 		</tr>
 		{#each examples as example, index (index)}
 			<tr>
@@ -209,12 +231,15 @@
 </table>
 
 {#each allCategories as category (category)}
-	<label>
+	<span
+		style="border: 1px solid black;  margin: 0.5em; break-inside: avoid; display: inline-block;"
+	>
 		<input type="checkbox" value={category} bind:group={categories} />
 		{category}
-	</label>
+	</span>
 {/each}
-<input type="checkbox" bind:checked={isNote} /> note?
+<br />
+<input type="checkbox" bind:checked={isNote} /> add a note?
 {#if isNote}
 	<textarea bind:value={note} placeholder="Enter your note here"></textarea>
 {/if}
@@ -226,17 +251,29 @@
 <button onclick={() => importToon(inputToonString)}>Import</button>
 <br />
 
-
 <h1>Result</h1>
-<p> you'll take this and create a new "issue" in github</p>
+<p>this is how you submit new entries</p>
 <ol>
-	<li>Copy the entry below</li>
-	<li>go to <a href="https://github.com/mk-dictionary/mk-dictionary.github.io/issues">https://github.com/mk-dictionary/mk-dictionary.github.io/issues</a></li>
-	<li>press the green button that says "New Issue"</li>
-	<li>press "New Entry"</li>
-	<li>paste the entry into the box where it says to</li>
-	<li>add to the title, check the checkboxes and press create</li>
+	<li>
+		Check to make sure this is not a duplicate, searching in <a
+			href="https://github.com/mk-dictionary/mk-dictionary.github.io/issues"
+			>the submitted
+		</a>
+		as well as the <a href={resolve('/')}>main dictionary</a>
+	</li>
+	<li>Make sure you are logged into your GitHub account, if you don't have one, make one</li>
+	<li>
+		Click on <a
+			href="https://github.com/mk-dictionary/mk-dictionary.github.io/issues/new?template=1-new-entry.yml&title={encodeURIComponent(
+				'[New Entry]: ' + konkani_word
+			)}&entry-code={encodeURIComponent(toonString)}">this link</a
+		>
+	</li>
+	<li>check the checkboxes</li>
+	<li>and press create</li>
 </ol>
+
+<p>debugging: do not touch</p>
 <button onclick={() => navigator.clipboard.writeText(toonString)}>Copy entry</button>
 <br />
 
