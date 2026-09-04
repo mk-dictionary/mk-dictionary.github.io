@@ -11,14 +11,14 @@
 
 
 
-<div class="entries-grid">
+
+<div class={catPageStyles.entryGrid}>
 {#each words as entry}
-	<article class="entry-card">
-		<a href={resolve(`/${entry.path}`)} class="entry-link">
-			<span class={catPageStyles.entryWord}>{entry.konkani_word}</span>
-			<span class={catPageStyles.entryMeaning}>{entry.meaning[0]}</span>
-			<span class={catPageStyles.entryPOS}>({entry.part_of_speech})</span>
+		<a class={catPageStyles.entryCard} href={resolve(`/${entry.path}`)} >
+	
+			<div class={catPageStyles.entryWord}>{entry.konkani_word}</div>
+			<div class={catPageStyles.entryMeaning}>{entry.meaning[0]}</div>
+			<div class={catPageStyles.entryPOS}>({entry.part_of_speech})</div>
 		</a>
-	</article>
 {/each}
 </div>

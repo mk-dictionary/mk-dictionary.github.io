@@ -32,7 +32,10 @@ export const globalLayoutStyles = {
 };
 
 export const entryPageStyles = {
-	wordContainer: style({}),
+	wordContainer: style({
+		fontFamily: themeVars.font.konkani_word,
+		color: themeVars.color.konkani_word
+	}),
 	entryPOS: style({}),
 	entryWord: style({}),
 	meaningContainer: style({}),
@@ -82,9 +85,35 @@ export const entryPageStyles = {
 	categoryBox: style({})
 };
 export const catPageStyles = {
-	entryWord: style({}),
-	entryMeaning: style({}),
-	entryPOS: style({})
+	entryGrid: style({
+		display: 'grid',
+		gridTemplateColumns: 'auto auto auto auto',
+
+	}),
+	entryCard: style({
+		textDecoration: 'none',
+		padding: '1em 2em',
+		backgroundColor: "#ff9900",
+		margin: '1em',
+		borderRadius: '5px',
+		":hover": {
+			backgroundColor: "#ffcc00",
+		}
+
+	}),
+	entryWord: style({
+		fontFamily: themeVars.font.konkani_word,
+		color: themeVars.color.konkani_word
+
+	}),
+	entryMeaning: style({
+		color: themeVars.color.english_word,
+		fontFamily: themeVars.font.english_word
+	}),
+	entryPOS: style({
+		color: themeVars.color.meta_text,
+		fontFamily: themeVars.font.meta_text
+	})
 };
 export const catCompStyles = {
 	categoriesGrid: style({}),

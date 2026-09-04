@@ -22,7 +22,7 @@
 </div>
 <h3 class={entryPageStyles.entryPOS}>{data.part_of_speech}</h3>
 <div class={entryPageStyles.meaningContainer}>
-	<h2 class={entryPageStyles.meanings}>Meaning:</h2>
+	<h3 class={entryPageStyles.meanings}>Meaning:</h3>
 	<ul>
 		{#if data.meaning.length === 0}
 			<li>ERROR: no meaning found</li>
