@@ -80,7 +80,10 @@
 	<i>Spelling:</i>see <a href={resolve('/edit/spelling')}>Spelling Guide</a> for our spelling conventions
 </h2>
 <p>the word, in konkani:</p>
-<p>this should be singular (one)</p>
+{#if part_of_speech == 'nouns'}
+{:else if part_of_speech == 'verbs'}
+	<p>this should be in the command/request form</p>
+{/if}
 <input type="text" placeholder="Enter a new word, in konkani" bind:value={konkani_word} />
 {#if part_of_speech == 'nouns'}
 	<p>
