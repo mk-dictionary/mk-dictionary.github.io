@@ -3,7 +3,7 @@ meaning[3|]: boy|a male child|young man
 part_of_speech: noun
 keywords[3|]: lad|adolescent|son
 forms[1|]{label|english|value}:
-  plural|cede|boys|
+  plural|cede|boys
 examples[1|]{konkani_sentence|english_sentence|literal}:
   cedo huxaar asa|boy is clever|null
 categories[1|]: family
