@@ -42,5 +42,6 @@
 		"fuse.js": "^7.5.0",
 		"gh-pages": "^6.3.0",
 		"zod": "^4.4.3"
-	}
+	},
+	  "trustedDependencies": ["@sveltejs/kit"] 
 }
