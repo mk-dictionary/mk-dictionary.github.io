@@ -23,5 +23,6 @@ body:
     attributes:
       label: Paste the entry here
       placeholder: After pressing copy entry, press this and press Ctrl-V 
+      render: yaml
     validations:
       required: true
