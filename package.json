@@ -41,7 +41,11 @@
 		"@vanilla-extract/css": "^1.21.2",
 		"fuse.js": "^7.5.0",
 		"gh-pages": "^6.3.0",
+		"lucide": "^1.40.0",
+		"morphicons": "^1.7.1",
 		"zod": "^4.4.3"
 	},
-	  "trustedDependencies": ["@sveltejs/kit"] 
+	"trustedDependencies": [
+		"@sveltejs/kit"
+	]
 }
