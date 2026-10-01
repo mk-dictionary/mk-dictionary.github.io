@@ -1,0 +1,11 @@
+konkani_word: Pormbol
+meaning[1|]: Aroma
+part_of_speech: nouns
+keywords[2|]: Smell|Odor
+forms[1|]{label|english|value}:
+  Plural|Smells|Pormbol
+examples[2|]{konkani_sentence|english_sentence|literal}:
+  Mogri pormbol asaat|Jasmine has an aroma|null
+  Kunkadaci kadi pormbol zalaa|The chicken curry now has an aroma|null
+categories[3|]: cooking|gardening|nature
+note: null
