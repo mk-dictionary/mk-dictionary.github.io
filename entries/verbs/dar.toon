@@ -1,10 +1,10 @@
-konkani_word: dhar
+konkani_word: dar
 meaning[1|]: hold
-part_of_speech: nouns
+part_of_speech: verbs
 keywords[4|]: clasp|grasp|grip|clench
 forms[1|]{label|english|value}:
-  past tense|held|dharle
+  past tense|held|darle
 examples[1|]{konkani_sentence|english_sentence|literal}:
-  burgyak gutt dhar|hold the child tight|null
+  burgyak gutt dar|hold the child tight|null
 categories[1|]: body parts
 note: null
