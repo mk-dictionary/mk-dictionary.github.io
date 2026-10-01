@@ -1,5 +1,7 @@
 # dictionary
 
+## **NEW:** see [words_list](words_list/) to see suggestions for words to add
+Note that this may not be up to date with the added words. Make sure to check the issues tab for words that are already done
 
 # contributing entries
 

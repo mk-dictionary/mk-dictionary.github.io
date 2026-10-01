@@ -6,9 +6,9 @@
 	import { globalLayoutStyles } from '$lib/styles.css.js';
 	import {themeClass} from '$lib/styles.css.js';
 
-	import { MorphIcon } from "morphicons/svelte"; 
-	  import { Menu, X } from "lucide"; // data, not components 
-	let open = $state(false);
+	//import { MorphIcon } from "morphicons/svelte"; 
+	//import { Menu, X } from "lucide"; // data, not components 
+	// let open = $state(false);
 </script>
 
 <svelte:head>
@@ -19,10 +19,12 @@
 <div>
 
 <a href={resolve('/')}>
-	
+	<!--
 <button onclick={() => (open = !open)} aria-expanded={open}>
   <MorphIcon icon={open ? X : Menu} />
 </button>
+-->
+go home
 </a>
 	
 </div>
@@ -31,6 +33,6 @@
 	{@render children()}
 </div>
 <div class={globalLayoutStyles.footer}>
-	<p>Made with ❤️</p>
+	<p>Check out the <a href="https://github.com/mk-dictionary/mk-dictionary">GitHub repository</a></p>
 </div>
 </span>
