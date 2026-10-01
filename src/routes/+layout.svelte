@@ -18,13 +18,13 @@
 <div class={globalLayoutStyles.header}>
 <div>
 
-<a href={resolve('/')}>
+<a href={resolve('/')} style="font-family: Arial, Helvetica, sans-serif; font-size: 1.5rem; font-weight: bold; text-decoration: none;">
 	<!--
 <button onclick={() => (open = !open)} aria-expanded={open}>
   <MorphIcon icon={open ? X : Menu} />
 </button>
 -->
-go home
+home
 </a>
 	
 </div>

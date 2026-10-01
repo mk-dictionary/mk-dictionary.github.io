@@ -71,15 +71,19 @@
 	}
 </script>
 
+
+<br />
 <h1>Create a new entry</h1>
+
+<h2>
+	<a href={resolve('/edit/spelling')}>Spelling Conventions</a>  	<a href='https://github.com/mk-dictionary/mk-dictionary.github.io/tree/main/words_list'>Suggestions for new words</a> <a href='https://github.com/mk-dictionary/mk-dictionary.github.io/issues'>Entry submissions</a>
+
+</h2>
+<strong>part of speech:</strong>
 {#each parts_of_speech as pos, i (i)}
 	<input type="radio" bind:group={part_of_speech} value={parts_of_speech[i]} /> {pos}
 {/each}
-<br />
-<h2>
-	<i>Spelling:</i>see <a href={resolve('/edit/spelling')}>Spelling Guide</a> for our spelling conventions
-</h2>
-<p>the word, in konkani:</p>
+<p>the word, in <strong>konkani:</strong></p>
 {#if part_of_speech == 'nouns'}
 {:else if part_of_speech == 'verbs'}
 	<p>this should be in the command/request form</p>
