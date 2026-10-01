@@ -20,5 +20,5 @@ export const load: PageServerLoad = async ({ params }) => {
 	}
 
 	// TODO: leaking all entry paths in error message, clean up later
-	error(404, 'Not hree' + 'words:' + JSON.stringify(dictEntries.map((entry) => entry.path)));
+	error(404, 'No entry found for slug: ' + params.slug + '.');
 };
