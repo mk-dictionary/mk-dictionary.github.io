@@ -37,7 +37,6 @@ schema/entry.ts        — Zod: EntrySchema, FormSchema, ExampleSchema
 schema/categories.ts   — 25 category names
 scripts/validation.ts  — CI: parse + validate .toon files
 scripts/toon.ts        — legacy JSON → TOON converter
-scripts/fill_swadesh_todo.ts — fill entries_todo_swadesh.md from entries/
 src/lib/import.ts      — glob import all .toon, compute slug
 src/lib/fuse.ts        — Fuse.js index build
 src/lib/cmpnts/Search.svelte — debounced search UI
@@ -45,6 +44,7 @@ entries/               — data: organized by POS folder
 entries_todo_basic.md  — Basic English (Ogden 850) entry tracker
 entries_todo_swadesh.md — Swadesh list entry tracker
 phrases_todo.md        — phrase entry tracker
+words_list/             — themed English word lists with Done and Konkani columns
 ```
 
 ## Routes
@@ -75,6 +75,10 @@ npm run format   # prettier write
 - Delimiter in .toon files: `|`
 - Categories array embedded in each entry
 - Meaning array = distinct senses, not synonyms
+- `words_list/` is a secondary planning view of `entries/`; its rows may lag behind
+	the current entries, so check the `.toon` files before treating a row as missing
+- When an entry is finished, update the matching `words_list/` row's Done marker and
+	Konkani field when practical; normalize parenthetical English qualifiers when matching
 
 ## ADRs
 
