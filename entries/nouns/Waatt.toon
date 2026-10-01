@@ -1,0 +1,11 @@
+konkani_word: Waatt
+meaning[1|]: Way
+part_of_speech: nouns
+keywords[1|]: Path
+forms[1|]{label|english|value}:
+  Plural|Ways|Waatto
+examples[2|]{konkani_sentence|english_sentence|literal}:
+  Muje garaak veci waatt|The way to my house|The way to go to my house
+  waatt di|Give way|null
+categories[1|]: beginner
+note: null

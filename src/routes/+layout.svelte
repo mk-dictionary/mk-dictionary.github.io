@@ -1,9 +1,14 @@
 <script lang="ts">
+	import { resolve } from '$app/paths';
 	import favicon from '$lib/assets/favicon.svg';
 
 	let { children } = $props();
 	import { globalLayoutStyles } from '$lib/styles.css.js';
 	import {themeClass} from '$lib/styles.css.js';
+
+	import { MorphIcon } from "morphicons/svelte"; 
+	  import { Menu, X } from "lucide"; // data, not components 
+	let open = $state(false);
 </script>
 
 <svelte:head>
@@ -11,7 +16,16 @@
 </svelte:head>
 <span class={themeClass}>
 <div class={globalLayoutStyles.header}>
-	<h1>MK Dictionary</h1>
+<div>
+
+<a href={resolve('/')}>
+	
+<button onclick={() => (open = !open)} aria-expanded={open}>
+  <MorphIcon icon={open ? X : Menu} />
+</button>
+</a>
+	
+</div>
 </div>
 <div class={globalLayoutStyles.body}>
 	{@render children()}

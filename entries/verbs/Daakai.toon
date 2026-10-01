@@ -1,0 +1,11 @@
+konkani_word: Daakai
+meaning[1|]: Show
+part_of_speech: verbs
+keywords: []
+forms[1|]{label|english|value}:
+  Past tense|"Showed "|Daakaila
+examples[2|]{konkani_sentence|english_sentence|literal}:
+  Haave takaa ghar daakaila|I showed him the house|null
+  Makaa daakai|Show me|null
+categories[1|]: gathering
+note: null

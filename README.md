@@ -1,10 +1,5 @@
 # dictionary
 
-## word lists / todo
-
-- `entries_todo_basic.md` — Basic English (Ogden 850) tracker
-- `entries_todo_swadesh.md` — Swadesh list tracker (has a column for the Konkani word)
-- `phrases_todo.md` — phrase tracker
 
 # contributing entries
 
