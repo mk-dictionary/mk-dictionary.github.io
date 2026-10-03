@@ -1,0 +1,12 @@
+konkani_word: kaam
+meaning[1|]: work
+part_of_speech: nouns
+keywords[1|]: job
+forms[1|]{label|english|value}:
+  plural|works|kaam
+examples[3|]{konkani_sentence|english_sentence|literal}:
+  kaam kar|do the work|null
+  muje kaam boro asaa|my work is good|null
+  kaamak gele|went to work|null
+categories: []
+note: null
