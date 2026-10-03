@@ -9,7 +9,7 @@ A step-by-step guide for adding or editing entries. No programming experience re
 ### Option A: The web editor (easiest)
 
 1. Start the dev server: open a terminal in the project folder and run `npm run dev`
-2. Open `http://localhost:5173/editor` in your browser
+2. Open `http://localhost:5173/edit` in your browser
 3. You'll see a list of all existing entries on the left. Click one to edit it, or click **+ New Entry** to start fresh
 4. Fill in the fields (see "Fields explained" below)
 5. Click **Save** — the file is written straight into the `entries/` folder
@@ -34,13 +34,13 @@ entries/
   nouns/          part_of_speech: nouns
   verbs/          part_of_speech: verbs
   adjectives/     part_of_speech: adjectives
-  pro-forms/      part_of_speech: pro-form
+  pro-forms/      part_of_speech: pro-forms
   queries/        part_of_speech: queries
   uncountable/    part_of_speech: uncountable
   misc/           part_of_speech: misc
 ```
 
-**The folder name must match the `part_of_speech` field in the file.** If you put a file in `entries/verbs/`, the `part_of_speech` line must say `verb`. The validator will catch mismatches.
+**The folder name must match the `part_of_speech` field in the file.** If you put a file in `entries/verbs/`, the `part_of_speech` line must say `verbs`. The validator will catch mismatches.
 
 The filename becomes part of the URL. For example `entries/nouns/bail.toon` becomes the page `/entries/nouns-bail`. Use lowercase Konkani for filenames, with hyphens for multi-word names (e.g. `bhaail-munis.toon`).
 
@@ -50,15 +50,15 @@ The filename becomes part of the URL. For example `entries/nouns/bail.toon` beco
 
 Pick one. This determines which folder the file goes in.
 
-| Part of speech | Folder      | What it's for                                                    |
-| -------------- | ----------- | ---------------------------------------------------------------- |
-| `noun`         | `nouns/`    | People, places, things. Should have at least a plural form.      |
-| `verb`         | `verbs/`    | Actions and states. Should have at least a past-tense form.      |
-| `adjective`    | `adjectives/` | Descriptions of nouns (big, small, sweet, red).               |
-| `pro-form`     | `pro-forms/` | Pronouns and other pro-forms (I, you, he, she, this, that).    |
-| `query`        | `queries/`  | Interrogatives (who, what, where, how, when).                    |
-| `uncountable`  | `uncountable/` | Abstract or mass nouns that don't pluralize (rain, happiness). |
-| `misc`         | `misc/`     | Anything that doesn't fit the others — particles, phrases, negations, auxiliaries. |
+| Part of speech | Folder         | What it's for                                                                      |
+| -------------- | -------------- | ---------------------------------------------------------------------------------- |
+| `nouns`        | `nouns/`       | People, places, things. Should have at least a plural form.                        |
+| `verbs`        | `verbs/`       | Actions and states. Should have at least a past-tense form.                        |
+| `adjectives`   | `adjectives/`  | Descriptions of nouns (big, small, sweet, red).                                    |
+| `pro-forms`    | `pro-forms/`   | Pronouns and other pro-forms (I, you, he, she, this, that).                        |
+| `queries`      | `queries/`     | Interrogatives (who, what, where, how, when).                                      |
+| `uncountable`  | `uncountable/` | Abstract or mass nouns that don't pluralize (rain, happiness).                     |
+| `misc`         | `misc/`        | Anything that doesn't fit the others — particles, phrases, negations, auxiliaries. |
 
 If unsure, `misc` is fine. Someone else can move it later.
 
@@ -101,7 +101,7 @@ This means the word has two distinct senses: "do" and "make". If a word means "b
 
 ### `part_of_speech` (required)
 
-Must be one of: `noun`, `verb`, `adjective`, `pro-form`, `query`, `uncountable`, `misc`.
+Must be one of: `nouns`, `verbs`, `adjectives`, `pro-forms`, `queries`, `uncountable`, `misc`.
 
 Must match the folder the file is in.
 
@@ -119,11 +119,11 @@ If you have nothing to add, leave it empty: `keywords: []`
 
 Grammatical variants of the headword. Each form has three parts:
 
-| Field     | What it means                                   | Example            |
-| --------- | ----------------------------------------------- | ------------------ |
-| `label`   | What kind of form this is                       | `plural`           |
-| `english` | The English of this form                        | `wives`            |
-| `value`   | The Konkani word for this form                  | `bailo`            |
+| Field     | What it means                  | Example  |
+| --------- | ------------------------------ | -------- |
+| `label`   | What kind of form this is      | `plural` |
+| `english` | The English of this form       | `wives`  |
+| `value`   | The Konkani word for this form | `bailo`  |
 
 Forms are separated by `|` on each line. The header declares the columns:
 
@@ -147,11 +147,11 @@ If a word has no grammatical forms, leave it empty: `forms: []`
 
 Usage sentences showing the word in context. Each example has:
 
-| Field              | What it means                              |
-| ------------------ | ------------------------------------------ |
-| `konkani_sentence` | A full sentence in Konkani                |
-| `english_sentence` | The English translation                   |
-| `literal`          | Optional word-for-word gloss              |
+| Field              | What it means                |
+| ------------------ | ---------------------------- |
+| `konkani_sentence` | A full sentence in Konkani   |
+| `english_sentence` | The English translation      |
+| `literal`          | Optional word-for-word gloss |
 
 ```
 examples[1|]{konkani_sentence|english_sentence|literal}:
@@ -175,33 +175,33 @@ examples[2|]:
 
 Thematic tags for browsing. An entry can belong to multiple categories, or none. Available categories:
 
-| Category       | For words related to...                                  |
-| -------------- | -------------------------------------------------------- |
-| `beginner`     | Most common, essential words everyone should learn first |
-| `family`       | Family members, family relationships                     |
-| `friends`      | Social relationships, people you know                    |
-| `meals`        | Food, eating, dining                                     |
-| `cooking`      | Preparation of food, kitchen activities                  |
-| `animals`      | Pets, wildlife, livestock                                |
-| `clothing`     | Clothes, accessories, fabrics                            |
-| `household`    | Home, furniture, domestic items                          |
-| `buildings`    | Structures, rooms, architecture                          |
-| `school`       | Education, classroom, learning                           |
-| `work`         | Jobs, professions, workplace                             |
-| `times`        | Days, months, seasons, time concepts                     |
-| `gathering`    | Events, meetings, celebrations                           |
-| `gardening`    | Plants, trees, flowers, agriculture                      |
-| `weather`      | Rain, wind, seasons, climate                             |
-| `nature`       | Rivers, mountains, landscape, the natural world          |
-| `temperature`  | Hot, cold, warm, temperature-related                     |
-| `art`          | Colors, music, creative expression                       |
-| `religion`     | Church, faith, spiritual practices                       |
-| `travel`       | Journey, visiting, tourism                                |
-| `transportation` | Vehicles, roads, getting around                        |
-| `poetic`       | Abstract or literary words (luck, fate, heart)           |
-| `body parts`   | Parts of the human body                                  |
-| `health`       | Medicine, sickness, wellness (not body parts)            |
-| `abstract`     | Concepts that don't fit neatly elsewhere (hole, space)   |
+| Category         | For words related to...                                  |
+| ---------------- | -------------------------------------------------------- |
+| `beginner`       | Most common, essential words everyone should learn first |
+| `family`         | Family members, family relationships                     |
+| `friends`        | Social relationships, people you know                    |
+| `meals`          | Food, eating, dining                                     |
+| `cooking`        | Preparation of food, kitchen activities                  |
+| `animals`        | Pets, wildlife, livestock                                |
+| `clothing`       | Clothes, accessories, fabrics                            |
+| `household`      | Home, furniture, domestic items                          |
+| `buildings`      | Structures, rooms, architecture                          |
+| `school`         | Education, classroom, learning                           |
+| `work`           | Jobs, professions, workplace                             |
+| `times`          | Days, months, seasons, time concepts                     |
+| `gathering`      | Events, meetings, celebrations                           |
+| `gardening`      | Plants, trees, flowers, agriculture                      |
+| `weather`        | Rain, wind, seasons, climate                             |
+| `nature`         | Rivers, mountains, landscape, the natural world          |
+| `temperature`    | Hot, cold, warm, temperature-related                     |
+| `art`            | Colors, music, creative expression                       |
+| `religion`       | Church, faith, spiritual practices                       |
+| `travel`         | Journey, visiting, tourism                               |
+| `transportation` | Vehicles, roads, getting around                          |
+| `poetic`         | Abstract or literary words (luck, fate, heart)           |
+| `body parts`     | Parts of the human body                                  |
+| `health`         | Medicine, sickness, wellness (not body parts)            |
+| `abstract`       | Concepts that don't fit neatly elsewhere (hole, space)   |
 
 Format: pipe-separated, inline with the field:
 
@@ -248,19 +248,20 @@ Don't worry about memorizing this — copy an existing file and modify it.
 
 ## Troubleshooting
 
-| Problem | Fix |
-| ------- | --- |
-| "unrecognized folder" | Your file is in the wrong directory. Check the folder structure table above. |
-| "part_of_speech is X but file lives in Y/" | The `part_of_speech` field doesn't match the folder. Change one or the other. |
-| "nouns should have at least one form" | Add a plural form, or move the word to `uncountable/` if it genuinely has no plural. |
-| "verbs should include a past-tense form" | Add a form with `label` containing the word "past". |
-| Entry not showing up on the site | Make sure `npm run dev` is running and you're visiting the right URL. |
+| Problem                                    | Fix                                                                                  |
+| ------------------------------------------ | ------------------------------------------------------------------------------------ |
+| "unrecognized folder"                      | Your file is in the wrong directory. Check the folder structure table above.         |
+| "part_of_speech is X but file lives in Y/" | The `part_of_speech` field doesn't match the folder. Change one or the other.        |
+| "nouns should have at least one form"      | Add a plural form, or move the word to `uncountable/` if it genuinely has no plural. |
+| "verbs should include a past-tense form"   | Add a form with `label` containing the word "past".                                  |
+| Entry not showing up on the site           | Make sure `npm run dev` is running and you're visiting the right URL.                |
 
 ---
 
 ## Quick reference: copy-paste template
 
 **New noun:**
+
 ```
 konkani_word: YOUR_WORD
 meaning[1|]: YOUR_ENGLISH
@@ -274,6 +275,7 @@ note: null
 ```
 
 **New verb:**
+
 ```
 konkani_word: YOUR_WORD
 meaning[1|]: YOUR_ENGLISH
@@ -287,6 +289,7 @@ note: null
 ```
 
 **New adjective:**
+
 ```
 konkani_word: YOUR_WORD
 meaning[1|]: YOUR_ENGLISH
