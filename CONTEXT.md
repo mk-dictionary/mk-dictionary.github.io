@@ -37,7 +37,7 @@ Search-only metadata — alternate spellings, synonyms, related terms for the Fu
 _Avoid_: Tag, synonym, alias (all imply domain relevance)
 
 **Category**:
-A thematic grouping for browsing (e.g., "cooking", "religion", "body parts"). Predefined set of 27. Entries can belong to multiple Categories.
+A thematic grouping for browsing (e.g., "cooking", "religion", "body parts"). Predefined set in `schema/categories.ts`. Entries can belong to multiple Categories.
 _Avoid_: Tag, theme (Category is the code term)
 
 **Part of Speech**:

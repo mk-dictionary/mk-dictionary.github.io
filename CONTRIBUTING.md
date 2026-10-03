@@ -9,7 +9,7 @@ A step-by-step guide for adding or editing entries. No programming experience re
 ### Option A: The web editor (easiest)
 
 1. Start the dev server: open a terminal in the project folder and run `npm run dev`
-2. Open `http://localhost:5173/editor` in your browser
+2. Open `http://localhost:5173/edit` in your browser
 3. You'll see a list of all existing entries on the left. Click one to edit it, or click **+ New Entry** to start fresh
 4. Fill in the fields (see "Fields explained" below)
 5. Click **Save** — the file is written straight into the `entries/` folder
@@ -34,13 +34,13 @@ entries/
   nouns/          part_of_speech: nouns
   verbs/          part_of_speech: verbs
   adjectives/     part_of_speech: adjectives
-  pro-forms/      part_of_speech: pro-form
+  pro-forms/      part_of_speech: pro-forms
   queries/        part_of_speech: queries
   uncountable/    part_of_speech: uncountable
   misc/           part_of_speech: misc
 ```
 
-**The folder name must match the `part_of_speech` field in the file.** If you put a file in `entries/verbs/`, the `part_of_speech` line must say `verb`. The validator will catch mismatches.
+**The folder name must match the `part_of_speech` field in the file.** If you put a file in `entries/verbs/`, the `part_of_speech` line must say `verbs`. The validator will catch mismatches.
 
 The filename becomes part of the URL. For example `entries/nouns/bail.toon` becomes the page `/entries/nouns-bail`. Use lowercase Konkani for filenames, with hyphens for multi-word names (e.g. `bhaail-munis.toon`).
 
@@ -52,13 +52,13 @@ Pick one. This determines which folder the file goes in.
 
 | Part of speech | Folder      | What it's for                                                    |
 | -------------- | ----------- | ---------------------------------------------------------------- |
-| `noun`         | `nouns/`    | People, places, things. Should have at least a plural form.      |
-| `verb`         | `verbs/`    | Actions and states. Should have at least a past-tense form.      |
-| `adjective`    | `adjectives/` | Descriptions of nouns (big, small, sweet, red).               |
-| `pro-form`     | `pro-forms/` | Pronouns and other pro-forms (I, you, he, she, this, that).    |
-| `query`        | `queries/`  | Interrogatives (who, what, where, how, when).                    |
+| `nouns`        | `nouns/`      | People, places, things. Should have at least a plural form.                              |
+| `verbs`        | `verbs/`      | Actions and states. Should have at least a past-tense form.                              |
+| `adjectives`   | `adjectives/` | Descriptions of nouns (big, small, sweet, red).                                          |
+| `pro-forms`    | `pro-forms/`  | Pronouns and other pro-forms (I, you, he, she, this, that).                              |
+| `queries`      | `queries/`    | Interrogatives (who, what, where, how, when).                                            |
 | `uncountable`  | `uncountable/` | Abstract or mass nouns that don't pluralize (rain, happiness). |
-| `misc`         | `misc/`     | Anything that doesn't fit the others — particles, phrases, negations, auxiliaries. |
+| `misc`         | `misc/`       | Anything that doesn't fit the others — particles, phrases, negations, auxiliaries.       |
 
 If unsure, `misc` is fine. Someone else can move it later.
 
@@ -101,7 +101,7 @@ This means the word has two distinct senses: "do" and "make". If a word means "b
 
 ### `part_of_speech` (required)
 
-Must be one of: `noun`, `verb`, `adjective`, `pro-form`, `query`, `uncountable`, `misc`.
+Must be one of: `nouns`, `verbs`, `adjectives`, `pro-forms`, `queries`, `uncountable`, `misc`.
 
 Must match the folder the file is in.
 
